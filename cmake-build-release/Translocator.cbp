@@ -8,934 +8,934 @@
 		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\bamtools-2.3.0\;CMake Files\lib\bamtools-2.3.0\src\;CMake Files\lib\bamtools-2.3.0\src\api\;CMake Files\lib\bamtools-2.3.0\src\api\internal\;CMake Files\lib\bamtools-2.3.0\src\api\internal\bam\;CMake Files\lib\bamtools-2.3.0\src\api\internal\index\;CMake Files\lib\bamtools-2.3.0\src\api\internal\io\;CMake Files\lib\bamtools-2.3.0\src\api\internal\sam\;CMake Files\lib\bamtools-2.3.0\src\api\internal\utils\;CMake Files\lib\zlib-1.2.7\;CMake Files\src\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/nas2/ywu/translocator/cmake-build-release"/>
+				<Option working_dir="/nas2/ywu/Translocator/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/nas2/ywu/translocator/cmake-build-release"/>
+				<Option working_dir="/nas2/ywu/Translocator/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/strip">
-				<Option working_dir="/nas2/ywu/translocator/cmake-build-release"/>
+				<Option working_dir="/nas2/ywu/Translocator/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/local">
-				<Option working_dir="/nas2/ywu/translocator/cmake-build-release"/>
+				<Option working_dir="/nas2/ywu/Translocator/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/nas2/ywu/translocator/cmake-build-release"/>
+				<Option working_dir="/nas2/ywu/Translocator/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="list_install_components">
-				<Option working_dir="/nas2/ywu/translocator/cmake-build-release"/>
+				<Option working_dir="/nas2/ywu/Translocator/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install">
-				<Option working_dir="/nas2/ywu/translocator/cmake-build-release"/>
+				<Option working_dir="/nas2/ywu/Translocator/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="zlibstatic">
-				<Option output="/nas2/ywu/translocator/cmake-build-release/lib/zlib-1.2.7/libz.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/nas2/ywu/translocator/cmake-build-release/lib/zlib-1.2.7"/>
+				<Option output="/nas2/ywu/Translocator/cmake-build-release/lib/zlib-1.2.7/libz.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nas2/ywu/Translocator/cmake-build-release/lib/zlib-1.2.7"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-D_LARGEFILE64_SOURCE=1"/>
-					<Add directory="/nas2/ywu/translocator/cmake-build-release/lib/zlib-1.2.7"/>
-					<Add directory="/nas2/ywu/translocator"/>
-					<Add directory="/home/usr/include/c++/5"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/home/usr/include/c++/5/backward"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/home/usr/local/include"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/home/usr/include"/>
+					<Add directory="/nas2/ywu/Translocator/cmake-build-release/lib/zlib-1.2.7"/>
+					<Add directory="/nas2/ywu/Translocator"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 zlibstatic"/>
-					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 zlibstatic"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="zlibstatic/fast">
-				<Option output="/nas2/ywu/translocator/cmake-build-release/lib/zlib-1.2.7/libz.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/nas2/ywu/translocator/cmake-build-release/lib/zlib-1.2.7"/>
+				<Option output="/nas2/ywu/Translocator/cmake-build-release/lib/zlib-1.2.7/libz.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nas2/ywu/Translocator/cmake-build-release/lib/zlib-1.2.7"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-D_LARGEFILE64_SOURCE=1"/>
-					<Add directory="/nas2/ywu/translocator/cmake-build-release/lib/zlib-1.2.7"/>
-					<Add directory="/nas2/ywu/translocator"/>
-					<Add directory="/home/usr/include/c++/5"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/home/usr/include/c++/5/backward"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/home/usr/local/include"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/home/usr/include"/>
+					<Add directory="/nas2/ywu/Translocator/cmake-build-release/lib/zlib-1.2.7"/>
+					<Add directory="/nas2/ywu/Translocator"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 zlibstatic/fast"/>
-					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 zlibstatic/fast"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BamTools-static">
-				<Option output="/nas2/ywu/translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/libbamtools.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/nas2/ywu/translocator/cmake-build-release/lib/bamtools-2.3.0/src/api"/>
+				<Option output="/nas2/ywu/Translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/libbamtools.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nas2/ywu/Translocator/cmake-build-release/lib/bamtools-2.3.0/src/api"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-D_FILE_OFFSET_BITS=64"/>
 					<Add option="-DBAMTOOLS_API_LIBRARY"/>
-					<Add directory="/nas2/ywu/translocator/lib/bamtools-2.3.0/src"/>
-					<Add directory="/home/usr/include/c++/5"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/home/usr/include/c++/5/backward"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/home/usr/local/include"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/home/usr/include"/>
+					<Add directory="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/Makefile&quot;  VERBOSE=1 BamTools-static"/>
-					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/Makefile&quot;  VERBOSE=1 BamTools-static"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BamTools-static/fast">
-				<Option output="/nas2/ywu/translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/libbamtools.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/nas2/ywu/translocator/cmake-build-release/lib/bamtools-2.3.0/src/api"/>
+				<Option output="/nas2/ywu/Translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/libbamtools.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nas2/ywu/Translocator/cmake-build-release/lib/bamtools-2.3.0/src/api"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-D_FILE_OFFSET_BITS=64"/>
 					<Add option="-DBAMTOOLS_API_LIBRARY"/>
-					<Add directory="/nas2/ywu/translocator/lib/bamtools-2.3.0/src"/>
-					<Add directory="/home/usr/include/c++/5"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/home/usr/include/c++/5/backward"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/home/usr/local/include"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/home/usr/include"/>
+					<Add directory="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/Makefile&quot;  VERBOSE=1 BamTools-static/fast"/>
-					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/Makefile&quot;  VERBOSE=1 BamTools-static/fast"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libminimap2">
-				<Option output="/nas2/ywu/translocator/cmake-build-release/src/liblibminimap2.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/nas2/ywu/translocator/cmake-build-release/src"/>
+				<Option output="/nas2/ywu/Translocator/cmake-build-release/src/liblibminimap2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nas2/ywu/Translocator/cmake-build-release/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/nas2/ywu/translocator/src/../lib/bamtools-2.3.0/src"/>
-					<Add directory="/nas2/ywu/translocator/src/../lib/tclap-1.2.1/include"/>
-					<Add directory="/nas2/ywu/translocator/src/../lib/seqan-library-2.2.0/include"/>
-					<Add directory="/home/usr/include/c++/5"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/home/usr/include/c++/5/backward"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/home/usr/local/include"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/home/usr/include"/>
+					<Add directory="/nas2/ywu/Translocator/src/../lib/bamtools-2.3.0/src"/>
+					<Add directory="/nas2/ywu/Translocator/src/../lib/tclap-1.2.1/include"/>
+					<Add directory="/nas2/ywu/Translocator/src/../lib/seqan-library-2.2.0/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 libminimap2"/>
-					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 libminimap2"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libminimap2/fast">
-				<Option output="/nas2/ywu/translocator/cmake-build-release/src/liblibminimap2.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/nas2/ywu/translocator/cmake-build-release/src"/>
+				<Option output="/nas2/ywu/Translocator/cmake-build-release/src/liblibminimap2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nas2/ywu/Translocator/cmake-build-release/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/nas2/ywu/translocator/src/../lib/bamtools-2.3.0/src"/>
-					<Add directory="/nas2/ywu/translocator/src/../lib/tclap-1.2.1/include"/>
-					<Add directory="/nas2/ywu/translocator/src/../lib/seqan-library-2.2.0/include"/>
-					<Add directory="/home/usr/include/c++/5"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/home/usr/include/c++/5/backward"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/home/usr/local/include"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/home/usr/include"/>
+					<Add directory="/nas2/ywu/Translocator/src/../lib/bamtools-2.3.0/src"/>
+					<Add directory="/nas2/ywu/Translocator/src/../lib/tclap-1.2.1/include"/>
+					<Add directory="/nas2/ywu/Translocator/src/../lib/seqan-library-2.2.0/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 libminimap2/fast"/>
-					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 libminimap2/fast"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="translocator-debug">
-				<Option output="/nas2/ywu/translocator/bin/translocator-core-1.0.0/translocator-debug" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/nas2/ywu/translocator/bin/translocator-core-1.0.0/"/>
+				<Option output="/nas2/ywu/Translocator/bin/translocator-core-1.0.0/translocator-debug" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nas2/ywu/Translocator/bin/translocator-core-1.0.0/"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/nas2/ywu/translocator/src/../lib/bamtools-2.3.0/src"/>
-					<Add directory="/nas2/ywu/translocator/src/../lib/tclap-1.2.1/include"/>
-					<Add directory="/nas2/ywu/translocator/src/../lib/seqan-library-2.2.0/include"/>
-					<Add directory="/home/usr/include/c++/5"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/home/usr/include/c++/5/backward"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/home/usr/local/include"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/home/usr/include"/>
+					<Add directory="/nas2/ywu/Translocator/src/../lib/bamtools-2.3.0/src"/>
+					<Add directory="/nas2/ywu/Translocator/src/../lib/tclap-1.2.1/include"/>
+					<Add directory="/nas2/ywu/Translocator/src/../lib/seqan-library-2.2.0/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 translocator-debug"/>
-					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 translocator-debug"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="translocator-debug/fast">
-				<Option output="/nas2/ywu/translocator/bin/translocator-core-1.0.0/translocator-debug" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/nas2/ywu/translocator/bin/translocator-core-1.0.0/"/>
+				<Option output="/nas2/ywu/Translocator/bin/translocator-core-1.0.0/translocator-debug" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nas2/ywu/Translocator/bin/translocator-core-1.0.0/"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/nas2/ywu/translocator/src/../lib/bamtools-2.3.0/src"/>
-					<Add directory="/nas2/ywu/translocator/src/../lib/tclap-1.2.1/include"/>
-					<Add directory="/nas2/ywu/translocator/src/../lib/seqan-library-2.2.0/include"/>
-					<Add directory="/home/usr/include/c++/5"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/home/usr/include/c++/5/backward"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/home/usr/local/include"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/home/usr/include"/>
+					<Add directory="/nas2/ywu/Translocator/src/../lib/bamtools-2.3.0/src"/>
+					<Add directory="/nas2/ywu/Translocator/src/../lib/tclap-1.2.1/include"/>
+					<Add directory="/nas2/ywu/Translocator/src/../lib/seqan-library-2.2.0/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 translocator-debug/fast"/>
-					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 translocator-debug/fast"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="translocator">
-				<Option output="/nas2/ywu/translocator/bin/translocator-core-1.0.0/translocator" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/nas2/ywu/translocator/bin/translocator-core-1.0.0/"/>
+				<Option output="/nas2/ywu/Translocator/bin/translocator-core-1.0.0/translocator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nas2/ywu/Translocator/bin/translocator-core-1.0.0/"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/nas2/ywu/translocator/src/../lib/bamtools-2.3.0/src"/>
-					<Add directory="/nas2/ywu/translocator/src/../lib/tclap-1.2.1/include"/>
-					<Add directory="/nas2/ywu/translocator/src/../lib/seqan-library-2.2.0/include"/>
-					<Add directory="/home/usr/include/c++/5"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/home/usr/include/c++/5/backward"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/home/usr/local/include"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/home/usr/include"/>
+					<Add directory="/nas2/ywu/Translocator/src/../lib/bamtools-2.3.0/src"/>
+					<Add directory="/nas2/ywu/Translocator/src/../lib/tclap-1.2.1/include"/>
+					<Add directory="/nas2/ywu/Translocator/src/../lib/seqan-library-2.2.0/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 translocator"/>
-					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 translocator"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="translocator/fast">
-				<Option output="/nas2/ywu/translocator/bin/translocator-core-1.0.0/translocator" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/nas2/ywu/translocator/bin/translocator-core-1.0.0/"/>
+				<Option output="/nas2/ywu/Translocator/bin/translocator-core-1.0.0/translocator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nas2/ywu/Translocator/bin/translocator-core-1.0.0/"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/nas2/ywu/translocator/src/../lib/bamtools-2.3.0/src"/>
-					<Add directory="/nas2/ywu/translocator/src/../lib/tclap-1.2.1/include"/>
-					<Add directory="/nas2/ywu/translocator/src/../lib/seqan-library-2.2.0/include"/>
-					<Add directory="/home/usr/include/c++/5"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/home/usr/include/c++/5/backward"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/home/usr/local/include"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/home/usr/include"/>
+					<Add directory="/nas2/ywu/Translocator/src/../lib/bamtools-2.3.0/src"/>
+					<Add directory="/nas2/ywu/Translocator/src/../lib/tclap-1.2.1/include"/>
+					<Add directory="/nas2/ywu/Translocator/src/../lib/seqan-library-2.2.0/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 translocator/fast"/>
-					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 translocator/fast"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/nas2/ywu/translocator/cmake-build-release/lib/zlib-1.2.7/zconf.h">
+		<Unit filename="/nas2/ywu/Translocator/cmake-build-release/lib/zlib-1.2.7/zconf.h">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/BamAlignment.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/BamAlignment.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/BamAlignment.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/BamAlignment.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/BamMultiReader.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/BamMultiReader.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/BamMultiReader.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/BamMultiReader.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/BamReader.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/BamReader.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/BamReader.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/BamReader.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/BamWriter.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/BamWriter.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/BamWriter.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/BamWriter.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/SamHeader.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/SamHeader.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/SamHeader.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/SamHeader.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/SamProgram.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/SamProgram.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/SamProgram.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/SamProgram.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/SamProgramChain.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/SamProgramChain.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/SamProgramChain.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/SamProgramChain.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/SamReadGroup.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/SamReadGroup.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/SamReadGroup.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/SamReadGroup.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/SamReadGroupDictionary.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/SamReadGroupDictionary.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/SamReadGroupDictionary.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/SamReadGroupDictionary.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/SamSequence.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/SamSequence.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/SamSequence.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/SamSequence.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/SamSequenceDictionary.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/SamSequenceDictionary.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/SamSequenceDictionary.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/SamSequenceDictionary.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamHeader_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamHeader_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamHeader_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamHeader_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamMultiReader_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamMultiReader_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamMultiReader_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamMultiReader_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamRandomAccessController_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamRandomAccessController_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamRandomAccessController_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamRandomAccessController_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamReader_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamReader_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamReader_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamReader_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamWriter_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamWriter_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamWriter_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamWriter_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/index/BamIndexFactory_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/index/BamIndexFactory_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/index/BamIndexFactory_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/index/BamIndexFactory_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/index/BamStandardIndex_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/index/BamStandardIndex_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/index/BamStandardIndex_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/index/BamStandardIndex_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/index/BamToolsIndex_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/index/BamToolsIndex_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/index/BamToolsIndex_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/index/BamToolsIndex_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/BamDeviceFactory_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/BamDeviceFactory_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/BamDeviceFactory_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/BamDeviceFactory_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/BamFile_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/BamFile_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/BamFile_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/BamFile_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/BamFtp_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/BamFtp_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/BamFtp_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/BamFtp_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/BamHttp_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/BamHttp_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/BamHttp_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/BamHttp_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/BamPipe_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/BamPipe_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/BamPipe_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/BamPipe_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/BgzfStream_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/BgzfStream_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/BgzfStream_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/BgzfStream_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/ByteArray_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/ByteArray_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/ByteArray_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/ByteArray_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/HostAddress_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/HostAddress_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/HostAddress_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/HostAddress_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/HostInfo_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/HostInfo_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/HostInfo_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/HostInfo_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/HttpHeader_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/HttpHeader_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/HttpHeader_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/HttpHeader_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/ILocalIODevice_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/ILocalIODevice_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/ILocalIODevice_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/ILocalIODevice_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/RollingBuffer_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/RollingBuffer_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/RollingBuffer_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/RollingBuffer_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/TcpSocketEngine_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/TcpSocketEngine_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/TcpSocketEngine_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/TcpSocketEngine_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/TcpSocketEngine_unix_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/TcpSocketEngine_unix_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/TcpSocket_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/TcpSocket_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/TcpSocket_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/TcpSocket_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/sam/SamFormatParser_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/sam/SamFormatParser_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/sam/SamFormatParser_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/sam/SamFormatParser_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/sam/SamFormatPrinter_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/sam/SamFormatPrinter_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/sam/SamFormatPrinter_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/sam/SamFormatPrinter_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/sam/SamHeaderValidator_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/sam/SamHeaderValidator_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/sam/SamHeaderValidator_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/sam/SamHeaderValidator_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/utils/BamException_p.cpp">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/utils/BamException_p.cpp">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/utils/BamException_p.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/utils/BamException_p.h">
 			<Option target="BamTools-static"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/align.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/align.c">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/bseq.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/bseq.c">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/bseq.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/bseq.h">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/chain.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/chain.c">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/esterr.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/esterr.c">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/format.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/format.c">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/hit.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/hit.c">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/index.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/index.c">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/kalloc.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/kalloc.c">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/kalloc.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/kalloc.h">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/ksw2_extd2_sse.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/ksw2_extd2_sse.c">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/ksw2_exts2_sse.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/ksw2_exts2_sse.c">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/ksw2_extz2_sse.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/ksw2_extz2_sse.c">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/ksw2_ll_sse.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/ksw2_ll_sse.c">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/kthread.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/kthread.c">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/kthread.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/kthread.h">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/map.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/map.c">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/misc.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/misc.c">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/options.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/options.c">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/pe.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/pe.c">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/sdust.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/sdust.c">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/sdust.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/sdust.h">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/sketch.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/sketch.c">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/minimap2/splitidx.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/minimap2/splitidx.c">
 			<Option target="libminimap2"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/adler32.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/adler32.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/compress.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/compress.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/crc32.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/crc32.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/crc32.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/crc32.h">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/deflate.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/deflate.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/deflate.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/deflate.h">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/gzclose.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/gzclose.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/gzguts.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/gzguts.h">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/gzlib.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/gzlib.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/gzread.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/gzread.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/gzwrite.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/gzwrite.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/infback.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/infback.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/inffast.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/inffast.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/inffast.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/inffast.h">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/inffixed.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/inffixed.h">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/inflate.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/inflate.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/inflate.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/inflate.h">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/inftrees.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/inftrees.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/inftrees.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/inftrees.h">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/trees.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/trees.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/trees.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/trees.h">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/uncompr.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/uncompr.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/win32/zlib1.rc">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/win32/zlib1.rc">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/zlib.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/zlib.h">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/zutil.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/zutil.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/zutil.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/zutil.h">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/Alignment.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/Alignment.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/Alignment.h">
+		<Unit filename="/nas2/ywu/Translocator/src/Alignment.h">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/BamParser.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/BamParser.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/BamParser.h">
+		<Unit filename="/nas2/ywu/Translocator/src/BamParser.h">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/Genotyper/Genotyper.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/Genotyper/Genotyper.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/Genotyper/Genotyper.h">
+		<Unit filename="/nas2/ywu/Translocator/src/Genotyper/Genotyper.h">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/Ignore_Regions.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/Ignore_Regions.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/Ignore_Regions.h">
+		<Unit filename="/nas2/ywu/Translocator/src/Ignore_Regions.h">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/Translocator.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/Translocator.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/cluster/Cluster_SVs.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/cluster/Cluster_SVs.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/cluster/Cluster_SVs.h">
+		<Unit filename="/nas2/ywu/Translocator/src/cluster/Cluster_SVs.h">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/force_calling/Force_calling.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/force_calling/Force_calling.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/force_calling/Force_calling.h">
+		<Unit filename="/nas2/ywu/Translocator/src/force_calling/Force_calling.h">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/force_calling/VCF_parser.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/force_calling/VCF_parser.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/force_calling/VCF_parser.h">
+		<Unit filename="/nas2/ywu/Translocator/src/force_calling/VCF_parser.h">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.h">
+		<Unit filename="/nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.h">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/print/BedpePrinter.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/print/BedpePrinter.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/print/BedpePrinter.h">
+		<Unit filename="/nas2/ywu/Translocator/src/print/BedpePrinter.h">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/print/IPrinter.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/print/IPrinter.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/print/IPrinter.h">
+		<Unit filename="/nas2/ywu/Translocator/src/print/IPrinter.h">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/print/NGMPrinter.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/print/NGMPrinter.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/print/NGMPrinter.h">
+		<Unit filename="/nas2/ywu/Translocator/src/print/NGMPrinter.h">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/print/VCFPrinter.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/print/VCFPrinter.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/print/VCFPrinter.h">
+		<Unit filename="/nas2/ywu/Translocator/src/print/VCFPrinter.h">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/realign/Realign.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/realign/Realign.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/realign/Realign.h">
+		<Unit filename="/nas2/ywu/Translocator/src/realign/Realign.h">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/realign/SWCPU.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/realign/SWCPU.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/realign/SWCPU.h">
+		<Unit filename="/nas2/ywu/Translocator/src/realign/SWCPU.h">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/sub/Breakpoint.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/sub/Breakpoint.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/sub/Breakpoint.h">
+		<Unit filename="/nas2/ywu/Translocator/src/sub/Breakpoint.h">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/sub/Detect_Breakpoints.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/sub/Detect_Breakpoints.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/sub/Detect_Breakpoints.h">
+		<Unit filename="/nas2/ywu/Translocator/src/sub/Detect_Breakpoints.h">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/sub/Realign.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/sub/Realign.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/sub/Realign.h">
+		<Unit filename="/nas2/ywu/Translocator/src/sub/Realign.h">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/tree/BinTree.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/tree/BinTree.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/tree/BinTree.h">
+		<Unit filename="/nas2/ywu/Translocator/src/tree/BinTree.h">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/tree/Breakpoint_Tree.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/tree/Breakpoint_Tree.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/tree/Breakpoint_Tree.h">
+		<Unit filename="/nas2/ywu/Translocator/src/tree/Breakpoint_Tree.h">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/tree/IntervallList.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/tree/IntervallList.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/tree/IntervallList.h">
+		<Unit filename="/nas2/ywu/Translocator/src/tree/IntervallList.h">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/tree/IntervallTree.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/tree/IntervallTree.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/tree/IntervallTree.h">
+		<Unit filename="/nas2/ywu/Translocator/src/tree/IntervallTree.h">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/tree/Intervall_bed.cpp">
+		<Unit filename="/nas2/ywu/Translocator/src/tree/Intervall_bed.cpp">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/tree/Intervall_bed.h">
+		<Unit filename="/nas2/ywu/Translocator/src/tree/Intervall_bed.h">
 			<Option target="translocator-debug"/>
 			<Option target="translocator"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\bamtools-2.3.0\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\bamtools-2.3.0\src\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\bamtools-2.3.0\src\api\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\bamtools-2.3.0\src\api\internal\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/bam/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/bam/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\bamtools-2.3.0\src\api\internal\bam\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/index/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/index/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\bamtools-2.3.0\src\api\internal\index\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\bamtools-2.3.0\src\api\internal\io\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/sam/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/sam/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\bamtools-2.3.0\src\api\internal\sam\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/utils/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/utils/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\bamtools-2.3.0\src\api\internal\utils\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\zlib-1.2.7\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/zconf.h.cmakein">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/zconf.h.cmakein">
 			<Option virtualFolder="CMake Files\lib\zlib-1.2.7\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/zlib.pc.cmakein">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/zlib.pc.cmakein">
 			<Option virtualFolder="CMake Files\lib\zlib-1.2.7\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\"/>
 		</Unit>
 	</Project>

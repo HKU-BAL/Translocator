@@ -18,10 +18,10 @@ src/CMakeFiles/translocator.dir/Alignment.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/SamSequenceDictionary.h
  ../src/../lib/bamtools-2.3.0/src/api/api_global.h
  ../src/../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/src/Alignment.cpp
- /nas2/ywu/translocator/src/Alignment.h
- /nas2/ywu/translocator/src/Paramer.h
- /nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.h
+ /nas2/ywu/Translocator/src/Alignment.cpp
+ /nas2/ywu/Translocator/src/Alignment.h
+ /nas2/ywu/Translocator/src/Paramer.h
+ /nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.h
 src/CMakeFiles/translocator.dir/BamParser.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../src/../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -39,12 +39,12 @@ src/CMakeFiles/translocator.dir/BamParser.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/SamSequenceDictionary.h
  ../src/../lib/bamtools-2.3.0/src/api/api_global.h
  ../src/../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/src/Alignment.h
- /nas2/ywu/translocator/src/BamParser.cpp
- /nas2/ywu/translocator/src/BamParser.h
- /nas2/ywu/translocator/src/Paramer.h
- /nas2/ywu/translocator/src/Parser.h
- /nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.h
+ /nas2/ywu/Translocator/src/Alignment.h
+ /nas2/ywu/Translocator/src/BamParser.cpp
+ /nas2/ywu/Translocator/src/BamParser.h
+ /nas2/ywu/Translocator/src/Paramer.h
+ /nas2/ywu/Translocator/src/Parser.h
+ /nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.h
 src/CMakeFiles/translocator.dir/Genotyper/Genotyper.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../src/../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -62,21 +62,21 @@ src/CMakeFiles/translocator.dir/Genotyper/Genotyper.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/SamSequenceDictionary.h
  ../src/../lib/bamtools-2.3.0/src/api/api_global.h
  ../src/../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/src/Alignment.h
- /nas2/ywu/translocator/src/BamParser.h
- /nas2/ywu/translocator/src/Genotyper/Genotyper.cpp
- /nas2/ywu/translocator/src/Genotyper/Genotyper.h
- /nas2/ywu/translocator/src/Ignore_Regions.h
- /nas2/ywu/translocator/src/Paramer.h
- /nas2/ywu/translocator/src/Parser.h
- /nas2/ywu/translocator/src/cluster/Cluster_SVs.h
- /nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.h
- /nas2/ywu/translocator/src/print/IPrinter.h
- /nas2/ywu/translocator/src/sub/Breakpoint.h
- /nas2/ywu/translocator/src/tree/BinTree.h
- /nas2/ywu/translocator/src/tree/Breakpoint_Tree.h
- /nas2/ywu/translocator/src/tree/Intervall_bed.h
- /nas2/ywu/translocator/src/tree/Leaf.h
+ /nas2/ywu/Translocator/src/Alignment.h
+ /nas2/ywu/Translocator/src/BamParser.h
+ /nas2/ywu/Translocator/src/Genotyper/Genotyper.cpp
+ /nas2/ywu/Translocator/src/Genotyper/Genotyper.h
+ /nas2/ywu/Translocator/src/Ignore_Regions.h
+ /nas2/ywu/Translocator/src/Paramer.h
+ /nas2/ywu/Translocator/src/Parser.h
+ /nas2/ywu/Translocator/src/cluster/Cluster_SVs.h
+ /nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.h
+ /nas2/ywu/Translocator/src/print/IPrinter.h
+ /nas2/ywu/Translocator/src/sub/Breakpoint.h
+ /nas2/ywu/Translocator/src/tree/BinTree.h
+ /nas2/ywu/Translocator/src/tree/Breakpoint_Tree.h
+ /nas2/ywu/Translocator/src/tree/Intervall_bed.h
+ /nas2/ywu/Translocator/src/tree/Leaf.h
 src/CMakeFiles/translocator.dir/Ignore_Regions.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../src/../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -94,31 +94,31 @@ src/CMakeFiles/translocator.dir/Ignore_Regions.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/SamSequenceDictionary.h
  ../src/../lib/bamtools-2.3.0/src/api/api_global.h
  ../src/../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/src/Alignment.h
- /nas2/ywu/translocator/src/BamParser.h
- /nas2/ywu/translocator/src/Genotyper/Genotyper.h
- /nas2/ywu/translocator/src/Ignore_Regions.cpp
- /nas2/ywu/translocator/src/Ignore_Regions.h
- /nas2/ywu/translocator/src/Paramer.h
- /nas2/ywu/translocator/src/Parser.h
- /nas2/ywu/translocator/src/cluster/Cluster_SVs.h
- /nas2/ywu/translocator/src/plane-sweep/IContainer.h
- /nas2/ywu/translocator/src/plane-sweep/MyHeap.h
- /nas2/ywu/translocator/src/plane-sweep/MyList.h
- /nas2/ywu/translocator/src/plane-sweep/Node.h
- /nas2/ywu/translocator/src/plane-sweep/Plane-sweep.h
- /nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.h
- /nas2/ywu/translocator/src/print/IPrinter.h
- /nas2/ywu/translocator/src/sub/Breakpoint.h
- /nas2/ywu/translocator/src/sub/Detect_Breakpoints.h
- /nas2/ywu/translocator/src/tree/BinTree.h
- /nas2/ywu/translocator/src/tree/Breakpoint_Tree.h
- /nas2/ywu/translocator/src/tree/IntervallContainer.h
- /nas2/ywu/translocator/src/tree/IntervallList.h
- /nas2/ywu/translocator/src/tree/IntervallTree.h
- /nas2/ywu/translocator/src/tree/Intervall_bed.h
- /nas2/ywu/translocator/src/tree/Leaf.h
- /nas2/ywu/translocator/src/tree/TNode.h
+ /nas2/ywu/Translocator/src/Alignment.h
+ /nas2/ywu/Translocator/src/BamParser.h
+ /nas2/ywu/Translocator/src/Genotyper/Genotyper.h
+ /nas2/ywu/Translocator/src/Ignore_Regions.cpp
+ /nas2/ywu/Translocator/src/Ignore_Regions.h
+ /nas2/ywu/Translocator/src/Paramer.h
+ /nas2/ywu/Translocator/src/Parser.h
+ /nas2/ywu/Translocator/src/cluster/Cluster_SVs.h
+ /nas2/ywu/Translocator/src/plane-sweep/IContainer.h
+ /nas2/ywu/Translocator/src/plane-sweep/MyHeap.h
+ /nas2/ywu/Translocator/src/plane-sweep/MyList.h
+ /nas2/ywu/Translocator/src/plane-sweep/Node.h
+ /nas2/ywu/Translocator/src/plane-sweep/Plane-sweep.h
+ /nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.h
+ /nas2/ywu/Translocator/src/print/IPrinter.h
+ /nas2/ywu/Translocator/src/sub/Breakpoint.h
+ /nas2/ywu/Translocator/src/sub/Detect_Breakpoints.h
+ /nas2/ywu/Translocator/src/tree/BinTree.h
+ /nas2/ywu/Translocator/src/tree/Breakpoint_Tree.h
+ /nas2/ywu/Translocator/src/tree/IntervallContainer.h
+ /nas2/ywu/Translocator/src/tree/IntervallList.h
+ /nas2/ywu/Translocator/src/tree/IntervallTree.h
+ /nas2/ywu/Translocator/src/tree/Intervall_bed.h
+ /nas2/ywu/Translocator/src/tree/Leaf.h
+ /nas2/ywu/Translocator/src/tree/TNode.h
 src/CMakeFiles/translocator.dir/Translocator.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../src/../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -158,44 +158,44 @@ src/CMakeFiles/translocator.dir/Translocator.cpp.o
  ../src/../lib/tclap-1.2.1/include/tclap/VersionVisitor.h
  ../src/../lib/tclap-1.2.1/include/tclap/Visitor.h
  ../src/../lib/tclap-1.2.1/include/tclap/XorHandler.h
- /nas2/ywu/translocator/src/Alignment.h
- /nas2/ywu/translocator/src/ArgParseOutput.h
- /nas2/ywu/translocator/src/BamParser.h
- /nas2/ywu/translocator/src/Genotyper/Genotyper.h
- /nas2/ywu/translocator/src/Ignore_Regions.h
- /nas2/ywu/translocator/src/Paramer.h
- /nas2/ywu/translocator/src/Parser.h
- /nas2/ywu/translocator/src/Translocator.cpp
- /nas2/ywu/translocator/src/cluster/Cluster_SVs.h
- /nas2/ywu/translocator/src/force_calling/Force_calling.h
- /nas2/ywu/translocator/src/force_calling/VCF_parser.h
- /nas2/ywu/translocator/src/plane-sweep/IContainer.h
- /nas2/ywu/translocator/src/plane-sweep/MyHeap.h
- /nas2/ywu/translocator/src/plane-sweep/MyList.h
- /nas2/ywu/translocator/src/plane-sweep/Node.h
- /nas2/ywu/translocator/src/plane-sweep/Plane-sweep.h
- /nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.h
- /nas2/ywu/translocator/src/print/BedpePrinter.h
- /nas2/ywu/translocator/src/print/IPrinter.h
- /nas2/ywu/translocator/src/print/NGMPrinter.h
- /nas2/ywu/translocator/src/print/VCFPrinter.h
- /nas2/ywu/translocator/src/realign/IAlignment.h
- /nas2/ywu/translocator/src/realign/Realign.h
- /nas2/ywu/translocator/src/realign/SWCPU.h
- /nas2/ywu/translocator/src/sub/Breakpoint.h
- /nas2/ywu/translocator/src/sub/Detect_Breakpoints.h
- /nas2/ywu/translocator/src/tree/BinTree.h
- /nas2/ywu/translocator/src/tree/Breakpoint_Tree.h
- /nas2/ywu/translocator/src/tree/IntervallContainer.h
- /nas2/ywu/translocator/src/tree/IntervallList.h
- /nas2/ywu/translocator/src/tree/IntervallTree.h
- /nas2/ywu/translocator/src/tree/Intervall_bed.h
- /nas2/ywu/translocator/src/tree/Leaf.h
- /nas2/ywu/translocator/src/tree/TNode.h
+ /nas2/ywu/Translocator/src/Alignment.h
+ /nas2/ywu/Translocator/src/ArgParseOutput.h
+ /nas2/ywu/Translocator/src/BamParser.h
+ /nas2/ywu/Translocator/src/Genotyper/Genotyper.h
+ /nas2/ywu/Translocator/src/Ignore_Regions.h
+ /nas2/ywu/Translocator/src/Paramer.h
+ /nas2/ywu/Translocator/src/Parser.h
+ /nas2/ywu/Translocator/src/Translocator.cpp
+ /nas2/ywu/Translocator/src/cluster/Cluster_SVs.h
+ /nas2/ywu/Translocator/src/force_calling/Force_calling.h
+ /nas2/ywu/Translocator/src/force_calling/VCF_parser.h
+ /nas2/ywu/Translocator/src/plane-sweep/IContainer.h
+ /nas2/ywu/Translocator/src/plane-sweep/MyHeap.h
+ /nas2/ywu/Translocator/src/plane-sweep/MyList.h
+ /nas2/ywu/Translocator/src/plane-sweep/Node.h
+ /nas2/ywu/Translocator/src/plane-sweep/Plane-sweep.h
+ /nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.h
+ /nas2/ywu/Translocator/src/print/BedpePrinter.h
+ /nas2/ywu/Translocator/src/print/IPrinter.h
+ /nas2/ywu/Translocator/src/print/NGMPrinter.h
+ /nas2/ywu/Translocator/src/print/VCFPrinter.h
+ /nas2/ywu/Translocator/src/realign/IAlignment.h
+ /nas2/ywu/Translocator/src/realign/Realign.h
+ /nas2/ywu/Translocator/src/realign/SWCPU.h
+ /nas2/ywu/Translocator/src/sub/Breakpoint.h
+ /nas2/ywu/Translocator/src/sub/Detect_Breakpoints.h
+ /nas2/ywu/Translocator/src/tree/BinTree.h
+ /nas2/ywu/Translocator/src/tree/Breakpoint_Tree.h
+ /nas2/ywu/Translocator/src/tree/IntervallContainer.h
+ /nas2/ywu/Translocator/src/tree/IntervallList.h
+ /nas2/ywu/Translocator/src/tree/IntervallTree.h
+ /nas2/ywu/Translocator/src/tree/Intervall_bed.h
+ /nas2/ywu/Translocator/src/tree/Leaf.h
+ /nas2/ywu/Translocator/src/tree/TNode.h
 src/CMakeFiles/translocator.dir/cluster/Cluster_SVs.cpp.o
- /nas2/ywu/translocator/src/Paramer.h
- /nas2/ywu/translocator/src/cluster/Cluster_SVs.cpp
- /nas2/ywu/translocator/src/cluster/Cluster_SVs.h
+ /nas2/ywu/Translocator/src/Paramer.h
+ /nas2/ywu/Translocator/src/cluster/Cluster_SVs.cpp
+ /nas2/ywu/Translocator/src/cluster/Cluster_SVs.h
 src/CMakeFiles/translocator.dir/force_calling/Force_calling.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../src/../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -213,40 +213,40 @@ src/CMakeFiles/translocator.dir/force_calling/Force_calling.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/SamSequenceDictionary.h
  ../src/../lib/bamtools-2.3.0/src/api/api_global.h
  ../src/../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/src/Alignment.h
- /nas2/ywu/translocator/src/BamParser.h
- /nas2/ywu/translocator/src/Genotyper/Genotyper.h
- /nas2/ywu/translocator/src/Ignore_Regions.h
- /nas2/ywu/translocator/src/Paramer.h
- /nas2/ywu/translocator/src/Parser.h
- /nas2/ywu/translocator/src/cluster/Cluster_SVs.h
- /nas2/ywu/translocator/src/force_calling/Force_calling.cpp
- /nas2/ywu/translocator/src/force_calling/Force_calling.h
- /nas2/ywu/translocator/src/force_calling/VCF_parser.h
- /nas2/ywu/translocator/src/plane-sweep/IContainer.h
- /nas2/ywu/translocator/src/plane-sweep/MyHeap.h
- /nas2/ywu/translocator/src/plane-sweep/MyList.h
- /nas2/ywu/translocator/src/plane-sweep/Node.h
- /nas2/ywu/translocator/src/plane-sweep/Plane-sweep.h
- /nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.h
- /nas2/ywu/translocator/src/print/IPrinter.h
- /nas2/ywu/translocator/src/sub/Breakpoint.h
- /nas2/ywu/translocator/src/sub/Detect_Breakpoints.h
- /nas2/ywu/translocator/src/tree/BinTree.h
- /nas2/ywu/translocator/src/tree/Breakpoint_Tree.h
- /nas2/ywu/translocator/src/tree/IntervallContainer.h
- /nas2/ywu/translocator/src/tree/IntervallList.h
- /nas2/ywu/translocator/src/tree/IntervallTree.h
- /nas2/ywu/translocator/src/tree/Intervall_bed.h
- /nas2/ywu/translocator/src/tree/Leaf.h
- /nas2/ywu/translocator/src/tree/TNode.h
+ /nas2/ywu/Translocator/src/Alignment.h
+ /nas2/ywu/Translocator/src/BamParser.h
+ /nas2/ywu/Translocator/src/Genotyper/Genotyper.h
+ /nas2/ywu/Translocator/src/Ignore_Regions.h
+ /nas2/ywu/Translocator/src/Paramer.h
+ /nas2/ywu/Translocator/src/Parser.h
+ /nas2/ywu/Translocator/src/cluster/Cluster_SVs.h
+ /nas2/ywu/Translocator/src/force_calling/Force_calling.cpp
+ /nas2/ywu/Translocator/src/force_calling/Force_calling.h
+ /nas2/ywu/Translocator/src/force_calling/VCF_parser.h
+ /nas2/ywu/Translocator/src/plane-sweep/IContainer.h
+ /nas2/ywu/Translocator/src/plane-sweep/MyHeap.h
+ /nas2/ywu/Translocator/src/plane-sweep/MyList.h
+ /nas2/ywu/Translocator/src/plane-sweep/Node.h
+ /nas2/ywu/Translocator/src/plane-sweep/Plane-sweep.h
+ /nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.h
+ /nas2/ywu/Translocator/src/print/IPrinter.h
+ /nas2/ywu/Translocator/src/sub/Breakpoint.h
+ /nas2/ywu/Translocator/src/sub/Detect_Breakpoints.h
+ /nas2/ywu/Translocator/src/tree/BinTree.h
+ /nas2/ywu/Translocator/src/tree/Breakpoint_Tree.h
+ /nas2/ywu/Translocator/src/tree/IntervallContainer.h
+ /nas2/ywu/Translocator/src/tree/IntervallList.h
+ /nas2/ywu/Translocator/src/tree/IntervallTree.h
+ /nas2/ywu/Translocator/src/tree/Intervall_bed.h
+ /nas2/ywu/Translocator/src/tree/Leaf.h
+ /nas2/ywu/Translocator/src/tree/TNode.h
 src/CMakeFiles/translocator.dir/force_calling/VCF_parser.cpp.o
- /nas2/ywu/translocator/src/force_calling/VCF_parser.cpp
- /nas2/ywu/translocator/src/force_calling/VCF_parser.h
+ /nas2/ywu/Translocator/src/force_calling/VCF_parser.cpp
+ /nas2/ywu/Translocator/src/force_calling/VCF_parser.h
 src/CMakeFiles/translocator.dir/plane-sweep/PlaneSweep_slim.cpp.o
- /nas2/ywu/translocator/src/Paramer.h
- /nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.cpp
- /nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.h
+ /nas2/ywu/Translocator/src/Paramer.h
+ /nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.cpp
+ /nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.h
 src/CMakeFiles/translocator.dir/print/BedpePrinter.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../src/../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -264,22 +264,22 @@ src/CMakeFiles/translocator.dir/print/BedpePrinter.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/SamSequenceDictionary.h
  ../src/../lib/bamtools-2.3.0/src/api/api_global.h
  ../src/../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/src/Alignment.h
- /nas2/ywu/translocator/src/BamParser.h
- /nas2/ywu/translocator/src/Genotyper/Genotyper.h
- /nas2/ywu/translocator/src/Ignore_Regions.h
- /nas2/ywu/translocator/src/Paramer.h
- /nas2/ywu/translocator/src/Parser.h
- /nas2/ywu/translocator/src/cluster/Cluster_SVs.h
- /nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.h
- /nas2/ywu/translocator/src/print/BedpePrinter.cpp
- /nas2/ywu/translocator/src/print/BedpePrinter.h
- /nas2/ywu/translocator/src/print/IPrinter.h
- /nas2/ywu/translocator/src/sub/Breakpoint.h
- /nas2/ywu/translocator/src/tree/BinTree.h
- /nas2/ywu/translocator/src/tree/Breakpoint_Tree.h
- /nas2/ywu/translocator/src/tree/Intervall_bed.h
- /nas2/ywu/translocator/src/tree/Leaf.h
+ /nas2/ywu/Translocator/src/Alignment.h
+ /nas2/ywu/Translocator/src/BamParser.h
+ /nas2/ywu/Translocator/src/Genotyper/Genotyper.h
+ /nas2/ywu/Translocator/src/Ignore_Regions.h
+ /nas2/ywu/Translocator/src/Paramer.h
+ /nas2/ywu/Translocator/src/Parser.h
+ /nas2/ywu/Translocator/src/cluster/Cluster_SVs.h
+ /nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.h
+ /nas2/ywu/Translocator/src/print/BedpePrinter.cpp
+ /nas2/ywu/Translocator/src/print/BedpePrinter.h
+ /nas2/ywu/Translocator/src/print/IPrinter.h
+ /nas2/ywu/Translocator/src/sub/Breakpoint.h
+ /nas2/ywu/Translocator/src/tree/BinTree.h
+ /nas2/ywu/Translocator/src/tree/Breakpoint_Tree.h
+ /nas2/ywu/Translocator/src/tree/Intervall_bed.h
+ /nas2/ywu/Translocator/src/tree/Leaf.h
 src/CMakeFiles/translocator.dir/print/IPrinter.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../src/../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -297,21 +297,21 @@ src/CMakeFiles/translocator.dir/print/IPrinter.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/SamSequenceDictionary.h
  ../src/../lib/bamtools-2.3.0/src/api/api_global.h
  ../src/../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/src/Alignment.h
- /nas2/ywu/translocator/src/BamParser.h
- /nas2/ywu/translocator/src/Genotyper/Genotyper.h
- /nas2/ywu/translocator/src/Ignore_Regions.h
- /nas2/ywu/translocator/src/Paramer.h
- /nas2/ywu/translocator/src/Parser.h
- /nas2/ywu/translocator/src/cluster/Cluster_SVs.h
- /nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.h
- /nas2/ywu/translocator/src/print/IPrinter.cpp
- /nas2/ywu/translocator/src/print/IPrinter.h
- /nas2/ywu/translocator/src/sub/Breakpoint.h
- /nas2/ywu/translocator/src/tree/BinTree.h
- /nas2/ywu/translocator/src/tree/Breakpoint_Tree.h
- /nas2/ywu/translocator/src/tree/Intervall_bed.h
- /nas2/ywu/translocator/src/tree/Leaf.h
+ /nas2/ywu/Translocator/src/Alignment.h
+ /nas2/ywu/Translocator/src/BamParser.h
+ /nas2/ywu/Translocator/src/Genotyper/Genotyper.h
+ /nas2/ywu/Translocator/src/Ignore_Regions.h
+ /nas2/ywu/Translocator/src/Paramer.h
+ /nas2/ywu/Translocator/src/Parser.h
+ /nas2/ywu/Translocator/src/cluster/Cluster_SVs.h
+ /nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.h
+ /nas2/ywu/Translocator/src/print/IPrinter.cpp
+ /nas2/ywu/Translocator/src/print/IPrinter.h
+ /nas2/ywu/Translocator/src/sub/Breakpoint.h
+ /nas2/ywu/Translocator/src/tree/BinTree.h
+ /nas2/ywu/Translocator/src/tree/Breakpoint_Tree.h
+ /nas2/ywu/Translocator/src/tree/Intervall_bed.h
+ /nas2/ywu/Translocator/src/tree/Leaf.h
 src/CMakeFiles/translocator.dir/print/NGMPrinter.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../src/../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -329,22 +329,22 @@ src/CMakeFiles/translocator.dir/print/NGMPrinter.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/SamSequenceDictionary.h
  ../src/../lib/bamtools-2.3.0/src/api/api_global.h
  ../src/../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/src/Alignment.h
- /nas2/ywu/translocator/src/BamParser.h
- /nas2/ywu/translocator/src/Genotyper/Genotyper.h
- /nas2/ywu/translocator/src/Ignore_Regions.h
- /nas2/ywu/translocator/src/Paramer.h
- /nas2/ywu/translocator/src/Parser.h
- /nas2/ywu/translocator/src/cluster/Cluster_SVs.h
- /nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.h
- /nas2/ywu/translocator/src/print/IPrinter.h
- /nas2/ywu/translocator/src/print/NGMPrinter.cpp
- /nas2/ywu/translocator/src/print/NGMPrinter.h
- /nas2/ywu/translocator/src/sub/Breakpoint.h
- /nas2/ywu/translocator/src/tree/BinTree.h
- /nas2/ywu/translocator/src/tree/Breakpoint_Tree.h
- /nas2/ywu/translocator/src/tree/Intervall_bed.h
- /nas2/ywu/translocator/src/tree/Leaf.h
+ /nas2/ywu/Translocator/src/Alignment.h
+ /nas2/ywu/Translocator/src/BamParser.h
+ /nas2/ywu/Translocator/src/Genotyper/Genotyper.h
+ /nas2/ywu/Translocator/src/Ignore_Regions.h
+ /nas2/ywu/Translocator/src/Paramer.h
+ /nas2/ywu/Translocator/src/Parser.h
+ /nas2/ywu/Translocator/src/cluster/Cluster_SVs.h
+ /nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.h
+ /nas2/ywu/Translocator/src/print/IPrinter.h
+ /nas2/ywu/Translocator/src/print/NGMPrinter.cpp
+ /nas2/ywu/Translocator/src/print/NGMPrinter.h
+ /nas2/ywu/Translocator/src/sub/Breakpoint.h
+ /nas2/ywu/Translocator/src/tree/BinTree.h
+ /nas2/ywu/Translocator/src/tree/Breakpoint_Tree.h
+ /nas2/ywu/Translocator/src/tree/Intervall_bed.h
+ /nas2/ywu/Translocator/src/tree/Leaf.h
 src/CMakeFiles/translocator.dir/print/VCFPrinter.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../src/../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -362,22 +362,22 @@ src/CMakeFiles/translocator.dir/print/VCFPrinter.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/SamSequenceDictionary.h
  ../src/../lib/bamtools-2.3.0/src/api/api_global.h
  ../src/../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/src/Alignment.h
- /nas2/ywu/translocator/src/BamParser.h
- /nas2/ywu/translocator/src/Genotyper/Genotyper.h
- /nas2/ywu/translocator/src/Ignore_Regions.h
- /nas2/ywu/translocator/src/Paramer.h
- /nas2/ywu/translocator/src/Parser.h
- /nas2/ywu/translocator/src/cluster/Cluster_SVs.h
- /nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.h
- /nas2/ywu/translocator/src/print/IPrinter.h
- /nas2/ywu/translocator/src/print/VCFPrinter.cpp
- /nas2/ywu/translocator/src/print/VCFPrinter.h
- /nas2/ywu/translocator/src/sub/Breakpoint.h
- /nas2/ywu/translocator/src/tree/BinTree.h
- /nas2/ywu/translocator/src/tree/Breakpoint_Tree.h
- /nas2/ywu/translocator/src/tree/Intervall_bed.h
- /nas2/ywu/translocator/src/tree/Leaf.h
+ /nas2/ywu/Translocator/src/Alignment.h
+ /nas2/ywu/Translocator/src/BamParser.h
+ /nas2/ywu/Translocator/src/Genotyper/Genotyper.h
+ /nas2/ywu/Translocator/src/Ignore_Regions.h
+ /nas2/ywu/Translocator/src/Paramer.h
+ /nas2/ywu/Translocator/src/Parser.h
+ /nas2/ywu/Translocator/src/cluster/Cluster_SVs.h
+ /nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.h
+ /nas2/ywu/Translocator/src/print/IPrinter.h
+ /nas2/ywu/Translocator/src/print/VCFPrinter.cpp
+ /nas2/ywu/Translocator/src/print/VCFPrinter.h
+ /nas2/ywu/Translocator/src/sub/Breakpoint.h
+ /nas2/ywu/Translocator/src/tree/BinTree.h
+ /nas2/ywu/Translocator/src/tree/Breakpoint_Tree.h
+ /nas2/ywu/Translocator/src/tree/Intervall_bed.h
+ /nas2/ywu/Translocator/src/tree/Leaf.h
 src/CMakeFiles/translocator.dir/realign/Realign.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../src/../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -395,21 +395,21 @@ src/CMakeFiles/translocator.dir/realign/Realign.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/SamSequenceDictionary.h
  ../src/../lib/bamtools-2.3.0/src/api/api_global.h
  ../src/../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/src/Alignment.h
- /nas2/ywu/translocator/src/BamParser.h
- /nas2/ywu/translocator/src/Paramer.h
- /nas2/ywu/translocator/src/Parser.h
- /nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.h
- /nas2/ywu/translocator/src/realign/IAlignment.h
- /nas2/ywu/translocator/src/realign/Realign.cpp
- /nas2/ywu/translocator/src/realign/Realign.h
- /nas2/ywu/translocator/src/realign/SWCPU.h
- /nas2/ywu/translocator/src/sub/Breakpoint.h
- /nas2/ywu/translocator/src/tree/BinTree.h
+ /nas2/ywu/Translocator/src/Alignment.h
+ /nas2/ywu/Translocator/src/BamParser.h
+ /nas2/ywu/Translocator/src/Paramer.h
+ /nas2/ywu/Translocator/src/Parser.h
+ /nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.h
+ /nas2/ywu/Translocator/src/realign/IAlignment.h
+ /nas2/ywu/Translocator/src/realign/Realign.cpp
+ /nas2/ywu/Translocator/src/realign/Realign.h
+ /nas2/ywu/Translocator/src/realign/SWCPU.h
+ /nas2/ywu/Translocator/src/sub/Breakpoint.h
+ /nas2/ywu/Translocator/src/tree/BinTree.h
 src/CMakeFiles/translocator.dir/realign/SWCPU.cpp.o
- /nas2/ywu/translocator/src/realign/IAlignment.h
- /nas2/ywu/translocator/src/realign/SWCPU.cpp
- /nas2/ywu/translocator/src/realign/SWCPU.h
+ /nas2/ywu/Translocator/src/realign/IAlignment.h
+ /nas2/ywu/Translocator/src/realign/SWCPU.cpp
+ /nas2/ywu/Translocator/src/realign/SWCPU.h
 src/CMakeFiles/translocator.dir/sub/Breakpoint.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../src/../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -427,31 +427,31 @@ src/CMakeFiles/translocator.dir/sub/Breakpoint.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/SamSequenceDictionary.h
  ../src/../lib/bamtools-2.3.0/src/api/api_global.h
  ../src/../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/src/Alignment.h
- /nas2/ywu/translocator/src/BamParser.h
- /nas2/ywu/translocator/src/Genotyper/Genotyper.h
- /nas2/ywu/translocator/src/Ignore_Regions.h
- /nas2/ywu/translocator/src/Paramer.h
- /nas2/ywu/translocator/src/Parser.h
- /nas2/ywu/translocator/src/cluster/Cluster_SVs.h
- /nas2/ywu/translocator/src/plane-sweep/IContainer.h
- /nas2/ywu/translocator/src/plane-sweep/MyHeap.h
- /nas2/ywu/translocator/src/plane-sweep/MyList.h
- /nas2/ywu/translocator/src/plane-sweep/Node.h
- /nas2/ywu/translocator/src/plane-sweep/Plane-sweep.h
- /nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.h
- /nas2/ywu/translocator/src/print/IPrinter.h
- /nas2/ywu/translocator/src/sub/Breakpoint.cpp
- /nas2/ywu/translocator/src/sub/Breakpoint.h
- /nas2/ywu/translocator/src/sub/Detect_Breakpoints.h
- /nas2/ywu/translocator/src/tree/BinTree.h
- /nas2/ywu/translocator/src/tree/Breakpoint_Tree.h
- /nas2/ywu/translocator/src/tree/IntervallContainer.h
- /nas2/ywu/translocator/src/tree/IntervallList.h
- /nas2/ywu/translocator/src/tree/IntervallTree.h
- /nas2/ywu/translocator/src/tree/Intervall_bed.h
- /nas2/ywu/translocator/src/tree/Leaf.h
- /nas2/ywu/translocator/src/tree/TNode.h
+ /nas2/ywu/Translocator/src/Alignment.h
+ /nas2/ywu/Translocator/src/BamParser.h
+ /nas2/ywu/Translocator/src/Genotyper/Genotyper.h
+ /nas2/ywu/Translocator/src/Ignore_Regions.h
+ /nas2/ywu/Translocator/src/Paramer.h
+ /nas2/ywu/Translocator/src/Parser.h
+ /nas2/ywu/Translocator/src/cluster/Cluster_SVs.h
+ /nas2/ywu/Translocator/src/plane-sweep/IContainer.h
+ /nas2/ywu/Translocator/src/plane-sweep/MyHeap.h
+ /nas2/ywu/Translocator/src/plane-sweep/MyList.h
+ /nas2/ywu/Translocator/src/plane-sweep/Node.h
+ /nas2/ywu/Translocator/src/plane-sweep/Plane-sweep.h
+ /nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.h
+ /nas2/ywu/Translocator/src/print/IPrinter.h
+ /nas2/ywu/Translocator/src/sub/Breakpoint.cpp
+ /nas2/ywu/Translocator/src/sub/Breakpoint.h
+ /nas2/ywu/Translocator/src/sub/Detect_Breakpoints.h
+ /nas2/ywu/Translocator/src/tree/BinTree.h
+ /nas2/ywu/Translocator/src/tree/Breakpoint_Tree.h
+ /nas2/ywu/Translocator/src/tree/IntervallContainer.h
+ /nas2/ywu/Translocator/src/tree/IntervallList.h
+ /nas2/ywu/Translocator/src/tree/IntervallTree.h
+ /nas2/ywu/Translocator/src/tree/Intervall_bed.h
+ /nas2/ywu/Translocator/src/tree/Leaf.h
+ /nas2/ywu/Translocator/src/tree/TNode.h
 src/CMakeFiles/translocator.dir/sub/Detect_Breakpoints.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../src/../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -800,33 +800,33 @@ src/CMakeFiles/translocator.dir/sub/Detect_Breakpoints.cpp.o
  ../src/../lib/seqan-library-2.2.0/include/seqan/system/system_base.h
  ../src/../lib/seqan-library-2.2.0/include/seqan/system/system_event_win.h
  ../src/../lib/seqan-library-2.2.0/include/seqan/system/system_forwards.h
- /nas2/ywu/translocator/src/Alignment.h
- /nas2/ywu/translocator/src/BamParser.h
- /nas2/ywu/translocator/src/Genotyper/Genotyper.h
- /nas2/ywu/translocator/src/Ignore_Regions.h
- /nas2/ywu/translocator/src/Paramer.h
- /nas2/ywu/translocator/src/Parser.h
- /nas2/ywu/translocator/src/bioio.hpp
- /nas2/ywu/translocator/src/cluster/Cluster_SVs.h
- /nas2/ywu/translocator/src/plane-sweep/IContainer.h
- /nas2/ywu/translocator/src/plane-sweep/MyHeap.h
- /nas2/ywu/translocator/src/plane-sweep/MyList.h
- /nas2/ywu/translocator/src/plane-sweep/Node.h
- /nas2/ywu/translocator/src/plane-sweep/Plane-sweep.h
- /nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.h
- /nas2/ywu/translocator/src/print/IPrinter.h
- /nas2/ywu/translocator/src/sub/Breakpoint.h
- /nas2/ywu/translocator/src/sub/Detect_Breakpoints.cpp
- /nas2/ywu/translocator/src/sub/Detect_Breakpoints.h
- /nas2/ywu/translocator/src/sub/Realign.h
- /nas2/ywu/translocator/src/tree/BinTree.h
- /nas2/ywu/translocator/src/tree/Breakpoint_Tree.h
- /nas2/ywu/translocator/src/tree/IntervallContainer.h
- /nas2/ywu/translocator/src/tree/IntervallList.h
- /nas2/ywu/translocator/src/tree/IntervallTree.h
- /nas2/ywu/translocator/src/tree/Intervall_bed.h
- /nas2/ywu/translocator/src/tree/Leaf.h
- /nas2/ywu/translocator/src/tree/TNode.h
+ /nas2/ywu/Translocator/src/Alignment.h
+ /nas2/ywu/Translocator/src/BamParser.h
+ /nas2/ywu/Translocator/src/Genotyper/Genotyper.h
+ /nas2/ywu/Translocator/src/Ignore_Regions.h
+ /nas2/ywu/Translocator/src/Paramer.h
+ /nas2/ywu/Translocator/src/Parser.h
+ /nas2/ywu/Translocator/src/bioio.hpp
+ /nas2/ywu/Translocator/src/cluster/Cluster_SVs.h
+ /nas2/ywu/Translocator/src/plane-sweep/IContainer.h
+ /nas2/ywu/Translocator/src/plane-sweep/MyHeap.h
+ /nas2/ywu/Translocator/src/plane-sweep/MyList.h
+ /nas2/ywu/Translocator/src/plane-sweep/Node.h
+ /nas2/ywu/Translocator/src/plane-sweep/Plane-sweep.h
+ /nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.h
+ /nas2/ywu/Translocator/src/print/IPrinter.h
+ /nas2/ywu/Translocator/src/sub/Breakpoint.h
+ /nas2/ywu/Translocator/src/sub/Detect_Breakpoints.cpp
+ /nas2/ywu/Translocator/src/sub/Detect_Breakpoints.h
+ /nas2/ywu/Translocator/src/sub/Realign.h
+ /nas2/ywu/Translocator/src/tree/BinTree.h
+ /nas2/ywu/Translocator/src/tree/Breakpoint_Tree.h
+ /nas2/ywu/Translocator/src/tree/IntervallContainer.h
+ /nas2/ywu/Translocator/src/tree/IntervallList.h
+ /nas2/ywu/Translocator/src/tree/IntervallTree.h
+ /nas2/ywu/Translocator/src/tree/Intervall_bed.h
+ /nas2/ywu/Translocator/src/tree/Leaf.h
+ /nas2/ywu/Translocator/src/tree/TNode.h
 src/CMakeFiles/translocator.dir/sub/Realign.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../src/../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -1175,34 +1175,34 @@ src/CMakeFiles/translocator.dir/sub/Realign.cpp.o
  ../src/../lib/seqan-library-2.2.0/include/seqan/system/system_base.h
  ../src/../lib/seqan-library-2.2.0/include/seqan/system/system_event_win.h
  ../src/../lib/seqan-library-2.2.0/include/seqan/system/system_forwards.h
- /nas2/ywu/translocator/lib/minimap2/kseq.h
- /nas2/ywu/translocator/lib/minimap2/minimap.h
- /nas2/ywu/translocator/src/Alignment.h
- /nas2/ywu/translocator/src/BamParser.h
- /nas2/ywu/translocator/src/Genotyper/Genotyper.h
- /nas2/ywu/translocator/src/Ignore_Regions.h
- /nas2/ywu/translocator/src/Paramer.h
- /nas2/ywu/translocator/src/Parser.h
- /nas2/ywu/translocator/src/bioio.hpp
- /nas2/ywu/translocator/src/cluster/Cluster_SVs.h
- /nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.h
- /nas2/ywu/translocator/src/print/IPrinter.h
- /nas2/ywu/translocator/src/sub/Breakpoint.h
- /nas2/ywu/translocator/src/sub/Realign.cpp
- /nas2/ywu/translocator/src/sub/Realign.h
- /nas2/ywu/translocator/src/tree/BinTree.h
- /nas2/ywu/translocator/src/tree/Breakpoint_Tree.h
- /nas2/ywu/translocator/src/tree/IntervallContainer.h
- /nas2/ywu/translocator/src/tree/IntervallTree.h
- /nas2/ywu/translocator/src/tree/Intervall_bed.h
- /nas2/ywu/translocator/src/tree/Leaf.h
- /nas2/ywu/translocator/src/tree/TNode.h
+ /nas2/ywu/Translocator/lib/minimap2/kseq.h
+ /nas2/ywu/Translocator/lib/minimap2/minimap.h
+ /nas2/ywu/Translocator/src/Alignment.h
+ /nas2/ywu/Translocator/src/BamParser.h
+ /nas2/ywu/Translocator/src/Genotyper/Genotyper.h
+ /nas2/ywu/Translocator/src/Ignore_Regions.h
+ /nas2/ywu/Translocator/src/Paramer.h
+ /nas2/ywu/Translocator/src/Parser.h
+ /nas2/ywu/Translocator/src/bioio.hpp
+ /nas2/ywu/Translocator/src/cluster/Cluster_SVs.h
+ /nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.h
+ /nas2/ywu/Translocator/src/print/IPrinter.h
+ /nas2/ywu/Translocator/src/sub/Breakpoint.h
+ /nas2/ywu/Translocator/src/sub/Realign.cpp
+ /nas2/ywu/Translocator/src/sub/Realign.h
+ /nas2/ywu/Translocator/src/tree/BinTree.h
+ /nas2/ywu/Translocator/src/tree/Breakpoint_Tree.h
+ /nas2/ywu/Translocator/src/tree/IntervallContainer.h
+ /nas2/ywu/Translocator/src/tree/IntervallTree.h
+ /nas2/ywu/Translocator/src/tree/Intervall_bed.h
+ /nas2/ywu/Translocator/src/tree/Leaf.h
+ /nas2/ywu/Translocator/src/tree/TNode.h
 src/CMakeFiles/translocator.dir/tree/BinTree.cpp.o
- /nas2/ywu/translocator/src/tree/BinTree.cpp
- /nas2/ywu/translocator/src/tree/BinTree.h
+ /nas2/ywu/Translocator/src/tree/BinTree.cpp
+ /nas2/ywu/Translocator/src/tree/BinTree.h
 src/CMakeFiles/translocator.dir/tree/Breakpoint_Tree.cpp.o
- /nas2/ywu/translocator/src/tree/Breakpoint_Tree.cpp
- /nas2/ywu/translocator/src/tree/Breakpoint_Tree.h
+ /nas2/ywu/Translocator/src/tree/Breakpoint_Tree.cpp
+ /nas2/ywu/Translocator/src/tree/Breakpoint_Tree.h
 src/CMakeFiles/translocator.dir/tree/IntervallList.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../src/../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -1220,17 +1220,17 @@ src/CMakeFiles/translocator.dir/tree/IntervallList.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/SamSequenceDictionary.h
  ../src/../lib/bamtools-2.3.0/src/api/api_global.h
  ../src/../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/src/Alignment.h
- /nas2/ywu/translocator/src/BamParser.h
- /nas2/ywu/translocator/src/Paramer.h
- /nas2/ywu/translocator/src/Parser.h
- /nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.h
- /nas2/ywu/translocator/src/sub/Breakpoint.h
- /nas2/ywu/translocator/src/tree/BinTree.h
- /nas2/ywu/translocator/src/tree/IntervallContainer.h
- /nas2/ywu/translocator/src/tree/IntervallList.cpp
- /nas2/ywu/translocator/src/tree/IntervallList.h
- /nas2/ywu/translocator/src/tree/TNode.h
+ /nas2/ywu/Translocator/src/Alignment.h
+ /nas2/ywu/Translocator/src/BamParser.h
+ /nas2/ywu/Translocator/src/Paramer.h
+ /nas2/ywu/Translocator/src/Parser.h
+ /nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.h
+ /nas2/ywu/Translocator/src/sub/Breakpoint.h
+ /nas2/ywu/Translocator/src/tree/BinTree.h
+ /nas2/ywu/Translocator/src/tree/IntervallContainer.h
+ /nas2/ywu/Translocator/src/tree/IntervallList.cpp
+ /nas2/ywu/Translocator/src/tree/IntervallList.h
+ /nas2/ywu/Translocator/src/tree/TNode.h
 src/CMakeFiles/translocator.dir/tree/IntervallTree.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../src/../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -1248,19 +1248,19 @@ src/CMakeFiles/translocator.dir/tree/IntervallTree.cpp.o
  ../src/../lib/bamtools-2.3.0/src/api/SamSequenceDictionary.h
  ../src/../lib/bamtools-2.3.0/src/api/api_global.h
  ../src/../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/src/Alignment.h
- /nas2/ywu/translocator/src/BamParser.h
- /nas2/ywu/translocator/src/Paramer.h
- /nas2/ywu/translocator/src/Parser.h
- /nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.h
- /nas2/ywu/translocator/src/sub/Breakpoint.h
- /nas2/ywu/translocator/src/tree/BinTree.h
- /nas2/ywu/translocator/src/tree/IntervallContainer.h
- /nas2/ywu/translocator/src/tree/IntervallTree.cpp
- /nas2/ywu/translocator/src/tree/IntervallTree.h
- /nas2/ywu/translocator/src/tree/TNode.h
+ /nas2/ywu/Translocator/src/Alignment.h
+ /nas2/ywu/Translocator/src/BamParser.h
+ /nas2/ywu/Translocator/src/Paramer.h
+ /nas2/ywu/Translocator/src/Parser.h
+ /nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.h
+ /nas2/ywu/Translocator/src/sub/Breakpoint.h
+ /nas2/ywu/Translocator/src/tree/BinTree.h
+ /nas2/ywu/Translocator/src/tree/IntervallContainer.h
+ /nas2/ywu/Translocator/src/tree/IntervallTree.cpp
+ /nas2/ywu/Translocator/src/tree/IntervallTree.h
+ /nas2/ywu/Translocator/src/tree/TNode.h
 src/CMakeFiles/translocator.dir/tree/Intervall_bed.cpp.o
- /nas2/ywu/translocator/src/Paramer.h
- /nas2/ywu/translocator/src/tree/Intervall_bed.cpp
- /nas2/ywu/translocator/src/tree/Intervall_bed.h
- /nas2/ywu/translocator/src/tree/Leaf.h
+ /nas2/ywu/Translocator/src/Paramer.h
+ /nas2/ywu/Translocator/src/tree/Intervall_bed.cpp
+ /nas2/ywu/Translocator/src/tree/Intervall_bed.h
+ /nas2/ywu/Translocator/src/tree/Leaf.h

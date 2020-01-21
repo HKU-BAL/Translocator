@@ -6,5 +6,5 @@ C_FLAGS =  -fopenmp -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/nas2/ywu/translocator/src/../lib/bamtools-2.3.0/src -I/nas2/ywu/translocator/src/../lib/tclap-1.2.1/include -I/nas2/ywu/translocator/src/../lib/seqan-library-2.2.0/include 
+C_INCLUDES = -I/nas2/ywu/Translocator/src/../lib/bamtools-2.3.0/src -I/nas2/ywu/Translocator/src/../lib/tclap-1.2.1/include -I/nas2/ywu/Translocator/src/../lib/seqan-library-2.2.0/include 
 

@@ -43,10 +43,10 @@ RM = /nas2/ywu/anaconda2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /nas2/ywu/translocator
+CMAKE_SOURCE_DIR = /nas2/ywu/Translocator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /nas2/ywu/translocator/cmake-build-release
+CMAKE_BINARY_DIR = /nas2/ywu/Translocator/cmake-build-release
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/translocator-debug.dir/depend.make
@@ -59,302 +59,302 @@ include src/CMakeFiles/translocator-debug.dir/flags.make
 
 src/CMakeFiles/translocator-debug.dir/tree/Breakpoint_Tree.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/tree/Breakpoint_Tree.cpp.o: ../src/tree/Breakpoint_Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/translocator-debug.dir/tree/Breakpoint_Tree.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/tree/Breakpoint_Tree.cpp.o -c /nas2/ywu/translocator/src/tree/Breakpoint_Tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/translocator-debug.dir/tree/Breakpoint_Tree.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/tree/Breakpoint_Tree.cpp.o -c /nas2/ywu/Translocator/src/tree/Breakpoint_Tree.cpp
 
 src/CMakeFiles/translocator-debug.dir/tree/Breakpoint_Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/tree/Breakpoint_Tree.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/tree/Breakpoint_Tree.cpp > CMakeFiles/translocator-debug.dir/tree/Breakpoint_Tree.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/tree/Breakpoint_Tree.cpp > CMakeFiles/translocator-debug.dir/tree/Breakpoint_Tree.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/tree/Breakpoint_Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/tree/Breakpoint_Tree.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/tree/Breakpoint_Tree.cpp -o CMakeFiles/translocator-debug.dir/tree/Breakpoint_Tree.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/tree/Breakpoint_Tree.cpp -o CMakeFiles/translocator-debug.dir/tree/Breakpoint_Tree.cpp.s
 
 src/CMakeFiles/translocator-debug.dir/Genotyper/Genotyper.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/Genotyper/Genotyper.cpp.o: ../src/Genotyper/Genotyper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/translocator-debug.dir/Genotyper/Genotyper.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/Genotyper/Genotyper.cpp.o -c /nas2/ywu/translocator/src/Genotyper/Genotyper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/translocator-debug.dir/Genotyper/Genotyper.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/Genotyper/Genotyper.cpp.o -c /nas2/ywu/Translocator/src/Genotyper/Genotyper.cpp
 
 src/CMakeFiles/translocator-debug.dir/Genotyper/Genotyper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/Genotyper/Genotyper.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/Genotyper/Genotyper.cpp > CMakeFiles/translocator-debug.dir/Genotyper/Genotyper.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/Genotyper/Genotyper.cpp > CMakeFiles/translocator-debug.dir/Genotyper/Genotyper.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/Genotyper/Genotyper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/Genotyper/Genotyper.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/Genotyper/Genotyper.cpp -o CMakeFiles/translocator-debug.dir/Genotyper/Genotyper.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/Genotyper/Genotyper.cpp -o CMakeFiles/translocator-debug.dir/Genotyper/Genotyper.cpp.s
 
 src/CMakeFiles/translocator-debug.dir/Alignment.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/Alignment.cpp.o: ../src/Alignment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/translocator-debug.dir/Alignment.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/Alignment.cpp.o -c /nas2/ywu/translocator/src/Alignment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/translocator-debug.dir/Alignment.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/Alignment.cpp.o -c /nas2/ywu/Translocator/src/Alignment.cpp
 
 src/CMakeFiles/translocator-debug.dir/Alignment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/Alignment.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/Alignment.cpp > CMakeFiles/translocator-debug.dir/Alignment.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/Alignment.cpp > CMakeFiles/translocator-debug.dir/Alignment.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/Alignment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/Alignment.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/Alignment.cpp -o CMakeFiles/translocator-debug.dir/Alignment.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/Alignment.cpp -o CMakeFiles/translocator-debug.dir/Alignment.cpp.s
 
 src/CMakeFiles/translocator-debug.dir/BamParser.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/BamParser.cpp.o: ../src/BamParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/translocator-debug.dir/BamParser.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/BamParser.cpp.o -c /nas2/ywu/translocator/src/BamParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/translocator-debug.dir/BamParser.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/BamParser.cpp.o -c /nas2/ywu/Translocator/src/BamParser.cpp
 
 src/CMakeFiles/translocator-debug.dir/BamParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/BamParser.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/BamParser.cpp > CMakeFiles/translocator-debug.dir/BamParser.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/BamParser.cpp > CMakeFiles/translocator-debug.dir/BamParser.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/BamParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/BamParser.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/BamParser.cpp -o CMakeFiles/translocator-debug.dir/BamParser.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/BamParser.cpp -o CMakeFiles/translocator-debug.dir/BamParser.cpp.s
 
 src/CMakeFiles/translocator-debug.dir/Translocator.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/Translocator.cpp.o: ../src/Translocator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/translocator-debug.dir/Translocator.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/Translocator.cpp.o -c /nas2/ywu/translocator/src/Translocator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/translocator-debug.dir/Translocator.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/Translocator.cpp.o -c /nas2/ywu/Translocator/src/Translocator.cpp
 
 src/CMakeFiles/translocator-debug.dir/Translocator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/Translocator.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/Translocator.cpp > CMakeFiles/translocator-debug.dir/Translocator.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/Translocator.cpp > CMakeFiles/translocator-debug.dir/Translocator.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/Translocator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/Translocator.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/Translocator.cpp -o CMakeFiles/translocator-debug.dir/Translocator.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/Translocator.cpp -o CMakeFiles/translocator-debug.dir/Translocator.cpp.s
 
 src/CMakeFiles/translocator-debug.dir/Ignore_Regions.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/Ignore_Regions.cpp.o: ../src/Ignore_Regions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/translocator-debug.dir/Ignore_Regions.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/Ignore_Regions.cpp.o -c /nas2/ywu/translocator/src/Ignore_Regions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/translocator-debug.dir/Ignore_Regions.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/Ignore_Regions.cpp.o -c /nas2/ywu/Translocator/src/Ignore_Regions.cpp
 
 src/CMakeFiles/translocator-debug.dir/Ignore_Regions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/Ignore_Regions.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/Ignore_Regions.cpp > CMakeFiles/translocator-debug.dir/Ignore_Regions.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/Ignore_Regions.cpp > CMakeFiles/translocator-debug.dir/Ignore_Regions.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/Ignore_Regions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/Ignore_Regions.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/Ignore_Regions.cpp -o CMakeFiles/translocator-debug.dir/Ignore_Regions.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/Ignore_Regions.cpp -o CMakeFiles/translocator-debug.dir/Ignore_Regions.cpp.s
 
 src/CMakeFiles/translocator-debug.dir/tree/Intervall_bed.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/tree/Intervall_bed.cpp.o: ../src/tree/Intervall_bed.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/translocator-debug.dir/tree/Intervall_bed.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/tree/Intervall_bed.cpp.o -c /nas2/ywu/translocator/src/tree/Intervall_bed.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/translocator-debug.dir/tree/Intervall_bed.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/tree/Intervall_bed.cpp.o -c /nas2/ywu/Translocator/src/tree/Intervall_bed.cpp
 
 src/CMakeFiles/translocator-debug.dir/tree/Intervall_bed.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/tree/Intervall_bed.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/tree/Intervall_bed.cpp > CMakeFiles/translocator-debug.dir/tree/Intervall_bed.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/tree/Intervall_bed.cpp > CMakeFiles/translocator-debug.dir/tree/Intervall_bed.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/tree/Intervall_bed.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/tree/Intervall_bed.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/tree/Intervall_bed.cpp -o CMakeFiles/translocator-debug.dir/tree/Intervall_bed.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/tree/Intervall_bed.cpp -o CMakeFiles/translocator-debug.dir/tree/Intervall_bed.cpp.s
 
 src/CMakeFiles/translocator-debug.dir/tree/IntervallList.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/tree/IntervallList.cpp.o: ../src/tree/IntervallList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/translocator-debug.dir/tree/IntervallList.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/tree/IntervallList.cpp.o -c /nas2/ywu/translocator/src/tree/IntervallList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/translocator-debug.dir/tree/IntervallList.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/tree/IntervallList.cpp.o -c /nas2/ywu/Translocator/src/tree/IntervallList.cpp
 
 src/CMakeFiles/translocator-debug.dir/tree/IntervallList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/tree/IntervallList.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/tree/IntervallList.cpp > CMakeFiles/translocator-debug.dir/tree/IntervallList.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/tree/IntervallList.cpp > CMakeFiles/translocator-debug.dir/tree/IntervallList.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/tree/IntervallList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/tree/IntervallList.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/tree/IntervallList.cpp -o CMakeFiles/translocator-debug.dir/tree/IntervallList.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/tree/IntervallList.cpp -o CMakeFiles/translocator-debug.dir/tree/IntervallList.cpp.s
 
 src/CMakeFiles/translocator-debug.dir/sub/Detect_Breakpoints.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/sub/Detect_Breakpoints.cpp.o: ../src/sub/Detect_Breakpoints.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/translocator-debug.dir/sub/Detect_Breakpoints.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/sub/Detect_Breakpoints.cpp.o -c /nas2/ywu/translocator/src/sub/Detect_Breakpoints.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/translocator-debug.dir/sub/Detect_Breakpoints.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/sub/Detect_Breakpoints.cpp.o -c /nas2/ywu/Translocator/src/sub/Detect_Breakpoints.cpp
 
 src/CMakeFiles/translocator-debug.dir/sub/Detect_Breakpoints.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/sub/Detect_Breakpoints.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/sub/Detect_Breakpoints.cpp > CMakeFiles/translocator-debug.dir/sub/Detect_Breakpoints.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/sub/Detect_Breakpoints.cpp > CMakeFiles/translocator-debug.dir/sub/Detect_Breakpoints.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/sub/Detect_Breakpoints.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/sub/Detect_Breakpoints.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/sub/Detect_Breakpoints.cpp -o CMakeFiles/translocator-debug.dir/sub/Detect_Breakpoints.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/sub/Detect_Breakpoints.cpp -o CMakeFiles/translocator-debug.dir/sub/Detect_Breakpoints.cpp.s
 
 src/CMakeFiles/translocator-debug.dir/sub/Breakpoint.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/sub/Breakpoint.cpp.o: ../src/sub/Breakpoint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/translocator-debug.dir/sub/Breakpoint.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/sub/Breakpoint.cpp.o -c /nas2/ywu/translocator/src/sub/Breakpoint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/translocator-debug.dir/sub/Breakpoint.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/sub/Breakpoint.cpp.o -c /nas2/ywu/Translocator/src/sub/Breakpoint.cpp
 
 src/CMakeFiles/translocator-debug.dir/sub/Breakpoint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/sub/Breakpoint.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/sub/Breakpoint.cpp > CMakeFiles/translocator-debug.dir/sub/Breakpoint.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/sub/Breakpoint.cpp > CMakeFiles/translocator-debug.dir/sub/Breakpoint.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/sub/Breakpoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/sub/Breakpoint.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/sub/Breakpoint.cpp -o CMakeFiles/translocator-debug.dir/sub/Breakpoint.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/sub/Breakpoint.cpp -o CMakeFiles/translocator-debug.dir/sub/Breakpoint.cpp.s
 
 src/CMakeFiles/translocator-debug.dir/tree/IntervallTree.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/tree/IntervallTree.cpp.o: ../src/tree/IntervallTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/translocator-debug.dir/tree/IntervallTree.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/tree/IntervallTree.cpp.o -c /nas2/ywu/translocator/src/tree/IntervallTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/translocator-debug.dir/tree/IntervallTree.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/tree/IntervallTree.cpp.o -c /nas2/ywu/Translocator/src/tree/IntervallTree.cpp
 
 src/CMakeFiles/translocator-debug.dir/tree/IntervallTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/tree/IntervallTree.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/tree/IntervallTree.cpp > CMakeFiles/translocator-debug.dir/tree/IntervallTree.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/tree/IntervallTree.cpp > CMakeFiles/translocator-debug.dir/tree/IntervallTree.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/tree/IntervallTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/tree/IntervallTree.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/tree/IntervallTree.cpp -o CMakeFiles/translocator-debug.dir/tree/IntervallTree.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/tree/IntervallTree.cpp -o CMakeFiles/translocator-debug.dir/tree/IntervallTree.cpp.s
 
 src/CMakeFiles/translocator-debug.dir/realign/SWCPU.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/realign/SWCPU.cpp.o: ../src/realign/SWCPU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/translocator-debug.dir/realign/SWCPU.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/realign/SWCPU.cpp.o -c /nas2/ywu/translocator/src/realign/SWCPU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/translocator-debug.dir/realign/SWCPU.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/realign/SWCPU.cpp.o -c /nas2/ywu/Translocator/src/realign/SWCPU.cpp
 
 src/CMakeFiles/translocator-debug.dir/realign/SWCPU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/realign/SWCPU.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/realign/SWCPU.cpp > CMakeFiles/translocator-debug.dir/realign/SWCPU.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/realign/SWCPU.cpp > CMakeFiles/translocator-debug.dir/realign/SWCPU.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/realign/SWCPU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/realign/SWCPU.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/realign/SWCPU.cpp -o CMakeFiles/translocator-debug.dir/realign/SWCPU.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/realign/SWCPU.cpp -o CMakeFiles/translocator-debug.dir/realign/SWCPU.cpp.s
 
 src/CMakeFiles/translocator-debug.dir/realign/Realign.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/realign/Realign.cpp.o: ../src/realign/Realign.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/translocator-debug.dir/realign/Realign.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/realign/Realign.cpp.o -c /nas2/ywu/translocator/src/realign/Realign.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/translocator-debug.dir/realign/Realign.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/realign/Realign.cpp.o -c /nas2/ywu/Translocator/src/realign/Realign.cpp
 
 src/CMakeFiles/translocator-debug.dir/realign/Realign.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/realign/Realign.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/realign/Realign.cpp > CMakeFiles/translocator-debug.dir/realign/Realign.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/realign/Realign.cpp > CMakeFiles/translocator-debug.dir/realign/Realign.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/realign/Realign.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/realign/Realign.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/realign/Realign.cpp -o CMakeFiles/translocator-debug.dir/realign/Realign.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/realign/Realign.cpp -o CMakeFiles/translocator-debug.dir/realign/Realign.cpp.s
 
 src/CMakeFiles/translocator-debug.dir/print/VCFPrinter.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/print/VCFPrinter.cpp.o: ../src/print/VCFPrinter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/translocator-debug.dir/print/VCFPrinter.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/print/VCFPrinter.cpp.o -c /nas2/ywu/translocator/src/print/VCFPrinter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/translocator-debug.dir/print/VCFPrinter.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/print/VCFPrinter.cpp.o -c /nas2/ywu/Translocator/src/print/VCFPrinter.cpp
 
 src/CMakeFiles/translocator-debug.dir/print/VCFPrinter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/print/VCFPrinter.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/print/VCFPrinter.cpp > CMakeFiles/translocator-debug.dir/print/VCFPrinter.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/print/VCFPrinter.cpp > CMakeFiles/translocator-debug.dir/print/VCFPrinter.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/print/VCFPrinter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/print/VCFPrinter.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/print/VCFPrinter.cpp -o CMakeFiles/translocator-debug.dir/print/VCFPrinter.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/print/VCFPrinter.cpp -o CMakeFiles/translocator-debug.dir/print/VCFPrinter.cpp.s
 
 src/CMakeFiles/translocator-debug.dir/print/BedpePrinter.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/print/BedpePrinter.cpp.o: ../src/print/BedpePrinter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/translocator-debug.dir/print/BedpePrinter.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/print/BedpePrinter.cpp.o -c /nas2/ywu/translocator/src/print/BedpePrinter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/translocator-debug.dir/print/BedpePrinter.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/print/BedpePrinter.cpp.o -c /nas2/ywu/Translocator/src/print/BedpePrinter.cpp
 
 src/CMakeFiles/translocator-debug.dir/print/BedpePrinter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/print/BedpePrinter.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/print/BedpePrinter.cpp > CMakeFiles/translocator-debug.dir/print/BedpePrinter.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/print/BedpePrinter.cpp > CMakeFiles/translocator-debug.dir/print/BedpePrinter.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/print/BedpePrinter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/print/BedpePrinter.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/print/BedpePrinter.cpp -o CMakeFiles/translocator-debug.dir/print/BedpePrinter.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/print/BedpePrinter.cpp -o CMakeFiles/translocator-debug.dir/print/BedpePrinter.cpp.s
 
 src/CMakeFiles/translocator-debug.dir/print/IPrinter.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/print/IPrinter.cpp.o: ../src/print/IPrinter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/translocator-debug.dir/print/IPrinter.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/print/IPrinter.cpp.o -c /nas2/ywu/translocator/src/print/IPrinter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/translocator-debug.dir/print/IPrinter.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/print/IPrinter.cpp.o -c /nas2/ywu/Translocator/src/print/IPrinter.cpp
 
 src/CMakeFiles/translocator-debug.dir/print/IPrinter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/print/IPrinter.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/print/IPrinter.cpp > CMakeFiles/translocator-debug.dir/print/IPrinter.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/print/IPrinter.cpp > CMakeFiles/translocator-debug.dir/print/IPrinter.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/print/IPrinter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/print/IPrinter.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/print/IPrinter.cpp -o CMakeFiles/translocator-debug.dir/print/IPrinter.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/print/IPrinter.cpp -o CMakeFiles/translocator-debug.dir/print/IPrinter.cpp.s
 
 src/CMakeFiles/translocator-debug.dir/tree/BinTree.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/tree/BinTree.cpp.o: ../src/tree/BinTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/translocator-debug.dir/tree/BinTree.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/tree/BinTree.cpp.o -c /nas2/ywu/translocator/src/tree/BinTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/translocator-debug.dir/tree/BinTree.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/tree/BinTree.cpp.o -c /nas2/ywu/Translocator/src/tree/BinTree.cpp
 
 src/CMakeFiles/translocator-debug.dir/tree/BinTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/tree/BinTree.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/tree/BinTree.cpp > CMakeFiles/translocator-debug.dir/tree/BinTree.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/tree/BinTree.cpp > CMakeFiles/translocator-debug.dir/tree/BinTree.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/tree/BinTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/tree/BinTree.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/tree/BinTree.cpp -o CMakeFiles/translocator-debug.dir/tree/BinTree.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/tree/BinTree.cpp -o CMakeFiles/translocator-debug.dir/tree/BinTree.cpp.s
 
 src/CMakeFiles/translocator-debug.dir/print/NGMPrinter.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/print/NGMPrinter.cpp.o: ../src/print/NGMPrinter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/translocator-debug.dir/print/NGMPrinter.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/print/NGMPrinter.cpp.o -c /nas2/ywu/translocator/src/print/NGMPrinter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/translocator-debug.dir/print/NGMPrinter.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/print/NGMPrinter.cpp.o -c /nas2/ywu/Translocator/src/print/NGMPrinter.cpp
 
 src/CMakeFiles/translocator-debug.dir/print/NGMPrinter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/print/NGMPrinter.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/print/NGMPrinter.cpp > CMakeFiles/translocator-debug.dir/print/NGMPrinter.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/print/NGMPrinter.cpp > CMakeFiles/translocator-debug.dir/print/NGMPrinter.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/print/NGMPrinter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/print/NGMPrinter.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/print/NGMPrinter.cpp -o CMakeFiles/translocator-debug.dir/print/NGMPrinter.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/print/NGMPrinter.cpp -o CMakeFiles/translocator-debug.dir/print/NGMPrinter.cpp.s
 
 src/CMakeFiles/translocator-debug.dir/plane-sweep/PlaneSweep_slim.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/plane-sweep/PlaneSweep_slim.cpp.o: ../src/plane-sweep/PlaneSweep_slim.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/translocator-debug.dir/plane-sweep/PlaneSweep_slim.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/plane-sweep/PlaneSweep_slim.cpp.o -c /nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/translocator-debug.dir/plane-sweep/PlaneSweep_slim.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/plane-sweep/PlaneSweep_slim.cpp.o -c /nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.cpp
 
 src/CMakeFiles/translocator-debug.dir/plane-sweep/PlaneSweep_slim.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/plane-sweep/PlaneSweep_slim.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.cpp > CMakeFiles/translocator-debug.dir/plane-sweep/PlaneSweep_slim.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.cpp > CMakeFiles/translocator-debug.dir/plane-sweep/PlaneSweep_slim.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/plane-sweep/PlaneSweep_slim.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/plane-sweep/PlaneSweep_slim.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/plane-sweep/PlaneSweep_slim.cpp -o CMakeFiles/translocator-debug.dir/plane-sweep/PlaneSweep_slim.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/plane-sweep/PlaneSweep_slim.cpp -o CMakeFiles/translocator-debug.dir/plane-sweep/PlaneSweep_slim.cpp.s
 
 src/CMakeFiles/translocator-debug.dir/cluster/Cluster_SVs.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/cluster/Cluster_SVs.cpp.o: ../src/cluster/Cluster_SVs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/translocator-debug.dir/cluster/Cluster_SVs.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/cluster/Cluster_SVs.cpp.o -c /nas2/ywu/translocator/src/cluster/Cluster_SVs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/translocator-debug.dir/cluster/Cluster_SVs.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/cluster/Cluster_SVs.cpp.o -c /nas2/ywu/Translocator/src/cluster/Cluster_SVs.cpp
 
 src/CMakeFiles/translocator-debug.dir/cluster/Cluster_SVs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/cluster/Cluster_SVs.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/cluster/Cluster_SVs.cpp > CMakeFiles/translocator-debug.dir/cluster/Cluster_SVs.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/cluster/Cluster_SVs.cpp > CMakeFiles/translocator-debug.dir/cluster/Cluster_SVs.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/cluster/Cluster_SVs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/cluster/Cluster_SVs.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/cluster/Cluster_SVs.cpp -o CMakeFiles/translocator-debug.dir/cluster/Cluster_SVs.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/cluster/Cluster_SVs.cpp -o CMakeFiles/translocator-debug.dir/cluster/Cluster_SVs.cpp.s
 
 src/CMakeFiles/translocator-debug.dir/force_calling/Force_calling.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/force_calling/Force_calling.cpp.o: ../src/force_calling/Force_calling.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/translocator-debug.dir/force_calling/Force_calling.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/force_calling/Force_calling.cpp.o -c /nas2/ywu/translocator/src/force_calling/Force_calling.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/translocator-debug.dir/force_calling/Force_calling.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/force_calling/Force_calling.cpp.o -c /nas2/ywu/Translocator/src/force_calling/Force_calling.cpp
 
 src/CMakeFiles/translocator-debug.dir/force_calling/Force_calling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/force_calling/Force_calling.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/force_calling/Force_calling.cpp > CMakeFiles/translocator-debug.dir/force_calling/Force_calling.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/force_calling/Force_calling.cpp > CMakeFiles/translocator-debug.dir/force_calling/Force_calling.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/force_calling/Force_calling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/force_calling/Force_calling.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/force_calling/Force_calling.cpp -o CMakeFiles/translocator-debug.dir/force_calling/Force_calling.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/force_calling/Force_calling.cpp -o CMakeFiles/translocator-debug.dir/force_calling/Force_calling.cpp.s
 
 src/CMakeFiles/translocator-debug.dir/force_calling/VCF_parser.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/force_calling/VCF_parser.cpp.o: ../src/force_calling/VCF_parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/CMakeFiles/translocator-debug.dir/force_calling/VCF_parser.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/force_calling/VCF_parser.cpp.o -c /nas2/ywu/translocator/src/force_calling/VCF_parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/CMakeFiles/translocator-debug.dir/force_calling/VCF_parser.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/force_calling/VCF_parser.cpp.o -c /nas2/ywu/Translocator/src/force_calling/VCF_parser.cpp
 
 src/CMakeFiles/translocator-debug.dir/force_calling/VCF_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/force_calling/VCF_parser.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/force_calling/VCF_parser.cpp > CMakeFiles/translocator-debug.dir/force_calling/VCF_parser.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/force_calling/VCF_parser.cpp > CMakeFiles/translocator-debug.dir/force_calling/VCF_parser.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/force_calling/VCF_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/force_calling/VCF_parser.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/force_calling/VCF_parser.cpp -o CMakeFiles/translocator-debug.dir/force_calling/VCF_parser.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/force_calling/VCF_parser.cpp -o CMakeFiles/translocator-debug.dir/force_calling/VCF_parser.cpp.s
 
 src/CMakeFiles/translocator-debug.dir/sub/Realign.cpp.o: src/CMakeFiles/translocator-debug.dir/flags.make
 src/CMakeFiles/translocator-debug.dir/sub/Realign.cpp.o: ../src/sub/Realign.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/CMakeFiles/translocator-debug.dir/sub/Realign.cpp.o"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/sub/Realign.cpp.o -c /nas2/ywu/translocator/src/sub/Realign.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/CMakeFiles/translocator-debug.dir/sub/Realign.cpp.o"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/translocator-debug.dir/sub/Realign.cpp.o -c /nas2/ywu/Translocator/src/sub/Realign.cpp
 
 src/CMakeFiles/translocator-debug.dir/sub/Realign.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/translocator-debug.dir/sub/Realign.cpp.i"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/translocator/src/sub/Realign.cpp > CMakeFiles/translocator-debug.dir/sub/Realign.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nas2/ywu/Translocator/src/sub/Realign.cpp > CMakeFiles/translocator-debug.dir/sub/Realign.cpp.i
 
 src/CMakeFiles/translocator-debug.dir/sub/Realign.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/translocator-debug.dir/sub/Realign.cpp.s"
-	cd /nas2/ywu/translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/translocator/src/sub/Realign.cpp -o CMakeFiles/translocator-debug.dir/sub/Realign.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nas2/ywu/Translocator/src/sub/Realign.cpp -o CMakeFiles/translocator-debug.dir/sub/Realign.cpp.s
 
 # Object files for target translocator-debug
 translocator__debug_OBJECTS = \
@@ -414,8 +414,8 @@ translocator__debug_EXTERNAL_OBJECTS =
 ../bin/translocator-core-1.0.0/translocator-debug: src/liblibminimap2.a
 ../bin/translocator-core-1.0.0/translocator-debug: lib/zlib-1.2.7/libz.a
 ../bin/translocator-core-1.0.0/translocator-debug: src/CMakeFiles/translocator-debug.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nas2/ywu/translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable ../../bin/translocator-core-1.0.0/translocator-debug"
-	cd /nas2/ywu/translocator/cmake-build-release/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/translocator-debug.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nas2/ywu/Translocator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable ../../bin/translocator-core-1.0.0/translocator-debug"
+	cd /nas2/ywu/Translocator/cmake-build-release/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/translocator-debug.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/translocator-debug.dir/build: ../bin/translocator-core-1.0.0/translocator-debug
@@ -423,10 +423,10 @@ src/CMakeFiles/translocator-debug.dir/build: ../bin/translocator-core-1.0.0/tran
 .PHONY : src/CMakeFiles/translocator-debug.dir/build
 
 src/CMakeFiles/translocator-debug.dir/clean:
-	cd /nas2/ywu/translocator/cmake-build-release/src && $(CMAKE_COMMAND) -P CMakeFiles/translocator-debug.dir/cmake_clean.cmake
+	cd /nas2/ywu/Translocator/cmake-build-release/src && $(CMAKE_COMMAND) -P CMakeFiles/translocator-debug.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/translocator-debug.dir/clean
 
 src/CMakeFiles/translocator-debug.dir/depend:
-	cd /nas2/ywu/translocator/cmake-build-release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /nas2/ywu/translocator /nas2/ywu/translocator/src /nas2/ywu/translocator/cmake-build-release /nas2/ywu/translocator/cmake-build-release/src /nas2/ywu/translocator/cmake-build-release/src/CMakeFiles/translocator-debug.dir/DependInfo.cmake --color=$(COLOR)
+	cd /nas2/ywu/Translocator/cmake-build-release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /nas2/ywu/Translocator /nas2/ywu/Translocator/src /nas2/ywu/Translocator/cmake-build-release /nas2/ywu/Translocator/cmake-build-release/src /nas2/ywu/Translocator/cmake-build-release/src/CMakeFiles/translocator-debug.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/translocator-debug.dir/depend
 

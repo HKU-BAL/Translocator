@@ -1,4 +1,4 @@
-# Install script for directory: /nas2/ywu/translocator/lib/zlib-1.2.7
+# Install script for directory: /nas2/ywu/Translocator/lib/zlib-1.2.7
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,6 +46,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/nas2/ywu/translocator/cmake-build-release/lib/zlib-1.2.7/libz.a")
+file(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/nas2/ywu/Translocator/cmake-build-release/lib/zlib-1.2.7/libz.a")
 endif()
 

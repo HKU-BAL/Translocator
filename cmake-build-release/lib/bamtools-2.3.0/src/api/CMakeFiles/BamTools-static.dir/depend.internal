@@ -7,7 +7,7 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamAlignment.cpp.o
  ../lib/bamtools-2.3.0/src/api/BamConstants.h
  ../lib/bamtools-2.3.0/src/api/api_global.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/BamAlignment.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/BamAlignment.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamMultiReader.cpp.o
  ../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -27,7 +27,7 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamMultiReader.cpp.o
  ../lib/bamtools-2.3.0/src/api/internal/bam/BamMultiMerger_p.h
  ../lib/bamtools-2.3.0/src/api/internal/bam/BamMultiReader_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/BamMultiReader.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/BamMultiReader.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamReader.cpp.o
  ../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -48,7 +48,7 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamReader.cpp.o
  ../lib/bamtools-2.3.0/src/api/internal/bam/BamReader_p.h
  ../lib/bamtools-2.3.0/src/api/internal/io/BgzfStream_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/BamReader.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/BamReader.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamWriter.cpp.o
  ../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -66,7 +66,7 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamWriter.cpp.o
  ../lib/bamtools-2.3.0/src/api/internal/bam/BamWriter_p.h
  ../lib/bamtools-2.3.0/src/api/internal/io/BgzfStream_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/BamWriter.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/BamWriter.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamHeader.cpp.o
  ../lib/bamtools-2.3.0/src/api/SamConstants.h
  ../lib/bamtools-2.3.0/src/api/SamHeader.h
@@ -82,40 +82,40 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamHeader.cpp.o
  ../lib/bamtools-2.3.0/src/api/internal/sam/SamHeaderValidator_p.h
  ../lib/bamtools-2.3.0/src/api/internal/utils/BamException_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/SamHeader.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/SamHeader.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamProgram.cpp.o
  ../lib/bamtools-2.3.0/src/api/SamProgram.h
  ../lib/bamtools-2.3.0/src/api/api_global.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/SamProgram.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/SamProgram.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamProgramChain.cpp.o
  ../lib/bamtools-2.3.0/src/api/SamProgram.h
  ../lib/bamtools-2.3.0/src/api/SamProgramChain.h
  ../lib/bamtools-2.3.0/src/api/api_global.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/SamProgramChain.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/SamProgramChain.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamReadGroup.cpp.o
  ../lib/bamtools-2.3.0/src/api/SamReadGroup.h
  ../lib/bamtools-2.3.0/src/api/api_global.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/SamReadGroup.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/SamReadGroup.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamReadGroupDictionary.cpp.o
  ../lib/bamtools-2.3.0/src/api/SamReadGroup.h
  ../lib/bamtools-2.3.0/src/api/SamReadGroupDictionary.h
  ../lib/bamtools-2.3.0/src/api/api_global.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/SamReadGroupDictionary.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/SamReadGroupDictionary.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamSequence.cpp.o
  ../lib/bamtools-2.3.0/src/api/SamSequence.h
  ../lib/bamtools-2.3.0/src/api/api_global.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/SamSequence.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/SamSequence.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamSequenceDictionary.cpp.o
  ../lib/bamtools-2.3.0/src/api/SamSequence.h
  ../lib/bamtools-2.3.0/src/api/SamSequenceDictionary.h
  ../lib/bamtools-2.3.0/src/api/api_global.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/SamSequenceDictionary.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/SamSequenceDictionary.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamHeader_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/BamAux.h
  ../lib/bamtools-2.3.0/src/api/BamConstants.h
@@ -132,7 +132,7 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamHeader
  ../lib/bamtools-2.3.0/src/api/internal/io/BgzfStream_p.h
  ../lib/bamtools-2.3.0/src/api/internal/utils/BamException_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamHeader_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamHeader_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamMultiReader_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -153,7 +153,7 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamMultiR
  ../lib/bamtools-2.3.0/src/api/internal/bam/BamMultiMerger_p.h
  ../lib/bamtools-2.3.0/src/api/internal/bam/BamMultiReader_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamMultiReader_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamMultiReader_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamRandomAccessController_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -176,7 +176,7 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamRandom
  ../lib/bamtools-2.3.0/src/api/internal/io/BgzfStream_p.h
  ../lib/bamtools-2.3.0/src/api/internal/utils/BamException_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamRandomAccessController_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamRandomAccessController_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamReader_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -201,7 +201,7 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamReader
  ../lib/bamtools-2.3.0/src/api/internal/io/BgzfStream_p.h
  ../lib/bamtools-2.3.0/src/api/internal/utils/BamException_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamReader_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamReader_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamWriter_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -212,7 +212,7 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamWriter
  ../lib/bamtools-2.3.0/src/api/internal/io/BgzfStream_p.h
  ../lib/bamtools-2.3.0/src/api/internal/utils/BamException_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamWriter_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/bam/BamWriter_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamIndexFactory_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/BamAux.h
  ../lib/bamtools-2.3.0/src/api/BamIndex.h
@@ -222,7 +222,7 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamInde
  ../lib/bamtools-2.3.0/src/api/internal/index/BamStandardIndex_p.h
  ../lib/bamtools-2.3.0/src/api/internal/index/BamToolsIndex_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/index/BamIndexFactory_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/index/BamIndexFactory_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamStandardIndex_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -246,7 +246,7 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamStan
  ../lib/bamtools-2.3.0/src/api/internal/io/BgzfStream_p.h
  ../lib/bamtools-2.3.0/src/api/internal/utils/BamException_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/index/BamStandardIndex_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/index/BamStandardIndex_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamToolsIndex_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/BamAlignment.h
  ../lib/bamtools-2.3.0/src/api/BamAux.h
@@ -270,7 +270,7 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamTool
  ../lib/bamtools-2.3.0/src/api/internal/io/BgzfStream_p.h
  ../lib/bamtools-2.3.0/src/api/internal/utils/BamException_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/index/BamToolsIndex_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/index/BamToolsIndex_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamDeviceFactory_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/IBamIODevice.h
  ../lib/bamtools-2.3.0/src/api/api_global.h
@@ -281,14 +281,14 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamDeviceF
  ../lib/bamtools-2.3.0/src/api/internal/io/BamPipe_p.h
  ../lib/bamtools-2.3.0/src/api/internal/io/ILocalIODevice_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/BamDeviceFactory_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/BamDeviceFactory_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamFile_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/IBamIODevice.h
  ../lib/bamtools-2.3.0/src/api/api_global.h
  ../lib/bamtools-2.3.0/src/api/internal/io/BamFile_p.h
  ../lib/bamtools-2.3.0/src/api/internal/io/ILocalIODevice_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/BamFile_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/BamFile_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamFtp_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/BamAux.h
  ../lib/bamtools-2.3.0/src/api/IBamIODevice.h
@@ -300,7 +300,7 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamFtp_p.c
  ../lib/bamtools-2.3.0/src/api/internal/io/RollingBuffer_p.h
  ../lib/bamtools-2.3.0/src/api/internal/io/TcpSocket_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/BamFtp_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/BamFtp_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamHttp_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/BamAux.h
  ../lib/bamtools-2.3.0/src/api/IBamIODevice.h
@@ -313,14 +313,14 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamHttp_p.
  ../lib/bamtools-2.3.0/src/api/internal/io/RollingBuffer_p.h
  ../lib/bamtools-2.3.0/src/api/internal/io/TcpSocket_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/BamHttp_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/BamHttp_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamPipe_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/IBamIODevice.h
  ../lib/bamtools-2.3.0/src/api/api_global.h
  ../lib/bamtools-2.3.0/src/api/internal/io/BamPipe_p.h
  ../lib/bamtools-2.3.0/src/api/internal/io/ILocalIODevice_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/BamPipe_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/BamPipe_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BgzfStream_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/BamAux.h
  ../lib/bamtools-2.3.0/src/api/BamConstants.h
@@ -330,17 +330,17 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BgzfStream
  ../lib/bamtools-2.3.0/src/api/internal/io/BgzfStream_p.h
  ../lib/bamtools-2.3.0/src/api/internal/utils/BamException_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/BgzfStream_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/BgzfStream_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/ByteArray_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/api_global.h
  ../lib/bamtools-2.3.0/src/api/internal/io/ByteArray_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/ByteArray_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/ByteArray_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/HostAddress_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/api_global.h
  ../lib/bamtools-2.3.0/src/api/internal/io/HostAddress_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/HostAddress_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/HostAddress_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/HostInfo_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/api_global.h
  ../lib/bamtools-2.3.0/src/api/internal/io/HostAddress_p.h
@@ -348,24 +348,24 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/HostInfo_p
  ../lib/bamtools-2.3.0/src/api/internal/io/NetUnix_p.h
  ../lib/bamtools-2.3.0/src/api/internal/io/NetWin_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/HostInfo_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/HostInfo_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/HttpHeader_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/api_global.h
  ../lib/bamtools-2.3.0/src/api/internal/io/HttpHeader_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/HttpHeader_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/HttpHeader_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/ILocalIODevice_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/IBamIODevice.h
  ../lib/bamtools-2.3.0/src/api/api_global.h
  ../lib/bamtools-2.3.0/src/api/internal/io/ILocalIODevice_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/ILocalIODevice_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/ILocalIODevice_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/RollingBuffer_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/api_global.h
  ../lib/bamtools-2.3.0/src/api/internal/io/ByteArray_p.h
  ../lib/bamtools-2.3.0/src/api/internal/io/RollingBuffer_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/RollingBuffer_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/RollingBuffer_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocketEngine_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/IBamIODevice.h
  ../lib/bamtools-2.3.0/src/api/api_global.h
@@ -377,7 +377,7 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocketE
  ../lib/bamtools-2.3.0/src/api/internal/io/TcpSocketEngine_p.h
  ../lib/bamtools-2.3.0/src/api/internal/io/TcpSocket_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/TcpSocketEngine_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/TcpSocketEngine_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocketEngine_unix_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/IBamIODevice.h
  ../lib/bamtools-2.3.0/src/api/api_global.h
@@ -390,7 +390,7 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocketE
  ../lib/bamtools-2.3.0/src/api/internal/io/TcpSocketEngine_p.h
  ../lib/bamtools-2.3.0/src/api/internal/io/TcpSocket_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/TcpSocketEngine_unix_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/TcpSocketEngine_unix_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocket_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/IBamIODevice.h
  ../lib/bamtools-2.3.0/src/api/api_global.h
@@ -402,7 +402,7 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocket_
  ../lib/bamtools-2.3.0/src/api/internal/io/TcpSocketEngine_p.h
  ../lib/bamtools-2.3.0/src/api/internal/io/TcpSocket_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/TcpSocket_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/TcpSocket_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamFormatParser_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/SamConstants.h
  ../lib/bamtools-2.3.0/src/api/SamHeader.h
@@ -416,7 +416,7 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamFormat
  ../lib/bamtools-2.3.0/src/api/internal/sam/SamFormatParser_p.h
  ../lib/bamtools-2.3.0/src/api/internal/utils/BamException_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/sam/SamFormatParser_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/sam/SamFormatParser_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamFormatPrinter_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/SamConstants.h
  ../lib/bamtools-2.3.0/src/api/SamHeader.h
@@ -429,7 +429,7 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamFormat
  ../lib/bamtools-2.3.0/src/api/api_global.h
  ../lib/bamtools-2.3.0/src/api/internal/sam/SamFormatPrinter_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/sam/SamFormatPrinter_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/sam/SamFormatPrinter_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamHeaderValidator_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/SamConstants.h
  ../lib/bamtools-2.3.0/src/api/SamHeader.h
@@ -443,7 +443,7 @@ lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamHeader
  ../lib/bamtools-2.3.0/src/api/internal/sam/SamHeaderValidator_p.h
  ../lib/bamtools-2.3.0/src/api/internal/sam/SamHeaderVersion_p.h
  ../lib/bamtools-2.3.0/src/shared/bamtools_global.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/sam/SamHeaderValidator_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/sam/SamHeaderValidator_p.cpp
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/utils/BamException_p.cpp.o
  ../lib/bamtools-2.3.0/src/api/internal/utils/BamException_p.h
- /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/utils/BamException_p.cpp
+ /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/utils/BamException_p.cpp

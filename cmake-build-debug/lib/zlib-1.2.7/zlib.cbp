@@ -8,189 +8,189 @@
 		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\bamtools-2.3.0\;CMake Files\lib\bamtools-2.3.0\src\;CMake Files\lib\bamtools-2.3.0\src\api\;CMake Files\lib\bamtools-2.3.0\src\api\internal\;CMake Files\lib\bamtools-2.3.0\src\api\internal\bam\;CMake Files\lib\bamtools-2.3.0\src\api\internal\index\;CMake Files\lib\bamtools-2.3.0\src\api\internal\io\;CMake Files\lib\bamtools-2.3.0\src\api\internal\sam\;CMake Files\lib\bamtools-2.3.0\src\api\internal\utils\;CMake Files\lib\zlib-1.2.7\;CMake Files\src\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/nas2/ywu/translocator/cmake-build-debug/lib/zlib-1.2.7"/>
+				<Option working_dir="/nas2/ywu/Translocator/cmake-build-debug/lib/zlib-1.2.7"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="zlibstatic">
-				<Option output="/nas2/ywu/translocator/cmake-build-debug/lib/zlib-1.2.7/libz.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/nas2/ywu/translocator/cmake-build-debug/lib/zlib-1.2.7"/>
+				<Option output="/nas2/ywu/Translocator/cmake-build-debug/lib/zlib-1.2.7/libz.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nas2/ywu/Translocator/cmake-build-debug/lib/zlib-1.2.7"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-D_LARGEFILE64_SOURCE=1"/>
-					<Add directory="/nas2/ywu/translocator/cmake-build-debug/lib/zlib-1.2.7"/>
-					<Add directory="/nas2/ywu/translocator"/>
-					<Add directory="/home/usr/include/c++/5"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/home/usr/include/c++/5/backward"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/home/usr/local/include"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/home/usr/include"/>
+					<Add directory="/nas2/ywu/Translocator/cmake-build-debug/lib/zlib-1.2.7"/>
+					<Add directory="/nas2/ywu/Translocator"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 zlibstatic"/>
-					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 zlibstatic"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="zlibstatic/fast">
-				<Option output="/nas2/ywu/translocator/cmake-build-debug/lib/zlib-1.2.7/libz.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/nas2/ywu/translocator/cmake-build-debug/lib/zlib-1.2.7"/>
+				<Option output="/nas2/ywu/Translocator/cmake-build-debug/lib/zlib-1.2.7/libz.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nas2/ywu/Translocator/cmake-build-debug/lib/zlib-1.2.7"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-D_LARGEFILE64_SOURCE=1"/>
-					<Add directory="/nas2/ywu/translocator/cmake-build-debug/lib/zlib-1.2.7"/>
-					<Add directory="/nas2/ywu/translocator"/>
-					<Add directory="/home/usr/include/c++/5"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/home/usr/include/c++/5/backward"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/home/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/home/usr/local/include"/>
-					<Add directory="/home/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/home/usr/include"/>
+					<Add directory="/nas2/ywu/Translocator/cmake-build-debug/lib/zlib-1.2.7"/>
+					<Add directory="/nas2/ywu/Translocator"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 zlibstatic/fast"/>
-					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 zlibstatic/fast"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/nas2/ywu/Translocator/cmake-build-debug/lib/zlib-1.2.7/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/nas2/ywu/translocator/cmake-build-debug/lib/zlib-1.2.7/zconf.h">
+		<Unit filename="/nas2/ywu/Translocator/cmake-build-debug/lib/zlib-1.2.7/zconf.h">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/adler32.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/adler32.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/compress.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/compress.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/crc32.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/crc32.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/crc32.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/crc32.h">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/deflate.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/deflate.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/deflate.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/deflate.h">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/gzclose.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/gzclose.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/gzguts.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/gzguts.h">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/gzlib.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/gzlib.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/gzread.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/gzread.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/gzwrite.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/gzwrite.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/infback.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/infback.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/inffast.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/inffast.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/inffast.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/inffast.h">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/inffixed.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/inffixed.h">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/inflate.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/inflate.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/inflate.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/inflate.h">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/inftrees.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/inftrees.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/inftrees.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/inftrees.h">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/trees.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/trees.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/trees.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/trees.h">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/uncompr.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/uncompr.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/win32/zlib1.rc">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/win32/zlib1.rc">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/zlib.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/zlib.h">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/zutil.c">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/zutil.c">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/zutil.h">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/zutil.h">
 			<Option target="zlibstatic"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\bamtools-2.3.0\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\bamtools-2.3.0\src\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\bamtools-2.3.0\src\api\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\bamtools-2.3.0\src\api\internal\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/bam/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/bam/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\bamtools-2.3.0\src\api\internal\bam\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/index/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/index/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\bamtools-2.3.0\src\api\internal\index\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/io/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/io/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\bamtools-2.3.0\src\api\internal\io\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/sam/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/sam/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\bamtools-2.3.0\src\api\internal\sam\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/utils/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/utils/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\bamtools-2.3.0\src\api\internal\utils\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\zlib-1.2.7\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/zconf.h.cmakein">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/zconf.h.cmakein">
 			<Option virtualFolder="CMake Files\lib\zlib-1.2.7\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/lib/zlib-1.2.7/zlib.pc.cmakein">
+		<Unit filename="/nas2/ywu/Translocator/lib/zlib-1.2.7/zlib.pc.cmakein">
 			<Option virtualFolder="CMake Files\lib\zlib-1.2.7\"/>
 		</Unit>
-		<Unit filename="/nas2/ywu/translocator/src/CMakeLists.txt">
+		<Unit filename="/nas2/ywu/Translocator/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\"/>
 		</Unit>
 	</Project>

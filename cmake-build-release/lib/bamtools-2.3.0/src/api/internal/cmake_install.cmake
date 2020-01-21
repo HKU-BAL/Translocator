@@ -1,4 +1,4 @@
-# Install script for directory: /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal
+# Install script for directory: /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/nas2/ywu/translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/internal/bam/cmake_install.cmake")
-  include("/nas2/ywu/translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/internal/index/cmake_install.cmake")
-  include("/nas2/ywu/translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/internal/io/cmake_install.cmake")
-  include("/nas2/ywu/translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/internal/sam/cmake_install.cmake")
-  include("/nas2/ywu/translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/internal/utils/cmake_install.cmake")
+  include("/nas2/ywu/Translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/internal/bam/cmake_install.cmake")
+  include("/nas2/ywu/Translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/internal/index/cmake_install.cmake")
+  include("/nas2/ywu/Translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/internal/io/cmake_install.cmake")
+  include("/nas2/ywu/Translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/internal/sam/cmake_install.cmake")
+  include("/nas2/ywu/Translocator/cmake-build-release/lib/bamtools-2.3.0/src/api/internal/utils/cmake_install.cmake")
 
 endif()
 

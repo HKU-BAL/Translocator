@@ -6,5 +6,5 @@ C_FLAGS =  -fopenmp -O3 -DNDEBUG
 
 C_DEFINES = -D_LARGEFILE64_SOURCE=1
 
-C_INCLUDES = -I/nas2/ywu/translocator/cmake-build-release/lib/zlib-1.2.7 -I/nas2/ywu/translocator 
+C_INCLUDES = -I/nas2/ywu/Translocator/cmake-build-release/lib/zlib-1.2.7 -I/nas2/ywu/Translocator 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /nas2/ywu/translocator/lib/bamtools-2.3.0/src/api/internal/utils
+# Install script for directory: /nas2/ywu/Translocator/lib/bamtools-2.3.0/src/api/internal/utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

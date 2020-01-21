@@ -3,7 +3,7 @@
 // Author      : Ye Wu
 // Version     :
 // Copyright   : MIT License
-// Description : Detection of Translocations for long read data.
+// Description : Detection of translocations for long read data.
 //============================================================================
 //For mac: cmake -D CMAKE_C_COMPILER=/opt/local/bin/gcc-mp-4.7 -D CMAKE_CXX_COMPILER=/opt/local/bin/g++-mp-4.7 ..
 #include <iostream>

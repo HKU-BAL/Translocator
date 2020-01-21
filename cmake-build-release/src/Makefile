@@ -48,10 +48,10 @@ RM = /nas2/ywu/anaconda2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /nas2/ywu/translocator
+CMAKE_SOURCE_DIR = /nas2/ywu/Translocator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /nas2/ywu/translocator/cmake-build-release
+CMAKE_BINARY_DIR = /nas2/ywu/Translocator/cmake-build-release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /nas2/ywu/translocator/cmake-build-release && $(CMAKE_COMMAND) -E cmake_progress_start /nas2/ywu/translocator/cmake-build-release/CMakeFiles /nas2/ywu/translocator/cmake-build-release/src/CMakeFiles/progress.marks
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /nas2/ywu/translocator/cmake-build-release/CMakeFiles 0
+	cd /nas2/ywu/Translocator/cmake-build-release && $(CMAKE_COMMAND) -E cmake_progress_start /nas2/ywu/Translocator/cmake-build-release/CMakeFiles /nas2/ywu/Translocator/cmake-build-release/src/CMakeFiles/progress.marks
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /nas2/ywu/Translocator/cmake-build-release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /nas2/ywu/translocator/cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /nas2/ywu/Translocator/cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/libminimap2.dir/rule:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/libminimap2.dir/rule
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/libminimap2.dir/rule
 .PHONY : src/CMakeFiles/libminimap2.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ libminimap2: src/CMakeFiles/libminimap2.dir/rule
 
 # fast build rule for target.
 libminimap2/fast:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/build
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/build
 .PHONY : libminimap2/fast
 
 # Convenience name for target.
 src/CMakeFiles/translocator-debug.dir/rule:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/translocator-debug.dir/rule
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/translocator-debug.dir/rule
 .PHONY : src/CMakeFiles/translocator-debug.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ translocator-debug: src/CMakeFiles/translocator-debug.dir/rule
 
 # fast build rule for target.
 translocator-debug/fast:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/build
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/build
 .PHONY : translocator-debug/fast
 
 # Convenience name for target.
 src/CMakeFiles/translocator.dir/rule:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/translocator.dir/rule
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/translocator.dir/rule
 .PHONY : src/CMakeFiles/translocator.dir/rule
 
 # Convenience name for target.
@@ -198,7 +198,7 @@ translocator: src/CMakeFiles/translocator.dir/rule
 
 # fast build rule for target.
 translocator/fast:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/build
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/build
 .PHONY : translocator/fast
 
 Alignment.o: Alignment.cpp.o
@@ -207,8 +207,8 @@ Alignment.o: Alignment.cpp.o
 
 # target to build an object file
 Alignment.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Alignment.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Alignment.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Alignment.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Alignment.cpp.o
 .PHONY : Alignment.cpp.o
 
 Alignment.i: Alignment.cpp.i
@@ -217,8 +217,8 @@ Alignment.i: Alignment.cpp.i
 
 # target to preprocess a source file
 Alignment.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Alignment.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Alignment.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Alignment.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Alignment.cpp.i
 .PHONY : Alignment.cpp.i
 
 Alignment.s: Alignment.cpp.s
@@ -227,8 +227,8 @@ Alignment.s: Alignment.cpp.s
 
 # target to generate assembly for a file
 Alignment.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Alignment.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Alignment.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Alignment.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Alignment.cpp.s
 .PHONY : Alignment.cpp.s
 
 BamParser.o: BamParser.cpp.o
@@ -237,8 +237,8 @@ BamParser.o: BamParser.cpp.o
 
 # target to build an object file
 BamParser.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/BamParser.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/BamParser.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/BamParser.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/BamParser.cpp.o
 .PHONY : BamParser.cpp.o
 
 BamParser.i: BamParser.cpp.i
@@ -247,8 +247,8 @@ BamParser.i: BamParser.cpp.i
 
 # target to preprocess a source file
 BamParser.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/BamParser.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/BamParser.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/BamParser.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/BamParser.cpp.i
 .PHONY : BamParser.cpp.i
 
 BamParser.s: BamParser.cpp.s
@@ -257,8 +257,8 @@ BamParser.s: BamParser.cpp.s
 
 # target to generate assembly for a file
 BamParser.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/BamParser.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/BamParser.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/BamParser.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/BamParser.cpp.s
 .PHONY : BamParser.cpp.s
 
 Genotyper/Genotyper.o: Genotyper/Genotyper.cpp.o
@@ -267,8 +267,8 @@ Genotyper/Genotyper.o: Genotyper/Genotyper.cpp.o
 
 # target to build an object file
 Genotyper/Genotyper.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Genotyper/Genotyper.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Genotyper/Genotyper.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Genotyper/Genotyper.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Genotyper/Genotyper.cpp.o
 .PHONY : Genotyper/Genotyper.cpp.o
 
 Genotyper/Genotyper.i: Genotyper/Genotyper.cpp.i
@@ -277,8 +277,8 @@ Genotyper/Genotyper.i: Genotyper/Genotyper.cpp.i
 
 # target to preprocess a source file
 Genotyper/Genotyper.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Genotyper/Genotyper.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Genotyper/Genotyper.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Genotyper/Genotyper.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Genotyper/Genotyper.cpp.i
 .PHONY : Genotyper/Genotyper.cpp.i
 
 Genotyper/Genotyper.s: Genotyper/Genotyper.cpp.s
@@ -287,8 +287,8 @@ Genotyper/Genotyper.s: Genotyper/Genotyper.cpp.s
 
 # target to generate assembly for a file
 Genotyper/Genotyper.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Genotyper/Genotyper.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Genotyper/Genotyper.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Genotyper/Genotyper.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Genotyper/Genotyper.cpp.s
 .PHONY : Genotyper/Genotyper.cpp.s
 
 Ignore_Regions.o: Ignore_Regions.cpp.o
@@ -297,8 +297,8 @@ Ignore_Regions.o: Ignore_Regions.cpp.o
 
 # target to build an object file
 Ignore_Regions.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Ignore_Regions.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Ignore_Regions.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Ignore_Regions.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Ignore_Regions.cpp.o
 .PHONY : Ignore_Regions.cpp.o
 
 Ignore_Regions.i: Ignore_Regions.cpp.i
@@ -307,8 +307,8 @@ Ignore_Regions.i: Ignore_Regions.cpp.i
 
 # target to preprocess a source file
 Ignore_Regions.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Ignore_Regions.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Ignore_Regions.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Ignore_Regions.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Ignore_Regions.cpp.i
 .PHONY : Ignore_Regions.cpp.i
 
 Ignore_Regions.s: Ignore_Regions.cpp.s
@@ -317,8 +317,8 @@ Ignore_Regions.s: Ignore_Regions.cpp.s
 
 # target to generate assembly for a file
 Ignore_Regions.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Ignore_Regions.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Ignore_Regions.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Ignore_Regions.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Ignore_Regions.cpp.s
 .PHONY : Ignore_Regions.cpp.s
 
 Translocator.o: Translocator.cpp.o
@@ -327,8 +327,8 @@ Translocator.o: Translocator.cpp.o
 
 # target to build an object file
 Translocator.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Translocator.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Translocator.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Translocator.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Translocator.cpp.o
 .PHONY : Translocator.cpp.o
 
 Translocator.i: Translocator.cpp.i
@@ -337,8 +337,8 @@ Translocator.i: Translocator.cpp.i
 
 # target to preprocess a source file
 Translocator.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Translocator.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Translocator.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Translocator.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Translocator.cpp.i
 .PHONY : Translocator.cpp.i
 
 Translocator.s: Translocator.cpp.s
@@ -347,8 +347,8 @@ Translocator.s: Translocator.cpp.s
 
 # target to generate assembly for a file
 Translocator.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Translocator.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Translocator.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/Translocator.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/Translocator.cpp.s
 .PHONY : Translocator.cpp.s
 
 __/lib/minimap2/align.o: __/lib/minimap2/align.c.o
@@ -357,7 +357,7 @@ __/lib/minimap2/align.o: __/lib/minimap2/align.c.o
 
 # target to build an object file
 __/lib/minimap2/align.c.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/align.c.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/align.c.o
 .PHONY : __/lib/minimap2/align.c.o
 
 __/lib/minimap2/align.i: __/lib/minimap2/align.c.i
@@ -366,7 +366,7 @@ __/lib/minimap2/align.i: __/lib/minimap2/align.c.i
 
 # target to preprocess a source file
 __/lib/minimap2/align.c.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/align.c.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/align.c.i
 .PHONY : __/lib/minimap2/align.c.i
 
 __/lib/minimap2/align.s: __/lib/minimap2/align.c.s
@@ -375,7 +375,7 @@ __/lib/minimap2/align.s: __/lib/minimap2/align.c.s
 
 # target to generate assembly for a file
 __/lib/minimap2/align.c.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/align.c.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/align.c.s
 .PHONY : __/lib/minimap2/align.c.s
 
 __/lib/minimap2/bseq.o: __/lib/minimap2/bseq.c.o
@@ -384,7 +384,7 @@ __/lib/minimap2/bseq.o: __/lib/minimap2/bseq.c.o
 
 # target to build an object file
 __/lib/minimap2/bseq.c.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/bseq.c.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/bseq.c.o
 .PHONY : __/lib/minimap2/bseq.c.o
 
 __/lib/minimap2/bseq.i: __/lib/minimap2/bseq.c.i
@@ -393,7 +393,7 @@ __/lib/minimap2/bseq.i: __/lib/minimap2/bseq.c.i
 
 # target to preprocess a source file
 __/lib/minimap2/bseq.c.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/bseq.c.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/bseq.c.i
 .PHONY : __/lib/minimap2/bseq.c.i
 
 __/lib/minimap2/bseq.s: __/lib/minimap2/bseq.c.s
@@ -402,7 +402,7 @@ __/lib/minimap2/bseq.s: __/lib/minimap2/bseq.c.s
 
 # target to generate assembly for a file
 __/lib/minimap2/bseq.c.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/bseq.c.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/bseq.c.s
 .PHONY : __/lib/minimap2/bseq.c.s
 
 __/lib/minimap2/chain.o: __/lib/minimap2/chain.c.o
@@ -411,7 +411,7 @@ __/lib/minimap2/chain.o: __/lib/minimap2/chain.c.o
 
 # target to build an object file
 __/lib/minimap2/chain.c.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/chain.c.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/chain.c.o
 .PHONY : __/lib/minimap2/chain.c.o
 
 __/lib/minimap2/chain.i: __/lib/minimap2/chain.c.i
@@ -420,7 +420,7 @@ __/lib/minimap2/chain.i: __/lib/minimap2/chain.c.i
 
 # target to preprocess a source file
 __/lib/minimap2/chain.c.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/chain.c.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/chain.c.i
 .PHONY : __/lib/minimap2/chain.c.i
 
 __/lib/minimap2/chain.s: __/lib/minimap2/chain.c.s
@@ -429,7 +429,7 @@ __/lib/minimap2/chain.s: __/lib/minimap2/chain.c.s
 
 # target to generate assembly for a file
 __/lib/minimap2/chain.c.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/chain.c.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/chain.c.s
 .PHONY : __/lib/minimap2/chain.c.s
 
 __/lib/minimap2/esterr.o: __/lib/minimap2/esterr.c.o
@@ -438,7 +438,7 @@ __/lib/minimap2/esterr.o: __/lib/minimap2/esterr.c.o
 
 # target to build an object file
 __/lib/minimap2/esterr.c.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/esterr.c.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/esterr.c.o
 .PHONY : __/lib/minimap2/esterr.c.o
 
 __/lib/minimap2/esterr.i: __/lib/minimap2/esterr.c.i
@@ -447,7 +447,7 @@ __/lib/minimap2/esterr.i: __/lib/minimap2/esterr.c.i
 
 # target to preprocess a source file
 __/lib/minimap2/esterr.c.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/esterr.c.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/esterr.c.i
 .PHONY : __/lib/minimap2/esterr.c.i
 
 __/lib/minimap2/esterr.s: __/lib/minimap2/esterr.c.s
@@ -456,7 +456,7 @@ __/lib/minimap2/esterr.s: __/lib/minimap2/esterr.c.s
 
 # target to generate assembly for a file
 __/lib/minimap2/esterr.c.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/esterr.c.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/esterr.c.s
 .PHONY : __/lib/minimap2/esterr.c.s
 
 __/lib/minimap2/format.o: __/lib/minimap2/format.c.o
@@ -465,7 +465,7 @@ __/lib/minimap2/format.o: __/lib/minimap2/format.c.o
 
 # target to build an object file
 __/lib/minimap2/format.c.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/format.c.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/format.c.o
 .PHONY : __/lib/minimap2/format.c.o
 
 __/lib/minimap2/format.i: __/lib/minimap2/format.c.i
@@ -474,7 +474,7 @@ __/lib/minimap2/format.i: __/lib/minimap2/format.c.i
 
 # target to preprocess a source file
 __/lib/minimap2/format.c.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/format.c.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/format.c.i
 .PHONY : __/lib/minimap2/format.c.i
 
 __/lib/minimap2/format.s: __/lib/minimap2/format.c.s
@@ -483,7 +483,7 @@ __/lib/minimap2/format.s: __/lib/minimap2/format.c.s
 
 # target to generate assembly for a file
 __/lib/minimap2/format.c.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/format.c.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/format.c.s
 .PHONY : __/lib/minimap2/format.c.s
 
 __/lib/minimap2/hit.o: __/lib/minimap2/hit.c.o
@@ -492,7 +492,7 @@ __/lib/minimap2/hit.o: __/lib/minimap2/hit.c.o
 
 # target to build an object file
 __/lib/minimap2/hit.c.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/hit.c.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/hit.c.o
 .PHONY : __/lib/minimap2/hit.c.o
 
 __/lib/minimap2/hit.i: __/lib/minimap2/hit.c.i
@@ -501,7 +501,7 @@ __/lib/minimap2/hit.i: __/lib/minimap2/hit.c.i
 
 # target to preprocess a source file
 __/lib/minimap2/hit.c.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/hit.c.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/hit.c.i
 .PHONY : __/lib/minimap2/hit.c.i
 
 __/lib/minimap2/hit.s: __/lib/minimap2/hit.c.s
@@ -510,7 +510,7 @@ __/lib/minimap2/hit.s: __/lib/minimap2/hit.c.s
 
 # target to generate assembly for a file
 __/lib/minimap2/hit.c.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/hit.c.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/hit.c.s
 .PHONY : __/lib/minimap2/hit.c.s
 
 __/lib/minimap2/index.o: __/lib/minimap2/index.c.o
@@ -519,7 +519,7 @@ __/lib/minimap2/index.o: __/lib/minimap2/index.c.o
 
 # target to build an object file
 __/lib/minimap2/index.c.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/index.c.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/index.c.o
 .PHONY : __/lib/minimap2/index.c.o
 
 __/lib/minimap2/index.i: __/lib/minimap2/index.c.i
@@ -528,7 +528,7 @@ __/lib/minimap2/index.i: __/lib/minimap2/index.c.i
 
 # target to preprocess a source file
 __/lib/minimap2/index.c.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/index.c.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/index.c.i
 .PHONY : __/lib/minimap2/index.c.i
 
 __/lib/minimap2/index.s: __/lib/minimap2/index.c.s
@@ -537,7 +537,7 @@ __/lib/minimap2/index.s: __/lib/minimap2/index.c.s
 
 # target to generate assembly for a file
 __/lib/minimap2/index.c.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/index.c.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/index.c.s
 .PHONY : __/lib/minimap2/index.c.s
 
 __/lib/minimap2/kalloc.o: __/lib/minimap2/kalloc.c.o
@@ -546,7 +546,7 @@ __/lib/minimap2/kalloc.o: __/lib/minimap2/kalloc.c.o
 
 # target to build an object file
 __/lib/minimap2/kalloc.c.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/kalloc.c.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/kalloc.c.o
 .PHONY : __/lib/minimap2/kalloc.c.o
 
 __/lib/minimap2/kalloc.i: __/lib/minimap2/kalloc.c.i
@@ -555,7 +555,7 @@ __/lib/minimap2/kalloc.i: __/lib/minimap2/kalloc.c.i
 
 # target to preprocess a source file
 __/lib/minimap2/kalloc.c.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/kalloc.c.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/kalloc.c.i
 .PHONY : __/lib/minimap2/kalloc.c.i
 
 __/lib/minimap2/kalloc.s: __/lib/minimap2/kalloc.c.s
@@ -564,7 +564,7 @@ __/lib/minimap2/kalloc.s: __/lib/minimap2/kalloc.c.s
 
 # target to generate assembly for a file
 __/lib/minimap2/kalloc.c.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/kalloc.c.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/kalloc.c.s
 .PHONY : __/lib/minimap2/kalloc.c.s
 
 __/lib/minimap2/ksw2_extd2_sse.o: __/lib/minimap2/ksw2_extd2_sse.c.o
@@ -573,7 +573,7 @@ __/lib/minimap2/ksw2_extd2_sse.o: __/lib/minimap2/ksw2_extd2_sse.c.o
 
 # target to build an object file
 __/lib/minimap2/ksw2_extd2_sse.c.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_extd2_sse.c.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_extd2_sse.c.o
 .PHONY : __/lib/minimap2/ksw2_extd2_sse.c.o
 
 __/lib/minimap2/ksw2_extd2_sse.i: __/lib/minimap2/ksw2_extd2_sse.c.i
@@ -582,7 +582,7 @@ __/lib/minimap2/ksw2_extd2_sse.i: __/lib/minimap2/ksw2_extd2_sse.c.i
 
 # target to preprocess a source file
 __/lib/minimap2/ksw2_extd2_sse.c.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_extd2_sse.c.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_extd2_sse.c.i
 .PHONY : __/lib/minimap2/ksw2_extd2_sse.c.i
 
 __/lib/minimap2/ksw2_extd2_sse.s: __/lib/minimap2/ksw2_extd2_sse.c.s
@@ -591,7 +591,7 @@ __/lib/minimap2/ksw2_extd2_sse.s: __/lib/minimap2/ksw2_extd2_sse.c.s
 
 # target to generate assembly for a file
 __/lib/minimap2/ksw2_extd2_sse.c.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_extd2_sse.c.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_extd2_sse.c.s
 .PHONY : __/lib/minimap2/ksw2_extd2_sse.c.s
 
 __/lib/minimap2/ksw2_exts2_sse.o: __/lib/minimap2/ksw2_exts2_sse.c.o
@@ -600,7 +600,7 @@ __/lib/minimap2/ksw2_exts2_sse.o: __/lib/minimap2/ksw2_exts2_sse.c.o
 
 # target to build an object file
 __/lib/minimap2/ksw2_exts2_sse.c.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_exts2_sse.c.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_exts2_sse.c.o
 .PHONY : __/lib/minimap2/ksw2_exts2_sse.c.o
 
 __/lib/minimap2/ksw2_exts2_sse.i: __/lib/minimap2/ksw2_exts2_sse.c.i
@@ -609,7 +609,7 @@ __/lib/minimap2/ksw2_exts2_sse.i: __/lib/minimap2/ksw2_exts2_sse.c.i
 
 # target to preprocess a source file
 __/lib/minimap2/ksw2_exts2_sse.c.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_exts2_sse.c.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_exts2_sse.c.i
 .PHONY : __/lib/minimap2/ksw2_exts2_sse.c.i
 
 __/lib/minimap2/ksw2_exts2_sse.s: __/lib/minimap2/ksw2_exts2_sse.c.s
@@ -618,7 +618,7 @@ __/lib/minimap2/ksw2_exts2_sse.s: __/lib/minimap2/ksw2_exts2_sse.c.s
 
 # target to generate assembly for a file
 __/lib/minimap2/ksw2_exts2_sse.c.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_exts2_sse.c.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_exts2_sse.c.s
 .PHONY : __/lib/minimap2/ksw2_exts2_sse.c.s
 
 __/lib/minimap2/ksw2_extz2_sse.o: __/lib/minimap2/ksw2_extz2_sse.c.o
@@ -627,7 +627,7 @@ __/lib/minimap2/ksw2_extz2_sse.o: __/lib/minimap2/ksw2_extz2_sse.c.o
 
 # target to build an object file
 __/lib/minimap2/ksw2_extz2_sse.c.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_extz2_sse.c.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_extz2_sse.c.o
 .PHONY : __/lib/minimap2/ksw2_extz2_sse.c.o
 
 __/lib/minimap2/ksw2_extz2_sse.i: __/lib/minimap2/ksw2_extz2_sse.c.i
@@ -636,7 +636,7 @@ __/lib/minimap2/ksw2_extz2_sse.i: __/lib/minimap2/ksw2_extz2_sse.c.i
 
 # target to preprocess a source file
 __/lib/minimap2/ksw2_extz2_sse.c.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_extz2_sse.c.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_extz2_sse.c.i
 .PHONY : __/lib/minimap2/ksw2_extz2_sse.c.i
 
 __/lib/minimap2/ksw2_extz2_sse.s: __/lib/minimap2/ksw2_extz2_sse.c.s
@@ -645,7 +645,7 @@ __/lib/minimap2/ksw2_extz2_sse.s: __/lib/minimap2/ksw2_extz2_sse.c.s
 
 # target to generate assembly for a file
 __/lib/minimap2/ksw2_extz2_sse.c.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_extz2_sse.c.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_extz2_sse.c.s
 .PHONY : __/lib/minimap2/ksw2_extz2_sse.c.s
 
 __/lib/minimap2/ksw2_ll_sse.o: __/lib/minimap2/ksw2_ll_sse.c.o
@@ -654,7 +654,7 @@ __/lib/minimap2/ksw2_ll_sse.o: __/lib/minimap2/ksw2_ll_sse.c.o
 
 # target to build an object file
 __/lib/minimap2/ksw2_ll_sse.c.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_ll_sse.c.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_ll_sse.c.o
 .PHONY : __/lib/minimap2/ksw2_ll_sse.c.o
 
 __/lib/minimap2/ksw2_ll_sse.i: __/lib/minimap2/ksw2_ll_sse.c.i
@@ -663,7 +663,7 @@ __/lib/minimap2/ksw2_ll_sse.i: __/lib/minimap2/ksw2_ll_sse.c.i
 
 # target to preprocess a source file
 __/lib/minimap2/ksw2_ll_sse.c.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_ll_sse.c.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_ll_sse.c.i
 .PHONY : __/lib/minimap2/ksw2_ll_sse.c.i
 
 __/lib/minimap2/ksw2_ll_sse.s: __/lib/minimap2/ksw2_ll_sse.c.s
@@ -672,7 +672,7 @@ __/lib/minimap2/ksw2_ll_sse.s: __/lib/minimap2/ksw2_ll_sse.c.s
 
 # target to generate assembly for a file
 __/lib/minimap2/ksw2_ll_sse.c.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_ll_sse.c.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/ksw2_ll_sse.c.s
 .PHONY : __/lib/minimap2/ksw2_ll_sse.c.s
 
 __/lib/minimap2/kthread.o: __/lib/minimap2/kthread.c.o
@@ -681,7 +681,7 @@ __/lib/minimap2/kthread.o: __/lib/minimap2/kthread.c.o
 
 # target to build an object file
 __/lib/minimap2/kthread.c.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/kthread.c.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/kthread.c.o
 .PHONY : __/lib/minimap2/kthread.c.o
 
 __/lib/minimap2/kthread.i: __/lib/minimap2/kthread.c.i
@@ -690,7 +690,7 @@ __/lib/minimap2/kthread.i: __/lib/minimap2/kthread.c.i
 
 # target to preprocess a source file
 __/lib/minimap2/kthread.c.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/kthread.c.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/kthread.c.i
 .PHONY : __/lib/minimap2/kthread.c.i
 
 __/lib/minimap2/kthread.s: __/lib/minimap2/kthread.c.s
@@ -699,7 +699,7 @@ __/lib/minimap2/kthread.s: __/lib/minimap2/kthread.c.s
 
 # target to generate assembly for a file
 __/lib/minimap2/kthread.c.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/kthread.c.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/kthread.c.s
 .PHONY : __/lib/minimap2/kthread.c.s
 
 __/lib/minimap2/map.o: __/lib/minimap2/map.c.o
@@ -708,7 +708,7 @@ __/lib/minimap2/map.o: __/lib/minimap2/map.c.o
 
 # target to build an object file
 __/lib/minimap2/map.c.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/map.c.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/map.c.o
 .PHONY : __/lib/minimap2/map.c.o
 
 __/lib/minimap2/map.i: __/lib/minimap2/map.c.i
@@ -717,7 +717,7 @@ __/lib/minimap2/map.i: __/lib/minimap2/map.c.i
 
 # target to preprocess a source file
 __/lib/minimap2/map.c.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/map.c.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/map.c.i
 .PHONY : __/lib/minimap2/map.c.i
 
 __/lib/minimap2/map.s: __/lib/minimap2/map.c.s
@@ -726,7 +726,7 @@ __/lib/minimap2/map.s: __/lib/minimap2/map.c.s
 
 # target to generate assembly for a file
 __/lib/minimap2/map.c.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/map.c.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/map.c.s
 .PHONY : __/lib/minimap2/map.c.s
 
 __/lib/minimap2/misc.o: __/lib/minimap2/misc.c.o
@@ -735,7 +735,7 @@ __/lib/minimap2/misc.o: __/lib/minimap2/misc.c.o
 
 # target to build an object file
 __/lib/minimap2/misc.c.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/misc.c.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/misc.c.o
 .PHONY : __/lib/minimap2/misc.c.o
 
 __/lib/minimap2/misc.i: __/lib/minimap2/misc.c.i
@@ -744,7 +744,7 @@ __/lib/minimap2/misc.i: __/lib/minimap2/misc.c.i
 
 # target to preprocess a source file
 __/lib/minimap2/misc.c.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/misc.c.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/misc.c.i
 .PHONY : __/lib/minimap2/misc.c.i
 
 __/lib/minimap2/misc.s: __/lib/minimap2/misc.c.s
@@ -753,7 +753,7 @@ __/lib/minimap2/misc.s: __/lib/minimap2/misc.c.s
 
 # target to generate assembly for a file
 __/lib/minimap2/misc.c.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/misc.c.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/misc.c.s
 .PHONY : __/lib/minimap2/misc.c.s
 
 __/lib/minimap2/options.o: __/lib/minimap2/options.c.o
@@ -762,7 +762,7 @@ __/lib/minimap2/options.o: __/lib/minimap2/options.c.o
 
 # target to build an object file
 __/lib/minimap2/options.c.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/options.c.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/options.c.o
 .PHONY : __/lib/minimap2/options.c.o
 
 __/lib/minimap2/options.i: __/lib/minimap2/options.c.i
@@ -771,7 +771,7 @@ __/lib/minimap2/options.i: __/lib/minimap2/options.c.i
 
 # target to preprocess a source file
 __/lib/minimap2/options.c.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/options.c.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/options.c.i
 .PHONY : __/lib/minimap2/options.c.i
 
 __/lib/minimap2/options.s: __/lib/minimap2/options.c.s
@@ -780,7 +780,7 @@ __/lib/minimap2/options.s: __/lib/minimap2/options.c.s
 
 # target to generate assembly for a file
 __/lib/minimap2/options.c.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/options.c.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/options.c.s
 .PHONY : __/lib/minimap2/options.c.s
 
 __/lib/minimap2/pe.o: __/lib/minimap2/pe.c.o
@@ -789,7 +789,7 @@ __/lib/minimap2/pe.o: __/lib/minimap2/pe.c.o
 
 # target to build an object file
 __/lib/minimap2/pe.c.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/pe.c.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/pe.c.o
 .PHONY : __/lib/minimap2/pe.c.o
 
 __/lib/minimap2/pe.i: __/lib/minimap2/pe.c.i
@@ -798,7 +798,7 @@ __/lib/minimap2/pe.i: __/lib/minimap2/pe.c.i
 
 # target to preprocess a source file
 __/lib/minimap2/pe.c.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/pe.c.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/pe.c.i
 .PHONY : __/lib/minimap2/pe.c.i
 
 __/lib/minimap2/pe.s: __/lib/minimap2/pe.c.s
@@ -807,7 +807,7 @@ __/lib/minimap2/pe.s: __/lib/minimap2/pe.c.s
 
 # target to generate assembly for a file
 __/lib/minimap2/pe.c.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/pe.c.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/pe.c.s
 .PHONY : __/lib/minimap2/pe.c.s
 
 __/lib/minimap2/sdust.o: __/lib/minimap2/sdust.c.o
@@ -816,7 +816,7 @@ __/lib/minimap2/sdust.o: __/lib/minimap2/sdust.c.o
 
 # target to build an object file
 __/lib/minimap2/sdust.c.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/sdust.c.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/sdust.c.o
 .PHONY : __/lib/minimap2/sdust.c.o
 
 __/lib/minimap2/sdust.i: __/lib/minimap2/sdust.c.i
@@ -825,7 +825,7 @@ __/lib/minimap2/sdust.i: __/lib/minimap2/sdust.c.i
 
 # target to preprocess a source file
 __/lib/minimap2/sdust.c.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/sdust.c.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/sdust.c.i
 .PHONY : __/lib/minimap2/sdust.c.i
 
 __/lib/minimap2/sdust.s: __/lib/minimap2/sdust.c.s
@@ -834,7 +834,7 @@ __/lib/minimap2/sdust.s: __/lib/minimap2/sdust.c.s
 
 # target to generate assembly for a file
 __/lib/minimap2/sdust.c.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/sdust.c.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/sdust.c.s
 .PHONY : __/lib/minimap2/sdust.c.s
 
 __/lib/minimap2/sketch.o: __/lib/minimap2/sketch.c.o
@@ -843,7 +843,7 @@ __/lib/minimap2/sketch.o: __/lib/minimap2/sketch.c.o
 
 # target to build an object file
 __/lib/minimap2/sketch.c.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/sketch.c.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/sketch.c.o
 .PHONY : __/lib/minimap2/sketch.c.o
 
 __/lib/minimap2/sketch.i: __/lib/minimap2/sketch.c.i
@@ -852,7 +852,7 @@ __/lib/minimap2/sketch.i: __/lib/minimap2/sketch.c.i
 
 # target to preprocess a source file
 __/lib/minimap2/sketch.c.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/sketch.c.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/sketch.c.i
 .PHONY : __/lib/minimap2/sketch.c.i
 
 __/lib/minimap2/sketch.s: __/lib/minimap2/sketch.c.s
@@ -861,7 +861,7 @@ __/lib/minimap2/sketch.s: __/lib/minimap2/sketch.c.s
 
 # target to generate assembly for a file
 __/lib/minimap2/sketch.c.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/sketch.c.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/sketch.c.s
 .PHONY : __/lib/minimap2/sketch.c.s
 
 __/lib/minimap2/splitidx.o: __/lib/minimap2/splitidx.c.o
@@ -870,7 +870,7 @@ __/lib/minimap2/splitidx.o: __/lib/minimap2/splitidx.c.o
 
 # target to build an object file
 __/lib/minimap2/splitidx.c.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/splitidx.c.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/splitidx.c.o
 .PHONY : __/lib/minimap2/splitidx.c.o
 
 __/lib/minimap2/splitidx.i: __/lib/minimap2/splitidx.c.i
@@ -879,7 +879,7 @@ __/lib/minimap2/splitidx.i: __/lib/minimap2/splitidx.c.i
 
 # target to preprocess a source file
 __/lib/minimap2/splitidx.c.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/splitidx.c.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/splitidx.c.i
 .PHONY : __/lib/minimap2/splitidx.c.i
 
 __/lib/minimap2/splitidx.s: __/lib/minimap2/splitidx.c.s
@@ -888,7 +888,7 @@ __/lib/minimap2/splitidx.s: __/lib/minimap2/splitidx.c.s
 
 # target to generate assembly for a file
 __/lib/minimap2/splitidx.c.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/splitidx.c.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/libminimap2.dir/build.make src/CMakeFiles/libminimap2.dir/__/lib/minimap2/splitidx.c.s
 .PHONY : __/lib/minimap2/splitidx.c.s
 
 cluster/Cluster_SVs.o: cluster/Cluster_SVs.cpp.o
@@ -897,8 +897,8 @@ cluster/Cluster_SVs.o: cluster/Cluster_SVs.cpp.o
 
 # target to build an object file
 cluster/Cluster_SVs.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/cluster/Cluster_SVs.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/cluster/Cluster_SVs.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/cluster/Cluster_SVs.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/cluster/Cluster_SVs.cpp.o
 .PHONY : cluster/Cluster_SVs.cpp.o
 
 cluster/Cluster_SVs.i: cluster/Cluster_SVs.cpp.i
@@ -907,8 +907,8 @@ cluster/Cluster_SVs.i: cluster/Cluster_SVs.cpp.i
 
 # target to preprocess a source file
 cluster/Cluster_SVs.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/cluster/Cluster_SVs.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/cluster/Cluster_SVs.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/cluster/Cluster_SVs.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/cluster/Cluster_SVs.cpp.i
 .PHONY : cluster/Cluster_SVs.cpp.i
 
 cluster/Cluster_SVs.s: cluster/Cluster_SVs.cpp.s
@@ -917,8 +917,8 @@ cluster/Cluster_SVs.s: cluster/Cluster_SVs.cpp.s
 
 # target to generate assembly for a file
 cluster/Cluster_SVs.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/cluster/Cluster_SVs.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/cluster/Cluster_SVs.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/cluster/Cluster_SVs.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/cluster/Cluster_SVs.cpp.s
 .PHONY : cluster/Cluster_SVs.cpp.s
 
 force_calling/Force_calling.o: force_calling/Force_calling.cpp.o
@@ -927,8 +927,8 @@ force_calling/Force_calling.o: force_calling/Force_calling.cpp.o
 
 # target to build an object file
 force_calling/Force_calling.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/force_calling/Force_calling.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/force_calling/Force_calling.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/force_calling/Force_calling.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/force_calling/Force_calling.cpp.o
 .PHONY : force_calling/Force_calling.cpp.o
 
 force_calling/Force_calling.i: force_calling/Force_calling.cpp.i
@@ -937,8 +937,8 @@ force_calling/Force_calling.i: force_calling/Force_calling.cpp.i
 
 # target to preprocess a source file
 force_calling/Force_calling.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/force_calling/Force_calling.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/force_calling/Force_calling.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/force_calling/Force_calling.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/force_calling/Force_calling.cpp.i
 .PHONY : force_calling/Force_calling.cpp.i
 
 force_calling/Force_calling.s: force_calling/Force_calling.cpp.s
@@ -947,8 +947,8 @@ force_calling/Force_calling.s: force_calling/Force_calling.cpp.s
 
 # target to generate assembly for a file
 force_calling/Force_calling.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/force_calling/Force_calling.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/force_calling/Force_calling.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/force_calling/Force_calling.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/force_calling/Force_calling.cpp.s
 .PHONY : force_calling/Force_calling.cpp.s
 
 force_calling/VCF_parser.o: force_calling/VCF_parser.cpp.o
@@ -957,8 +957,8 @@ force_calling/VCF_parser.o: force_calling/VCF_parser.cpp.o
 
 # target to build an object file
 force_calling/VCF_parser.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/force_calling/VCF_parser.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/force_calling/VCF_parser.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/force_calling/VCF_parser.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/force_calling/VCF_parser.cpp.o
 .PHONY : force_calling/VCF_parser.cpp.o
 
 force_calling/VCF_parser.i: force_calling/VCF_parser.cpp.i
@@ -967,8 +967,8 @@ force_calling/VCF_parser.i: force_calling/VCF_parser.cpp.i
 
 # target to preprocess a source file
 force_calling/VCF_parser.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/force_calling/VCF_parser.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/force_calling/VCF_parser.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/force_calling/VCF_parser.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/force_calling/VCF_parser.cpp.i
 .PHONY : force_calling/VCF_parser.cpp.i
 
 force_calling/VCF_parser.s: force_calling/VCF_parser.cpp.s
@@ -977,8 +977,8 @@ force_calling/VCF_parser.s: force_calling/VCF_parser.cpp.s
 
 # target to generate assembly for a file
 force_calling/VCF_parser.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/force_calling/VCF_parser.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/force_calling/VCF_parser.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/force_calling/VCF_parser.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/force_calling/VCF_parser.cpp.s
 .PHONY : force_calling/VCF_parser.cpp.s
 
 plane-sweep/PlaneSweep_slim.o: plane-sweep/PlaneSweep_slim.cpp.o
@@ -987,8 +987,8 @@ plane-sweep/PlaneSweep_slim.o: plane-sweep/PlaneSweep_slim.cpp.o
 
 # target to build an object file
 plane-sweep/PlaneSweep_slim.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/plane-sweep/PlaneSweep_slim.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/plane-sweep/PlaneSweep_slim.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/plane-sweep/PlaneSweep_slim.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/plane-sweep/PlaneSweep_slim.cpp.o
 .PHONY : plane-sweep/PlaneSweep_slim.cpp.o
 
 plane-sweep/PlaneSweep_slim.i: plane-sweep/PlaneSweep_slim.cpp.i
@@ -997,8 +997,8 @@ plane-sweep/PlaneSweep_slim.i: plane-sweep/PlaneSweep_slim.cpp.i
 
 # target to preprocess a source file
 plane-sweep/PlaneSweep_slim.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/plane-sweep/PlaneSweep_slim.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/plane-sweep/PlaneSweep_slim.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/plane-sweep/PlaneSweep_slim.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/plane-sweep/PlaneSweep_slim.cpp.i
 .PHONY : plane-sweep/PlaneSweep_slim.cpp.i
 
 plane-sweep/PlaneSweep_slim.s: plane-sweep/PlaneSweep_slim.cpp.s
@@ -1007,8 +1007,8 @@ plane-sweep/PlaneSweep_slim.s: plane-sweep/PlaneSweep_slim.cpp.s
 
 # target to generate assembly for a file
 plane-sweep/PlaneSweep_slim.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/plane-sweep/PlaneSweep_slim.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/plane-sweep/PlaneSweep_slim.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/plane-sweep/PlaneSweep_slim.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/plane-sweep/PlaneSweep_slim.cpp.s
 .PHONY : plane-sweep/PlaneSweep_slim.cpp.s
 
 print/BedpePrinter.o: print/BedpePrinter.cpp.o
@@ -1017,8 +1017,8 @@ print/BedpePrinter.o: print/BedpePrinter.cpp.o
 
 # target to build an object file
 print/BedpePrinter.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/BedpePrinter.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/BedpePrinter.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/BedpePrinter.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/BedpePrinter.cpp.o
 .PHONY : print/BedpePrinter.cpp.o
 
 print/BedpePrinter.i: print/BedpePrinter.cpp.i
@@ -1027,8 +1027,8 @@ print/BedpePrinter.i: print/BedpePrinter.cpp.i
 
 # target to preprocess a source file
 print/BedpePrinter.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/BedpePrinter.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/BedpePrinter.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/BedpePrinter.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/BedpePrinter.cpp.i
 .PHONY : print/BedpePrinter.cpp.i
 
 print/BedpePrinter.s: print/BedpePrinter.cpp.s
@@ -1037,8 +1037,8 @@ print/BedpePrinter.s: print/BedpePrinter.cpp.s
 
 # target to generate assembly for a file
 print/BedpePrinter.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/BedpePrinter.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/BedpePrinter.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/BedpePrinter.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/BedpePrinter.cpp.s
 .PHONY : print/BedpePrinter.cpp.s
 
 print/IPrinter.o: print/IPrinter.cpp.o
@@ -1047,8 +1047,8 @@ print/IPrinter.o: print/IPrinter.cpp.o
 
 # target to build an object file
 print/IPrinter.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/IPrinter.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/IPrinter.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/IPrinter.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/IPrinter.cpp.o
 .PHONY : print/IPrinter.cpp.o
 
 print/IPrinter.i: print/IPrinter.cpp.i
@@ -1057,8 +1057,8 @@ print/IPrinter.i: print/IPrinter.cpp.i
 
 # target to preprocess a source file
 print/IPrinter.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/IPrinter.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/IPrinter.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/IPrinter.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/IPrinter.cpp.i
 .PHONY : print/IPrinter.cpp.i
 
 print/IPrinter.s: print/IPrinter.cpp.s
@@ -1067,8 +1067,8 @@ print/IPrinter.s: print/IPrinter.cpp.s
 
 # target to generate assembly for a file
 print/IPrinter.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/IPrinter.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/IPrinter.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/IPrinter.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/IPrinter.cpp.s
 .PHONY : print/IPrinter.cpp.s
 
 print/NGMPrinter.o: print/NGMPrinter.cpp.o
@@ -1077,8 +1077,8 @@ print/NGMPrinter.o: print/NGMPrinter.cpp.o
 
 # target to build an object file
 print/NGMPrinter.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/NGMPrinter.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/NGMPrinter.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/NGMPrinter.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/NGMPrinter.cpp.o
 .PHONY : print/NGMPrinter.cpp.o
 
 print/NGMPrinter.i: print/NGMPrinter.cpp.i
@@ -1087,8 +1087,8 @@ print/NGMPrinter.i: print/NGMPrinter.cpp.i
 
 # target to preprocess a source file
 print/NGMPrinter.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/NGMPrinter.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/NGMPrinter.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/NGMPrinter.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/NGMPrinter.cpp.i
 .PHONY : print/NGMPrinter.cpp.i
 
 print/NGMPrinter.s: print/NGMPrinter.cpp.s
@@ -1097,8 +1097,8 @@ print/NGMPrinter.s: print/NGMPrinter.cpp.s
 
 # target to generate assembly for a file
 print/NGMPrinter.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/NGMPrinter.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/NGMPrinter.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/NGMPrinter.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/NGMPrinter.cpp.s
 .PHONY : print/NGMPrinter.cpp.s
 
 print/VCFPrinter.o: print/VCFPrinter.cpp.o
@@ -1107,8 +1107,8 @@ print/VCFPrinter.o: print/VCFPrinter.cpp.o
 
 # target to build an object file
 print/VCFPrinter.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/VCFPrinter.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/VCFPrinter.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/VCFPrinter.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/VCFPrinter.cpp.o
 .PHONY : print/VCFPrinter.cpp.o
 
 print/VCFPrinter.i: print/VCFPrinter.cpp.i
@@ -1117,8 +1117,8 @@ print/VCFPrinter.i: print/VCFPrinter.cpp.i
 
 # target to preprocess a source file
 print/VCFPrinter.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/VCFPrinter.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/VCFPrinter.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/VCFPrinter.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/VCFPrinter.cpp.i
 .PHONY : print/VCFPrinter.cpp.i
 
 print/VCFPrinter.s: print/VCFPrinter.cpp.s
@@ -1127,8 +1127,8 @@ print/VCFPrinter.s: print/VCFPrinter.cpp.s
 
 # target to generate assembly for a file
 print/VCFPrinter.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/VCFPrinter.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/VCFPrinter.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/print/VCFPrinter.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/print/VCFPrinter.cpp.s
 .PHONY : print/VCFPrinter.cpp.s
 
 realign/Realign.o: realign/Realign.cpp.o
@@ -1137,8 +1137,8 @@ realign/Realign.o: realign/Realign.cpp.o
 
 # target to build an object file
 realign/Realign.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/realign/Realign.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/realign/Realign.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/realign/Realign.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/realign/Realign.cpp.o
 .PHONY : realign/Realign.cpp.o
 
 realign/Realign.i: realign/Realign.cpp.i
@@ -1147,8 +1147,8 @@ realign/Realign.i: realign/Realign.cpp.i
 
 # target to preprocess a source file
 realign/Realign.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/realign/Realign.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/realign/Realign.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/realign/Realign.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/realign/Realign.cpp.i
 .PHONY : realign/Realign.cpp.i
 
 realign/Realign.s: realign/Realign.cpp.s
@@ -1157,8 +1157,8 @@ realign/Realign.s: realign/Realign.cpp.s
 
 # target to generate assembly for a file
 realign/Realign.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/realign/Realign.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/realign/Realign.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/realign/Realign.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/realign/Realign.cpp.s
 .PHONY : realign/Realign.cpp.s
 
 realign/SWCPU.o: realign/SWCPU.cpp.o
@@ -1167,8 +1167,8 @@ realign/SWCPU.o: realign/SWCPU.cpp.o
 
 # target to build an object file
 realign/SWCPU.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/realign/SWCPU.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/realign/SWCPU.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/realign/SWCPU.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/realign/SWCPU.cpp.o
 .PHONY : realign/SWCPU.cpp.o
 
 realign/SWCPU.i: realign/SWCPU.cpp.i
@@ -1177,8 +1177,8 @@ realign/SWCPU.i: realign/SWCPU.cpp.i
 
 # target to preprocess a source file
 realign/SWCPU.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/realign/SWCPU.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/realign/SWCPU.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/realign/SWCPU.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/realign/SWCPU.cpp.i
 .PHONY : realign/SWCPU.cpp.i
 
 realign/SWCPU.s: realign/SWCPU.cpp.s
@@ -1187,8 +1187,8 @@ realign/SWCPU.s: realign/SWCPU.cpp.s
 
 # target to generate assembly for a file
 realign/SWCPU.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/realign/SWCPU.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/realign/SWCPU.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/realign/SWCPU.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/realign/SWCPU.cpp.s
 .PHONY : realign/SWCPU.cpp.s
 
 sub/Breakpoint.o: sub/Breakpoint.cpp.o
@@ -1197,8 +1197,8 @@ sub/Breakpoint.o: sub/Breakpoint.cpp.o
 
 # target to build an object file
 sub/Breakpoint.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/sub/Breakpoint.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/sub/Breakpoint.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/sub/Breakpoint.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/sub/Breakpoint.cpp.o
 .PHONY : sub/Breakpoint.cpp.o
 
 sub/Breakpoint.i: sub/Breakpoint.cpp.i
@@ -1207,8 +1207,8 @@ sub/Breakpoint.i: sub/Breakpoint.cpp.i
 
 # target to preprocess a source file
 sub/Breakpoint.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/sub/Breakpoint.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/sub/Breakpoint.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/sub/Breakpoint.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/sub/Breakpoint.cpp.i
 .PHONY : sub/Breakpoint.cpp.i
 
 sub/Breakpoint.s: sub/Breakpoint.cpp.s
@@ -1217,8 +1217,8 @@ sub/Breakpoint.s: sub/Breakpoint.cpp.s
 
 # target to generate assembly for a file
 sub/Breakpoint.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/sub/Breakpoint.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/sub/Breakpoint.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/sub/Breakpoint.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/sub/Breakpoint.cpp.s
 .PHONY : sub/Breakpoint.cpp.s
 
 sub/Detect_Breakpoints.o: sub/Detect_Breakpoints.cpp.o
@@ -1227,8 +1227,8 @@ sub/Detect_Breakpoints.o: sub/Detect_Breakpoints.cpp.o
 
 # target to build an object file
 sub/Detect_Breakpoints.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/sub/Detect_Breakpoints.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/sub/Detect_Breakpoints.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/sub/Detect_Breakpoints.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/sub/Detect_Breakpoints.cpp.o
 .PHONY : sub/Detect_Breakpoints.cpp.o
 
 sub/Detect_Breakpoints.i: sub/Detect_Breakpoints.cpp.i
@@ -1237,8 +1237,8 @@ sub/Detect_Breakpoints.i: sub/Detect_Breakpoints.cpp.i
 
 # target to preprocess a source file
 sub/Detect_Breakpoints.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/sub/Detect_Breakpoints.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/sub/Detect_Breakpoints.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/sub/Detect_Breakpoints.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/sub/Detect_Breakpoints.cpp.i
 .PHONY : sub/Detect_Breakpoints.cpp.i
 
 sub/Detect_Breakpoints.s: sub/Detect_Breakpoints.cpp.s
@@ -1247,8 +1247,8 @@ sub/Detect_Breakpoints.s: sub/Detect_Breakpoints.cpp.s
 
 # target to generate assembly for a file
 sub/Detect_Breakpoints.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/sub/Detect_Breakpoints.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/sub/Detect_Breakpoints.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/sub/Detect_Breakpoints.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/sub/Detect_Breakpoints.cpp.s
 .PHONY : sub/Detect_Breakpoints.cpp.s
 
 sub/Realign.o: sub/Realign.cpp.o
@@ -1257,8 +1257,8 @@ sub/Realign.o: sub/Realign.cpp.o
 
 # target to build an object file
 sub/Realign.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/sub/Realign.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/sub/Realign.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/sub/Realign.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/sub/Realign.cpp.o
 .PHONY : sub/Realign.cpp.o
 
 sub/Realign.i: sub/Realign.cpp.i
@@ -1267,8 +1267,8 @@ sub/Realign.i: sub/Realign.cpp.i
 
 # target to preprocess a source file
 sub/Realign.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/sub/Realign.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/sub/Realign.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/sub/Realign.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/sub/Realign.cpp.i
 .PHONY : sub/Realign.cpp.i
 
 sub/Realign.s: sub/Realign.cpp.s
@@ -1277,8 +1277,8 @@ sub/Realign.s: sub/Realign.cpp.s
 
 # target to generate assembly for a file
 sub/Realign.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/sub/Realign.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/sub/Realign.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/sub/Realign.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/sub/Realign.cpp.s
 .PHONY : sub/Realign.cpp.s
 
 tree/BinTree.o: tree/BinTree.cpp.o
@@ -1287,8 +1287,8 @@ tree/BinTree.o: tree/BinTree.cpp.o
 
 # target to build an object file
 tree/BinTree.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/BinTree.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/BinTree.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/BinTree.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/BinTree.cpp.o
 .PHONY : tree/BinTree.cpp.o
 
 tree/BinTree.i: tree/BinTree.cpp.i
@@ -1297,8 +1297,8 @@ tree/BinTree.i: tree/BinTree.cpp.i
 
 # target to preprocess a source file
 tree/BinTree.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/BinTree.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/BinTree.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/BinTree.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/BinTree.cpp.i
 .PHONY : tree/BinTree.cpp.i
 
 tree/BinTree.s: tree/BinTree.cpp.s
@@ -1307,8 +1307,8 @@ tree/BinTree.s: tree/BinTree.cpp.s
 
 # target to generate assembly for a file
 tree/BinTree.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/BinTree.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/BinTree.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/BinTree.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/BinTree.cpp.s
 .PHONY : tree/BinTree.cpp.s
 
 tree/Breakpoint_Tree.o: tree/Breakpoint_Tree.cpp.o
@@ -1317,8 +1317,8 @@ tree/Breakpoint_Tree.o: tree/Breakpoint_Tree.cpp.o
 
 # target to build an object file
 tree/Breakpoint_Tree.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/Breakpoint_Tree.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/Breakpoint_Tree.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/Breakpoint_Tree.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/Breakpoint_Tree.cpp.o
 .PHONY : tree/Breakpoint_Tree.cpp.o
 
 tree/Breakpoint_Tree.i: tree/Breakpoint_Tree.cpp.i
@@ -1327,8 +1327,8 @@ tree/Breakpoint_Tree.i: tree/Breakpoint_Tree.cpp.i
 
 # target to preprocess a source file
 tree/Breakpoint_Tree.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/Breakpoint_Tree.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/Breakpoint_Tree.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/Breakpoint_Tree.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/Breakpoint_Tree.cpp.i
 .PHONY : tree/Breakpoint_Tree.cpp.i
 
 tree/Breakpoint_Tree.s: tree/Breakpoint_Tree.cpp.s
@@ -1337,8 +1337,8 @@ tree/Breakpoint_Tree.s: tree/Breakpoint_Tree.cpp.s
 
 # target to generate assembly for a file
 tree/Breakpoint_Tree.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/Breakpoint_Tree.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/Breakpoint_Tree.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/Breakpoint_Tree.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/Breakpoint_Tree.cpp.s
 .PHONY : tree/Breakpoint_Tree.cpp.s
 
 tree/IntervallList.o: tree/IntervallList.cpp.o
@@ -1347,8 +1347,8 @@ tree/IntervallList.o: tree/IntervallList.cpp.o
 
 # target to build an object file
 tree/IntervallList.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/IntervallList.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/IntervallList.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/IntervallList.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/IntervallList.cpp.o
 .PHONY : tree/IntervallList.cpp.o
 
 tree/IntervallList.i: tree/IntervallList.cpp.i
@@ -1357,8 +1357,8 @@ tree/IntervallList.i: tree/IntervallList.cpp.i
 
 # target to preprocess a source file
 tree/IntervallList.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/IntervallList.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/IntervallList.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/IntervallList.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/IntervallList.cpp.i
 .PHONY : tree/IntervallList.cpp.i
 
 tree/IntervallList.s: tree/IntervallList.cpp.s
@@ -1367,8 +1367,8 @@ tree/IntervallList.s: tree/IntervallList.cpp.s
 
 # target to generate assembly for a file
 tree/IntervallList.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/IntervallList.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/IntervallList.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/IntervallList.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/IntervallList.cpp.s
 .PHONY : tree/IntervallList.cpp.s
 
 tree/IntervallTree.o: tree/IntervallTree.cpp.o
@@ -1377,8 +1377,8 @@ tree/IntervallTree.o: tree/IntervallTree.cpp.o
 
 # target to build an object file
 tree/IntervallTree.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/IntervallTree.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/IntervallTree.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/IntervallTree.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/IntervallTree.cpp.o
 .PHONY : tree/IntervallTree.cpp.o
 
 tree/IntervallTree.i: tree/IntervallTree.cpp.i
@@ -1387,8 +1387,8 @@ tree/IntervallTree.i: tree/IntervallTree.cpp.i
 
 # target to preprocess a source file
 tree/IntervallTree.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/IntervallTree.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/IntervallTree.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/IntervallTree.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/IntervallTree.cpp.i
 .PHONY : tree/IntervallTree.cpp.i
 
 tree/IntervallTree.s: tree/IntervallTree.cpp.s
@@ -1397,8 +1397,8 @@ tree/IntervallTree.s: tree/IntervallTree.cpp.s
 
 # target to generate assembly for a file
 tree/IntervallTree.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/IntervallTree.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/IntervallTree.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/IntervallTree.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/IntervallTree.cpp.s
 .PHONY : tree/IntervallTree.cpp.s
 
 tree/Intervall_bed.o: tree/Intervall_bed.cpp.o
@@ -1407,8 +1407,8 @@ tree/Intervall_bed.o: tree/Intervall_bed.cpp.o
 
 # target to build an object file
 tree/Intervall_bed.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/Intervall_bed.cpp.o
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/Intervall_bed.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/Intervall_bed.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/Intervall_bed.cpp.o
 .PHONY : tree/Intervall_bed.cpp.o
 
 tree/Intervall_bed.i: tree/Intervall_bed.cpp.i
@@ -1417,8 +1417,8 @@ tree/Intervall_bed.i: tree/Intervall_bed.cpp.i
 
 # target to preprocess a source file
 tree/Intervall_bed.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/Intervall_bed.cpp.i
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/Intervall_bed.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/Intervall_bed.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/Intervall_bed.cpp.i
 .PHONY : tree/Intervall_bed.cpp.i
 
 tree/Intervall_bed.s: tree/Intervall_bed.cpp.s
@@ -1427,8 +1427,8 @@ tree/Intervall_bed.s: tree/Intervall_bed.cpp.s
 
 # target to generate assembly for a file
 tree/Intervall_bed.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/Intervall_bed.cpp.s
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/Intervall_bed.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator-debug.dir/build.make src/CMakeFiles/translocator-debug.dir/tree/Intervall_bed.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f src/CMakeFiles/translocator.dir/build.make src/CMakeFiles/translocator.dir/tree/Intervall_bed.cpp.s
 .PHONY : tree/Intervall_bed.cpp.s
 
 # Help Target
@@ -1586,6 +1586,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /nas2/ywu/translocator/cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /nas2/ywu/Translocator/cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

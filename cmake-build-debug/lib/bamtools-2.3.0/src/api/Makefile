@@ -48,10 +48,10 @@ RM = /nas2/ywu/anaconda2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /nas2/ywu/translocator
+CMAKE_SOURCE_DIR = /nas2/ywu/Translocator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /nas2/ywu/translocator/cmake-build-debug
+CMAKE_BINARY_DIR = /nas2/ywu/Translocator/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /nas2/ywu/translocator/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /nas2/ywu/translocator/cmake-build-debug/CMakeFiles /nas2/ywu/translocator/cmake-build-debug/lib/bamtools-2.3.0/src/api/CMakeFiles/progress.marks
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lib/bamtools-2.3.0/src/api/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /nas2/ywu/translocator/cmake-build-debug/CMakeFiles 0
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /nas2/ywu/Translocator/cmake-build-debug/CMakeFiles /nas2/ywu/Translocator/cmake-build-debug/lib/bamtools-2.3.0/src/api/CMakeFiles/progress.marks
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lib/bamtools-2.3.0/src/api/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /nas2/ywu/Translocator/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lib/bamtools-2.3.0/src/api/clean
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lib/bamtools-2.3.0/src/api/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lib/bamtools-2.3.0/src/api/preinstall
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lib/bamtools-2.3.0/src/api/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lib/bamtools-2.3.0/src/api/preinstall
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lib/bamtools-2.3.0/src/api/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/rule:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/rule
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/rule
 .PHONY : lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ BamTools-static: lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/rule
 
 # fast build rule for target.
 BamTools-static/fast:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build
 .PHONY : BamTools-static/fast
 
 BamAlignment.o: BamAlignment.cpp.o
@@ -177,7 +177,7 @@ BamAlignment.o: BamAlignment.cpp.o
 
 # target to build an object file
 BamAlignment.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamAlignment.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamAlignment.cpp.o
 .PHONY : BamAlignment.cpp.o
 
 BamAlignment.i: BamAlignment.cpp.i
@@ -186,7 +186,7 @@ BamAlignment.i: BamAlignment.cpp.i
 
 # target to preprocess a source file
 BamAlignment.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamAlignment.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamAlignment.cpp.i
 .PHONY : BamAlignment.cpp.i
 
 BamAlignment.s: BamAlignment.cpp.s
@@ -195,7 +195,7 @@ BamAlignment.s: BamAlignment.cpp.s
 
 # target to generate assembly for a file
 BamAlignment.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamAlignment.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamAlignment.cpp.s
 .PHONY : BamAlignment.cpp.s
 
 BamMultiReader.o: BamMultiReader.cpp.o
@@ -204,7 +204,7 @@ BamMultiReader.o: BamMultiReader.cpp.o
 
 # target to build an object file
 BamMultiReader.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamMultiReader.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamMultiReader.cpp.o
 .PHONY : BamMultiReader.cpp.o
 
 BamMultiReader.i: BamMultiReader.cpp.i
@@ -213,7 +213,7 @@ BamMultiReader.i: BamMultiReader.cpp.i
 
 # target to preprocess a source file
 BamMultiReader.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamMultiReader.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamMultiReader.cpp.i
 .PHONY : BamMultiReader.cpp.i
 
 BamMultiReader.s: BamMultiReader.cpp.s
@@ -222,7 +222,7 @@ BamMultiReader.s: BamMultiReader.cpp.s
 
 # target to generate assembly for a file
 BamMultiReader.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamMultiReader.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamMultiReader.cpp.s
 .PHONY : BamMultiReader.cpp.s
 
 BamReader.o: BamReader.cpp.o
@@ -231,7 +231,7 @@ BamReader.o: BamReader.cpp.o
 
 # target to build an object file
 BamReader.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamReader.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamReader.cpp.o
 .PHONY : BamReader.cpp.o
 
 BamReader.i: BamReader.cpp.i
@@ -240,7 +240,7 @@ BamReader.i: BamReader.cpp.i
 
 # target to preprocess a source file
 BamReader.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamReader.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamReader.cpp.i
 .PHONY : BamReader.cpp.i
 
 BamReader.s: BamReader.cpp.s
@@ -249,7 +249,7 @@ BamReader.s: BamReader.cpp.s
 
 # target to generate assembly for a file
 BamReader.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamReader.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamReader.cpp.s
 .PHONY : BamReader.cpp.s
 
 BamWriter.o: BamWriter.cpp.o
@@ -258,7 +258,7 @@ BamWriter.o: BamWriter.cpp.o
 
 # target to build an object file
 BamWriter.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamWriter.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamWriter.cpp.o
 .PHONY : BamWriter.cpp.o
 
 BamWriter.i: BamWriter.cpp.i
@@ -267,7 +267,7 @@ BamWriter.i: BamWriter.cpp.i
 
 # target to preprocess a source file
 BamWriter.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamWriter.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamWriter.cpp.i
 .PHONY : BamWriter.cpp.i
 
 BamWriter.s: BamWriter.cpp.s
@@ -276,7 +276,7 @@ BamWriter.s: BamWriter.cpp.s
 
 # target to generate assembly for a file
 BamWriter.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamWriter.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/BamWriter.cpp.s
 .PHONY : BamWriter.cpp.s
 
 SamHeader.o: SamHeader.cpp.o
@@ -285,7 +285,7 @@ SamHeader.o: SamHeader.cpp.o
 
 # target to build an object file
 SamHeader.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamHeader.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamHeader.cpp.o
 .PHONY : SamHeader.cpp.o
 
 SamHeader.i: SamHeader.cpp.i
@@ -294,7 +294,7 @@ SamHeader.i: SamHeader.cpp.i
 
 # target to preprocess a source file
 SamHeader.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamHeader.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamHeader.cpp.i
 .PHONY : SamHeader.cpp.i
 
 SamHeader.s: SamHeader.cpp.s
@@ -303,7 +303,7 @@ SamHeader.s: SamHeader.cpp.s
 
 # target to generate assembly for a file
 SamHeader.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamHeader.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamHeader.cpp.s
 .PHONY : SamHeader.cpp.s
 
 SamProgram.o: SamProgram.cpp.o
@@ -312,7 +312,7 @@ SamProgram.o: SamProgram.cpp.o
 
 # target to build an object file
 SamProgram.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamProgram.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamProgram.cpp.o
 .PHONY : SamProgram.cpp.o
 
 SamProgram.i: SamProgram.cpp.i
@@ -321,7 +321,7 @@ SamProgram.i: SamProgram.cpp.i
 
 # target to preprocess a source file
 SamProgram.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamProgram.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamProgram.cpp.i
 .PHONY : SamProgram.cpp.i
 
 SamProgram.s: SamProgram.cpp.s
@@ -330,7 +330,7 @@ SamProgram.s: SamProgram.cpp.s
 
 # target to generate assembly for a file
 SamProgram.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamProgram.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamProgram.cpp.s
 .PHONY : SamProgram.cpp.s
 
 SamProgramChain.o: SamProgramChain.cpp.o
@@ -339,7 +339,7 @@ SamProgramChain.o: SamProgramChain.cpp.o
 
 # target to build an object file
 SamProgramChain.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamProgramChain.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamProgramChain.cpp.o
 .PHONY : SamProgramChain.cpp.o
 
 SamProgramChain.i: SamProgramChain.cpp.i
@@ -348,7 +348,7 @@ SamProgramChain.i: SamProgramChain.cpp.i
 
 # target to preprocess a source file
 SamProgramChain.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamProgramChain.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamProgramChain.cpp.i
 .PHONY : SamProgramChain.cpp.i
 
 SamProgramChain.s: SamProgramChain.cpp.s
@@ -357,7 +357,7 @@ SamProgramChain.s: SamProgramChain.cpp.s
 
 # target to generate assembly for a file
 SamProgramChain.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamProgramChain.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamProgramChain.cpp.s
 .PHONY : SamProgramChain.cpp.s
 
 SamReadGroup.o: SamReadGroup.cpp.o
@@ -366,7 +366,7 @@ SamReadGroup.o: SamReadGroup.cpp.o
 
 # target to build an object file
 SamReadGroup.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamReadGroup.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamReadGroup.cpp.o
 .PHONY : SamReadGroup.cpp.o
 
 SamReadGroup.i: SamReadGroup.cpp.i
@@ -375,7 +375,7 @@ SamReadGroup.i: SamReadGroup.cpp.i
 
 # target to preprocess a source file
 SamReadGroup.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamReadGroup.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamReadGroup.cpp.i
 .PHONY : SamReadGroup.cpp.i
 
 SamReadGroup.s: SamReadGroup.cpp.s
@@ -384,7 +384,7 @@ SamReadGroup.s: SamReadGroup.cpp.s
 
 # target to generate assembly for a file
 SamReadGroup.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamReadGroup.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamReadGroup.cpp.s
 .PHONY : SamReadGroup.cpp.s
 
 SamReadGroupDictionary.o: SamReadGroupDictionary.cpp.o
@@ -393,7 +393,7 @@ SamReadGroupDictionary.o: SamReadGroupDictionary.cpp.o
 
 # target to build an object file
 SamReadGroupDictionary.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamReadGroupDictionary.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamReadGroupDictionary.cpp.o
 .PHONY : SamReadGroupDictionary.cpp.o
 
 SamReadGroupDictionary.i: SamReadGroupDictionary.cpp.i
@@ -402,7 +402,7 @@ SamReadGroupDictionary.i: SamReadGroupDictionary.cpp.i
 
 # target to preprocess a source file
 SamReadGroupDictionary.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamReadGroupDictionary.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamReadGroupDictionary.cpp.i
 .PHONY : SamReadGroupDictionary.cpp.i
 
 SamReadGroupDictionary.s: SamReadGroupDictionary.cpp.s
@@ -411,7 +411,7 @@ SamReadGroupDictionary.s: SamReadGroupDictionary.cpp.s
 
 # target to generate assembly for a file
 SamReadGroupDictionary.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamReadGroupDictionary.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamReadGroupDictionary.cpp.s
 .PHONY : SamReadGroupDictionary.cpp.s
 
 SamSequence.o: SamSequence.cpp.o
@@ -420,7 +420,7 @@ SamSequence.o: SamSequence.cpp.o
 
 # target to build an object file
 SamSequence.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamSequence.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamSequence.cpp.o
 .PHONY : SamSequence.cpp.o
 
 SamSequence.i: SamSequence.cpp.i
@@ -429,7 +429,7 @@ SamSequence.i: SamSequence.cpp.i
 
 # target to preprocess a source file
 SamSequence.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamSequence.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamSequence.cpp.i
 .PHONY : SamSequence.cpp.i
 
 SamSequence.s: SamSequence.cpp.s
@@ -438,7 +438,7 @@ SamSequence.s: SamSequence.cpp.s
 
 # target to generate assembly for a file
 SamSequence.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamSequence.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamSequence.cpp.s
 .PHONY : SamSequence.cpp.s
 
 SamSequenceDictionary.o: SamSequenceDictionary.cpp.o
@@ -447,7 +447,7 @@ SamSequenceDictionary.o: SamSequenceDictionary.cpp.o
 
 # target to build an object file
 SamSequenceDictionary.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamSequenceDictionary.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamSequenceDictionary.cpp.o
 .PHONY : SamSequenceDictionary.cpp.o
 
 SamSequenceDictionary.i: SamSequenceDictionary.cpp.i
@@ -456,7 +456,7 @@ SamSequenceDictionary.i: SamSequenceDictionary.cpp.i
 
 # target to preprocess a source file
 SamSequenceDictionary.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamSequenceDictionary.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamSequenceDictionary.cpp.i
 .PHONY : SamSequenceDictionary.cpp.i
 
 SamSequenceDictionary.s: SamSequenceDictionary.cpp.s
@@ -465,7 +465,7 @@ SamSequenceDictionary.s: SamSequenceDictionary.cpp.s
 
 # target to generate assembly for a file
 SamSequenceDictionary.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamSequenceDictionary.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/SamSequenceDictionary.cpp.s
 .PHONY : SamSequenceDictionary.cpp.s
 
 internal/bam/BamHeader_p.o: internal/bam/BamHeader_p.cpp.o
@@ -474,7 +474,7 @@ internal/bam/BamHeader_p.o: internal/bam/BamHeader_p.cpp.o
 
 # target to build an object file
 internal/bam/BamHeader_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamHeader_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamHeader_p.cpp.o
 .PHONY : internal/bam/BamHeader_p.cpp.o
 
 internal/bam/BamHeader_p.i: internal/bam/BamHeader_p.cpp.i
@@ -483,7 +483,7 @@ internal/bam/BamHeader_p.i: internal/bam/BamHeader_p.cpp.i
 
 # target to preprocess a source file
 internal/bam/BamHeader_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamHeader_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamHeader_p.cpp.i
 .PHONY : internal/bam/BamHeader_p.cpp.i
 
 internal/bam/BamHeader_p.s: internal/bam/BamHeader_p.cpp.s
@@ -492,7 +492,7 @@ internal/bam/BamHeader_p.s: internal/bam/BamHeader_p.cpp.s
 
 # target to generate assembly for a file
 internal/bam/BamHeader_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamHeader_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamHeader_p.cpp.s
 .PHONY : internal/bam/BamHeader_p.cpp.s
 
 internal/bam/BamMultiReader_p.o: internal/bam/BamMultiReader_p.cpp.o
@@ -501,7 +501,7 @@ internal/bam/BamMultiReader_p.o: internal/bam/BamMultiReader_p.cpp.o
 
 # target to build an object file
 internal/bam/BamMultiReader_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamMultiReader_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamMultiReader_p.cpp.o
 .PHONY : internal/bam/BamMultiReader_p.cpp.o
 
 internal/bam/BamMultiReader_p.i: internal/bam/BamMultiReader_p.cpp.i
@@ -510,7 +510,7 @@ internal/bam/BamMultiReader_p.i: internal/bam/BamMultiReader_p.cpp.i
 
 # target to preprocess a source file
 internal/bam/BamMultiReader_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamMultiReader_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamMultiReader_p.cpp.i
 .PHONY : internal/bam/BamMultiReader_p.cpp.i
 
 internal/bam/BamMultiReader_p.s: internal/bam/BamMultiReader_p.cpp.s
@@ -519,7 +519,7 @@ internal/bam/BamMultiReader_p.s: internal/bam/BamMultiReader_p.cpp.s
 
 # target to generate assembly for a file
 internal/bam/BamMultiReader_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamMultiReader_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamMultiReader_p.cpp.s
 .PHONY : internal/bam/BamMultiReader_p.cpp.s
 
 internal/bam/BamRandomAccessController_p.o: internal/bam/BamRandomAccessController_p.cpp.o
@@ -528,7 +528,7 @@ internal/bam/BamRandomAccessController_p.o: internal/bam/BamRandomAccessControll
 
 # target to build an object file
 internal/bam/BamRandomAccessController_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamRandomAccessController_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamRandomAccessController_p.cpp.o
 .PHONY : internal/bam/BamRandomAccessController_p.cpp.o
 
 internal/bam/BamRandomAccessController_p.i: internal/bam/BamRandomAccessController_p.cpp.i
@@ -537,7 +537,7 @@ internal/bam/BamRandomAccessController_p.i: internal/bam/BamRandomAccessControll
 
 # target to preprocess a source file
 internal/bam/BamRandomAccessController_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamRandomAccessController_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamRandomAccessController_p.cpp.i
 .PHONY : internal/bam/BamRandomAccessController_p.cpp.i
 
 internal/bam/BamRandomAccessController_p.s: internal/bam/BamRandomAccessController_p.cpp.s
@@ -546,7 +546,7 @@ internal/bam/BamRandomAccessController_p.s: internal/bam/BamRandomAccessControll
 
 # target to generate assembly for a file
 internal/bam/BamRandomAccessController_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamRandomAccessController_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamRandomAccessController_p.cpp.s
 .PHONY : internal/bam/BamRandomAccessController_p.cpp.s
 
 internal/bam/BamReader_p.o: internal/bam/BamReader_p.cpp.o
@@ -555,7 +555,7 @@ internal/bam/BamReader_p.o: internal/bam/BamReader_p.cpp.o
 
 # target to build an object file
 internal/bam/BamReader_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamReader_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamReader_p.cpp.o
 .PHONY : internal/bam/BamReader_p.cpp.o
 
 internal/bam/BamReader_p.i: internal/bam/BamReader_p.cpp.i
@@ -564,7 +564,7 @@ internal/bam/BamReader_p.i: internal/bam/BamReader_p.cpp.i
 
 # target to preprocess a source file
 internal/bam/BamReader_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamReader_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamReader_p.cpp.i
 .PHONY : internal/bam/BamReader_p.cpp.i
 
 internal/bam/BamReader_p.s: internal/bam/BamReader_p.cpp.s
@@ -573,7 +573,7 @@ internal/bam/BamReader_p.s: internal/bam/BamReader_p.cpp.s
 
 # target to generate assembly for a file
 internal/bam/BamReader_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamReader_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamReader_p.cpp.s
 .PHONY : internal/bam/BamReader_p.cpp.s
 
 internal/bam/BamWriter_p.o: internal/bam/BamWriter_p.cpp.o
@@ -582,7 +582,7 @@ internal/bam/BamWriter_p.o: internal/bam/BamWriter_p.cpp.o
 
 # target to build an object file
 internal/bam/BamWriter_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamWriter_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamWriter_p.cpp.o
 .PHONY : internal/bam/BamWriter_p.cpp.o
 
 internal/bam/BamWriter_p.i: internal/bam/BamWriter_p.cpp.i
@@ -591,7 +591,7 @@ internal/bam/BamWriter_p.i: internal/bam/BamWriter_p.cpp.i
 
 # target to preprocess a source file
 internal/bam/BamWriter_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamWriter_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamWriter_p.cpp.i
 .PHONY : internal/bam/BamWriter_p.cpp.i
 
 internal/bam/BamWriter_p.s: internal/bam/BamWriter_p.cpp.s
@@ -600,7 +600,7 @@ internal/bam/BamWriter_p.s: internal/bam/BamWriter_p.cpp.s
 
 # target to generate assembly for a file
 internal/bam/BamWriter_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamWriter_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/bam/BamWriter_p.cpp.s
 .PHONY : internal/bam/BamWriter_p.cpp.s
 
 internal/index/BamIndexFactory_p.o: internal/index/BamIndexFactory_p.cpp.o
@@ -609,7 +609,7 @@ internal/index/BamIndexFactory_p.o: internal/index/BamIndexFactory_p.cpp.o
 
 # target to build an object file
 internal/index/BamIndexFactory_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamIndexFactory_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamIndexFactory_p.cpp.o
 .PHONY : internal/index/BamIndexFactory_p.cpp.o
 
 internal/index/BamIndexFactory_p.i: internal/index/BamIndexFactory_p.cpp.i
@@ -618,7 +618,7 @@ internal/index/BamIndexFactory_p.i: internal/index/BamIndexFactory_p.cpp.i
 
 # target to preprocess a source file
 internal/index/BamIndexFactory_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamIndexFactory_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamIndexFactory_p.cpp.i
 .PHONY : internal/index/BamIndexFactory_p.cpp.i
 
 internal/index/BamIndexFactory_p.s: internal/index/BamIndexFactory_p.cpp.s
@@ -627,7 +627,7 @@ internal/index/BamIndexFactory_p.s: internal/index/BamIndexFactory_p.cpp.s
 
 # target to generate assembly for a file
 internal/index/BamIndexFactory_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamIndexFactory_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamIndexFactory_p.cpp.s
 .PHONY : internal/index/BamIndexFactory_p.cpp.s
 
 internal/index/BamStandardIndex_p.o: internal/index/BamStandardIndex_p.cpp.o
@@ -636,7 +636,7 @@ internal/index/BamStandardIndex_p.o: internal/index/BamStandardIndex_p.cpp.o
 
 # target to build an object file
 internal/index/BamStandardIndex_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamStandardIndex_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamStandardIndex_p.cpp.o
 .PHONY : internal/index/BamStandardIndex_p.cpp.o
 
 internal/index/BamStandardIndex_p.i: internal/index/BamStandardIndex_p.cpp.i
@@ -645,7 +645,7 @@ internal/index/BamStandardIndex_p.i: internal/index/BamStandardIndex_p.cpp.i
 
 # target to preprocess a source file
 internal/index/BamStandardIndex_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamStandardIndex_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamStandardIndex_p.cpp.i
 .PHONY : internal/index/BamStandardIndex_p.cpp.i
 
 internal/index/BamStandardIndex_p.s: internal/index/BamStandardIndex_p.cpp.s
@@ -654,7 +654,7 @@ internal/index/BamStandardIndex_p.s: internal/index/BamStandardIndex_p.cpp.s
 
 # target to generate assembly for a file
 internal/index/BamStandardIndex_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamStandardIndex_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamStandardIndex_p.cpp.s
 .PHONY : internal/index/BamStandardIndex_p.cpp.s
 
 internal/index/BamToolsIndex_p.o: internal/index/BamToolsIndex_p.cpp.o
@@ -663,7 +663,7 @@ internal/index/BamToolsIndex_p.o: internal/index/BamToolsIndex_p.cpp.o
 
 # target to build an object file
 internal/index/BamToolsIndex_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamToolsIndex_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamToolsIndex_p.cpp.o
 .PHONY : internal/index/BamToolsIndex_p.cpp.o
 
 internal/index/BamToolsIndex_p.i: internal/index/BamToolsIndex_p.cpp.i
@@ -672,7 +672,7 @@ internal/index/BamToolsIndex_p.i: internal/index/BamToolsIndex_p.cpp.i
 
 # target to preprocess a source file
 internal/index/BamToolsIndex_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamToolsIndex_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamToolsIndex_p.cpp.i
 .PHONY : internal/index/BamToolsIndex_p.cpp.i
 
 internal/index/BamToolsIndex_p.s: internal/index/BamToolsIndex_p.cpp.s
@@ -681,7 +681,7 @@ internal/index/BamToolsIndex_p.s: internal/index/BamToolsIndex_p.cpp.s
 
 # target to generate assembly for a file
 internal/index/BamToolsIndex_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamToolsIndex_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/index/BamToolsIndex_p.cpp.s
 .PHONY : internal/index/BamToolsIndex_p.cpp.s
 
 internal/io/BamDeviceFactory_p.o: internal/io/BamDeviceFactory_p.cpp.o
@@ -690,7 +690,7 @@ internal/io/BamDeviceFactory_p.o: internal/io/BamDeviceFactory_p.cpp.o
 
 # target to build an object file
 internal/io/BamDeviceFactory_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamDeviceFactory_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamDeviceFactory_p.cpp.o
 .PHONY : internal/io/BamDeviceFactory_p.cpp.o
 
 internal/io/BamDeviceFactory_p.i: internal/io/BamDeviceFactory_p.cpp.i
@@ -699,7 +699,7 @@ internal/io/BamDeviceFactory_p.i: internal/io/BamDeviceFactory_p.cpp.i
 
 # target to preprocess a source file
 internal/io/BamDeviceFactory_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamDeviceFactory_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamDeviceFactory_p.cpp.i
 .PHONY : internal/io/BamDeviceFactory_p.cpp.i
 
 internal/io/BamDeviceFactory_p.s: internal/io/BamDeviceFactory_p.cpp.s
@@ -708,7 +708,7 @@ internal/io/BamDeviceFactory_p.s: internal/io/BamDeviceFactory_p.cpp.s
 
 # target to generate assembly for a file
 internal/io/BamDeviceFactory_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamDeviceFactory_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamDeviceFactory_p.cpp.s
 .PHONY : internal/io/BamDeviceFactory_p.cpp.s
 
 internal/io/BamFile_p.o: internal/io/BamFile_p.cpp.o
@@ -717,7 +717,7 @@ internal/io/BamFile_p.o: internal/io/BamFile_p.cpp.o
 
 # target to build an object file
 internal/io/BamFile_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamFile_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamFile_p.cpp.o
 .PHONY : internal/io/BamFile_p.cpp.o
 
 internal/io/BamFile_p.i: internal/io/BamFile_p.cpp.i
@@ -726,7 +726,7 @@ internal/io/BamFile_p.i: internal/io/BamFile_p.cpp.i
 
 # target to preprocess a source file
 internal/io/BamFile_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamFile_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamFile_p.cpp.i
 .PHONY : internal/io/BamFile_p.cpp.i
 
 internal/io/BamFile_p.s: internal/io/BamFile_p.cpp.s
@@ -735,7 +735,7 @@ internal/io/BamFile_p.s: internal/io/BamFile_p.cpp.s
 
 # target to generate assembly for a file
 internal/io/BamFile_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamFile_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamFile_p.cpp.s
 .PHONY : internal/io/BamFile_p.cpp.s
 
 internal/io/BamFtp_p.o: internal/io/BamFtp_p.cpp.o
@@ -744,7 +744,7 @@ internal/io/BamFtp_p.o: internal/io/BamFtp_p.cpp.o
 
 # target to build an object file
 internal/io/BamFtp_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamFtp_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamFtp_p.cpp.o
 .PHONY : internal/io/BamFtp_p.cpp.o
 
 internal/io/BamFtp_p.i: internal/io/BamFtp_p.cpp.i
@@ -753,7 +753,7 @@ internal/io/BamFtp_p.i: internal/io/BamFtp_p.cpp.i
 
 # target to preprocess a source file
 internal/io/BamFtp_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamFtp_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamFtp_p.cpp.i
 .PHONY : internal/io/BamFtp_p.cpp.i
 
 internal/io/BamFtp_p.s: internal/io/BamFtp_p.cpp.s
@@ -762,7 +762,7 @@ internal/io/BamFtp_p.s: internal/io/BamFtp_p.cpp.s
 
 # target to generate assembly for a file
 internal/io/BamFtp_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamFtp_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamFtp_p.cpp.s
 .PHONY : internal/io/BamFtp_p.cpp.s
 
 internal/io/BamHttp_p.o: internal/io/BamHttp_p.cpp.o
@@ -771,7 +771,7 @@ internal/io/BamHttp_p.o: internal/io/BamHttp_p.cpp.o
 
 # target to build an object file
 internal/io/BamHttp_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamHttp_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamHttp_p.cpp.o
 .PHONY : internal/io/BamHttp_p.cpp.o
 
 internal/io/BamHttp_p.i: internal/io/BamHttp_p.cpp.i
@@ -780,7 +780,7 @@ internal/io/BamHttp_p.i: internal/io/BamHttp_p.cpp.i
 
 # target to preprocess a source file
 internal/io/BamHttp_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamHttp_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamHttp_p.cpp.i
 .PHONY : internal/io/BamHttp_p.cpp.i
 
 internal/io/BamHttp_p.s: internal/io/BamHttp_p.cpp.s
@@ -789,7 +789,7 @@ internal/io/BamHttp_p.s: internal/io/BamHttp_p.cpp.s
 
 # target to generate assembly for a file
 internal/io/BamHttp_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamHttp_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamHttp_p.cpp.s
 .PHONY : internal/io/BamHttp_p.cpp.s
 
 internal/io/BamPipe_p.o: internal/io/BamPipe_p.cpp.o
@@ -798,7 +798,7 @@ internal/io/BamPipe_p.o: internal/io/BamPipe_p.cpp.o
 
 # target to build an object file
 internal/io/BamPipe_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamPipe_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamPipe_p.cpp.o
 .PHONY : internal/io/BamPipe_p.cpp.o
 
 internal/io/BamPipe_p.i: internal/io/BamPipe_p.cpp.i
@@ -807,7 +807,7 @@ internal/io/BamPipe_p.i: internal/io/BamPipe_p.cpp.i
 
 # target to preprocess a source file
 internal/io/BamPipe_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamPipe_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamPipe_p.cpp.i
 .PHONY : internal/io/BamPipe_p.cpp.i
 
 internal/io/BamPipe_p.s: internal/io/BamPipe_p.cpp.s
@@ -816,7 +816,7 @@ internal/io/BamPipe_p.s: internal/io/BamPipe_p.cpp.s
 
 # target to generate assembly for a file
 internal/io/BamPipe_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamPipe_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BamPipe_p.cpp.s
 .PHONY : internal/io/BamPipe_p.cpp.s
 
 internal/io/BgzfStream_p.o: internal/io/BgzfStream_p.cpp.o
@@ -825,7 +825,7 @@ internal/io/BgzfStream_p.o: internal/io/BgzfStream_p.cpp.o
 
 # target to build an object file
 internal/io/BgzfStream_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BgzfStream_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BgzfStream_p.cpp.o
 .PHONY : internal/io/BgzfStream_p.cpp.o
 
 internal/io/BgzfStream_p.i: internal/io/BgzfStream_p.cpp.i
@@ -834,7 +834,7 @@ internal/io/BgzfStream_p.i: internal/io/BgzfStream_p.cpp.i
 
 # target to preprocess a source file
 internal/io/BgzfStream_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BgzfStream_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BgzfStream_p.cpp.i
 .PHONY : internal/io/BgzfStream_p.cpp.i
 
 internal/io/BgzfStream_p.s: internal/io/BgzfStream_p.cpp.s
@@ -843,7 +843,7 @@ internal/io/BgzfStream_p.s: internal/io/BgzfStream_p.cpp.s
 
 # target to generate assembly for a file
 internal/io/BgzfStream_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BgzfStream_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/BgzfStream_p.cpp.s
 .PHONY : internal/io/BgzfStream_p.cpp.s
 
 internal/io/ByteArray_p.o: internal/io/ByteArray_p.cpp.o
@@ -852,7 +852,7 @@ internal/io/ByteArray_p.o: internal/io/ByteArray_p.cpp.o
 
 # target to build an object file
 internal/io/ByteArray_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/ByteArray_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/ByteArray_p.cpp.o
 .PHONY : internal/io/ByteArray_p.cpp.o
 
 internal/io/ByteArray_p.i: internal/io/ByteArray_p.cpp.i
@@ -861,7 +861,7 @@ internal/io/ByteArray_p.i: internal/io/ByteArray_p.cpp.i
 
 # target to preprocess a source file
 internal/io/ByteArray_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/ByteArray_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/ByteArray_p.cpp.i
 .PHONY : internal/io/ByteArray_p.cpp.i
 
 internal/io/ByteArray_p.s: internal/io/ByteArray_p.cpp.s
@@ -870,7 +870,7 @@ internal/io/ByteArray_p.s: internal/io/ByteArray_p.cpp.s
 
 # target to generate assembly for a file
 internal/io/ByteArray_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/ByteArray_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/ByteArray_p.cpp.s
 .PHONY : internal/io/ByteArray_p.cpp.s
 
 internal/io/HostAddress_p.o: internal/io/HostAddress_p.cpp.o
@@ -879,7 +879,7 @@ internal/io/HostAddress_p.o: internal/io/HostAddress_p.cpp.o
 
 # target to build an object file
 internal/io/HostAddress_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/HostAddress_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/HostAddress_p.cpp.o
 .PHONY : internal/io/HostAddress_p.cpp.o
 
 internal/io/HostAddress_p.i: internal/io/HostAddress_p.cpp.i
@@ -888,7 +888,7 @@ internal/io/HostAddress_p.i: internal/io/HostAddress_p.cpp.i
 
 # target to preprocess a source file
 internal/io/HostAddress_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/HostAddress_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/HostAddress_p.cpp.i
 .PHONY : internal/io/HostAddress_p.cpp.i
 
 internal/io/HostAddress_p.s: internal/io/HostAddress_p.cpp.s
@@ -897,7 +897,7 @@ internal/io/HostAddress_p.s: internal/io/HostAddress_p.cpp.s
 
 # target to generate assembly for a file
 internal/io/HostAddress_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/HostAddress_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/HostAddress_p.cpp.s
 .PHONY : internal/io/HostAddress_p.cpp.s
 
 internal/io/HostInfo_p.o: internal/io/HostInfo_p.cpp.o
@@ -906,7 +906,7 @@ internal/io/HostInfo_p.o: internal/io/HostInfo_p.cpp.o
 
 # target to build an object file
 internal/io/HostInfo_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/HostInfo_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/HostInfo_p.cpp.o
 .PHONY : internal/io/HostInfo_p.cpp.o
 
 internal/io/HostInfo_p.i: internal/io/HostInfo_p.cpp.i
@@ -915,7 +915,7 @@ internal/io/HostInfo_p.i: internal/io/HostInfo_p.cpp.i
 
 # target to preprocess a source file
 internal/io/HostInfo_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/HostInfo_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/HostInfo_p.cpp.i
 .PHONY : internal/io/HostInfo_p.cpp.i
 
 internal/io/HostInfo_p.s: internal/io/HostInfo_p.cpp.s
@@ -924,7 +924,7 @@ internal/io/HostInfo_p.s: internal/io/HostInfo_p.cpp.s
 
 # target to generate assembly for a file
 internal/io/HostInfo_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/HostInfo_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/HostInfo_p.cpp.s
 .PHONY : internal/io/HostInfo_p.cpp.s
 
 internal/io/HttpHeader_p.o: internal/io/HttpHeader_p.cpp.o
@@ -933,7 +933,7 @@ internal/io/HttpHeader_p.o: internal/io/HttpHeader_p.cpp.o
 
 # target to build an object file
 internal/io/HttpHeader_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/HttpHeader_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/HttpHeader_p.cpp.o
 .PHONY : internal/io/HttpHeader_p.cpp.o
 
 internal/io/HttpHeader_p.i: internal/io/HttpHeader_p.cpp.i
@@ -942,7 +942,7 @@ internal/io/HttpHeader_p.i: internal/io/HttpHeader_p.cpp.i
 
 # target to preprocess a source file
 internal/io/HttpHeader_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/HttpHeader_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/HttpHeader_p.cpp.i
 .PHONY : internal/io/HttpHeader_p.cpp.i
 
 internal/io/HttpHeader_p.s: internal/io/HttpHeader_p.cpp.s
@@ -951,7 +951,7 @@ internal/io/HttpHeader_p.s: internal/io/HttpHeader_p.cpp.s
 
 # target to generate assembly for a file
 internal/io/HttpHeader_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/HttpHeader_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/HttpHeader_p.cpp.s
 .PHONY : internal/io/HttpHeader_p.cpp.s
 
 internal/io/ILocalIODevice_p.o: internal/io/ILocalIODevice_p.cpp.o
@@ -960,7 +960,7 @@ internal/io/ILocalIODevice_p.o: internal/io/ILocalIODevice_p.cpp.o
 
 # target to build an object file
 internal/io/ILocalIODevice_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/ILocalIODevice_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/ILocalIODevice_p.cpp.o
 .PHONY : internal/io/ILocalIODevice_p.cpp.o
 
 internal/io/ILocalIODevice_p.i: internal/io/ILocalIODevice_p.cpp.i
@@ -969,7 +969,7 @@ internal/io/ILocalIODevice_p.i: internal/io/ILocalIODevice_p.cpp.i
 
 # target to preprocess a source file
 internal/io/ILocalIODevice_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/ILocalIODevice_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/ILocalIODevice_p.cpp.i
 .PHONY : internal/io/ILocalIODevice_p.cpp.i
 
 internal/io/ILocalIODevice_p.s: internal/io/ILocalIODevice_p.cpp.s
@@ -978,7 +978,7 @@ internal/io/ILocalIODevice_p.s: internal/io/ILocalIODevice_p.cpp.s
 
 # target to generate assembly for a file
 internal/io/ILocalIODevice_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/ILocalIODevice_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/ILocalIODevice_p.cpp.s
 .PHONY : internal/io/ILocalIODevice_p.cpp.s
 
 internal/io/RollingBuffer_p.o: internal/io/RollingBuffer_p.cpp.o
@@ -987,7 +987,7 @@ internal/io/RollingBuffer_p.o: internal/io/RollingBuffer_p.cpp.o
 
 # target to build an object file
 internal/io/RollingBuffer_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/RollingBuffer_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/RollingBuffer_p.cpp.o
 .PHONY : internal/io/RollingBuffer_p.cpp.o
 
 internal/io/RollingBuffer_p.i: internal/io/RollingBuffer_p.cpp.i
@@ -996,7 +996,7 @@ internal/io/RollingBuffer_p.i: internal/io/RollingBuffer_p.cpp.i
 
 # target to preprocess a source file
 internal/io/RollingBuffer_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/RollingBuffer_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/RollingBuffer_p.cpp.i
 .PHONY : internal/io/RollingBuffer_p.cpp.i
 
 internal/io/RollingBuffer_p.s: internal/io/RollingBuffer_p.cpp.s
@@ -1005,7 +1005,7 @@ internal/io/RollingBuffer_p.s: internal/io/RollingBuffer_p.cpp.s
 
 # target to generate assembly for a file
 internal/io/RollingBuffer_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/RollingBuffer_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/RollingBuffer_p.cpp.s
 .PHONY : internal/io/RollingBuffer_p.cpp.s
 
 internal/io/TcpSocketEngine_p.o: internal/io/TcpSocketEngine_p.cpp.o
@@ -1014,7 +1014,7 @@ internal/io/TcpSocketEngine_p.o: internal/io/TcpSocketEngine_p.cpp.o
 
 # target to build an object file
 internal/io/TcpSocketEngine_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocketEngine_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocketEngine_p.cpp.o
 .PHONY : internal/io/TcpSocketEngine_p.cpp.o
 
 internal/io/TcpSocketEngine_p.i: internal/io/TcpSocketEngine_p.cpp.i
@@ -1023,7 +1023,7 @@ internal/io/TcpSocketEngine_p.i: internal/io/TcpSocketEngine_p.cpp.i
 
 # target to preprocess a source file
 internal/io/TcpSocketEngine_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocketEngine_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocketEngine_p.cpp.i
 .PHONY : internal/io/TcpSocketEngine_p.cpp.i
 
 internal/io/TcpSocketEngine_p.s: internal/io/TcpSocketEngine_p.cpp.s
@@ -1032,7 +1032,7 @@ internal/io/TcpSocketEngine_p.s: internal/io/TcpSocketEngine_p.cpp.s
 
 # target to generate assembly for a file
 internal/io/TcpSocketEngine_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocketEngine_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocketEngine_p.cpp.s
 .PHONY : internal/io/TcpSocketEngine_p.cpp.s
 
 internal/io/TcpSocketEngine_unix_p.o: internal/io/TcpSocketEngine_unix_p.cpp.o
@@ -1041,7 +1041,7 @@ internal/io/TcpSocketEngine_unix_p.o: internal/io/TcpSocketEngine_unix_p.cpp.o
 
 # target to build an object file
 internal/io/TcpSocketEngine_unix_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocketEngine_unix_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocketEngine_unix_p.cpp.o
 .PHONY : internal/io/TcpSocketEngine_unix_p.cpp.o
 
 internal/io/TcpSocketEngine_unix_p.i: internal/io/TcpSocketEngine_unix_p.cpp.i
@@ -1050,7 +1050,7 @@ internal/io/TcpSocketEngine_unix_p.i: internal/io/TcpSocketEngine_unix_p.cpp.i
 
 # target to preprocess a source file
 internal/io/TcpSocketEngine_unix_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocketEngine_unix_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocketEngine_unix_p.cpp.i
 .PHONY : internal/io/TcpSocketEngine_unix_p.cpp.i
 
 internal/io/TcpSocketEngine_unix_p.s: internal/io/TcpSocketEngine_unix_p.cpp.s
@@ -1059,7 +1059,7 @@ internal/io/TcpSocketEngine_unix_p.s: internal/io/TcpSocketEngine_unix_p.cpp.s
 
 # target to generate assembly for a file
 internal/io/TcpSocketEngine_unix_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocketEngine_unix_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocketEngine_unix_p.cpp.s
 .PHONY : internal/io/TcpSocketEngine_unix_p.cpp.s
 
 internal/io/TcpSocket_p.o: internal/io/TcpSocket_p.cpp.o
@@ -1068,7 +1068,7 @@ internal/io/TcpSocket_p.o: internal/io/TcpSocket_p.cpp.o
 
 # target to build an object file
 internal/io/TcpSocket_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocket_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocket_p.cpp.o
 .PHONY : internal/io/TcpSocket_p.cpp.o
 
 internal/io/TcpSocket_p.i: internal/io/TcpSocket_p.cpp.i
@@ -1077,7 +1077,7 @@ internal/io/TcpSocket_p.i: internal/io/TcpSocket_p.cpp.i
 
 # target to preprocess a source file
 internal/io/TcpSocket_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocket_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocket_p.cpp.i
 .PHONY : internal/io/TcpSocket_p.cpp.i
 
 internal/io/TcpSocket_p.s: internal/io/TcpSocket_p.cpp.s
@@ -1086,7 +1086,7 @@ internal/io/TcpSocket_p.s: internal/io/TcpSocket_p.cpp.s
 
 # target to generate assembly for a file
 internal/io/TcpSocket_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocket_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/io/TcpSocket_p.cpp.s
 .PHONY : internal/io/TcpSocket_p.cpp.s
 
 internal/sam/SamFormatParser_p.o: internal/sam/SamFormatParser_p.cpp.o
@@ -1095,7 +1095,7 @@ internal/sam/SamFormatParser_p.o: internal/sam/SamFormatParser_p.cpp.o
 
 # target to build an object file
 internal/sam/SamFormatParser_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamFormatParser_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamFormatParser_p.cpp.o
 .PHONY : internal/sam/SamFormatParser_p.cpp.o
 
 internal/sam/SamFormatParser_p.i: internal/sam/SamFormatParser_p.cpp.i
@@ -1104,7 +1104,7 @@ internal/sam/SamFormatParser_p.i: internal/sam/SamFormatParser_p.cpp.i
 
 # target to preprocess a source file
 internal/sam/SamFormatParser_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamFormatParser_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamFormatParser_p.cpp.i
 .PHONY : internal/sam/SamFormatParser_p.cpp.i
 
 internal/sam/SamFormatParser_p.s: internal/sam/SamFormatParser_p.cpp.s
@@ -1113,7 +1113,7 @@ internal/sam/SamFormatParser_p.s: internal/sam/SamFormatParser_p.cpp.s
 
 # target to generate assembly for a file
 internal/sam/SamFormatParser_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamFormatParser_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamFormatParser_p.cpp.s
 .PHONY : internal/sam/SamFormatParser_p.cpp.s
 
 internal/sam/SamFormatPrinter_p.o: internal/sam/SamFormatPrinter_p.cpp.o
@@ -1122,7 +1122,7 @@ internal/sam/SamFormatPrinter_p.o: internal/sam/SamFormatPrinter_p.cpp.o
 
 # target to build an object file
 internal/sam/SamFormatPrinter_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamFormatPrinter_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamFormatPrinter_p.cpp.o
 .PHONY : internal/sam/SamFormatPrinter_p.cpp.o
 
 internal/sam/SamFormatPrinter_p.i: internal/sam/SamFormatPrinter_p.cpp.i
@@ -1131,7 +1131,7 @@ internal/sam/SamFormatPrinter_p.i: internal/sam/SamFormatPrinter_p.cpp.i
 
 # target to preprocess a source file
 internal/sam/SamFormatPrinter_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamFormatPrinter_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamFormatPrinter_p.cpp.i
 .PHONY : internal/sam/SamFormatPrinter_p.cpp.i
 
 internal/sam/SamFormatPrinter_p.s: internal/sam/SamFormatPrinter_p.cpp.s
@@ -1140,7 +1140,7 @@ internal/sam/SamFormatPrinter_p.s: internal/sam/SamFormatPrinter_p.cpp.s
 
 # target to generate assembly for a file
 internal/sam/SamFormatPrinter_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamFormatPrinter_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamFormatPrinter_p.cpp.s
 .PHONY : internal/sam/SamFormatPrinter_p.cpp.s
 
 internal/sam/SamHeaderValidator_p.o: internal/sam/SamHeaderValidator_p.cpp.o
@@ -1149,7 +1149,7 @@ internal/sam/SamHeaderValidator_p.o: internal/sam/SamHeaderValidator_p.cpp.o
 
 # target to build an object file
 internal/sam/SamHeaderValidator_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamHeaderValidator_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamHeaderValidator_p.cpp.o
 .PHONY : internal/sam/SamHeaderValidator_p.cpp.o
 
 internal/sam/SamHeaderValidator_p.i: internal/sam/SamHeaderValidator_p.cpp.i
@@ -1158,7 +1158,7 @@ internal/sam/SamHeaderValidator_p.i: internal/sam/SamHeaderValidator_p.cpp.i
 
 # target to preprocess a source file
 internal/sam/SamHeaderValidator_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamHeaderValidator_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamHeaderValidator_p.cpp.i
 .PHONY : internal/sam/SamHeaderValidator_p.cpp.i
 
 internal/sam/SamHeaderValidator_p.s: internal/sam/SamHeaderValidator_p.cpp.s
@@ -1167,7 +1167,7 @@ internal/sam/SamHeaderValidator_p.s: internal/sam/SamHeaderValidator_p.cpp.s
 
 # target to generate assembly for a file
 internal/sam/SamHeaderValidator_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamHeaderValidator_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/sam/SamHeaderValidator_p.cpp.s
 .PHONY : internal/sam/SamHeaderValidator_p.cpp.s
 
 internal/utils/BamException_p.o: internal/utils/BamException_p.cpp.o
@@ -1176,7 +1176,7 @@ internal/utils/BamException_p.o: internal/utils/BamException_p.cpp.o
 
 # target to build an object file
 internal/utils/BamException_p.cpp.o:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/utils/BamException_p.cpp.o
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/utils/BamException_p.cpp.o
 .PHONY : internal/utils/BamException_p.cpp.o
 
 internal/utils/BamException_p.i: internal/utils/BamException_p.cpp.i
@@ -1185,7 +1185,7 @@ internal/utils/BamException_p.i: internal/utils/BamException_p.cpp.i
 
 # target to preprocess a source file
 internal/utils/BamException_p.cpp.i:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/utils/BamException_p.cpp.i
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/utils/BamException_p.cpp.i
 .PHONY : internal/utils/BamException_p.cpp.i
 
 internal/utils/BamException_p.s: internal/utils/BamException_p.cpp.s
@@ -1194,7 +1194,7 @@ internal/utils/BamException_p.s: internal/utils/BamException_p.cpp.s
 
 # target to generate assembly for a file
 internal/utils/BamException_p.cpp.s:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/utils/BamException_p.cpp.s
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(MAKE) -f lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/build.make lib/bamtools-2.3.0/src/api/CMakeFiles/BamTools-static.dir/internal/utils/BamException_p.cpp.s
 .PHONY : internal/utils/BamException_p.cpp.s
 
 # Help Target
@@ -1335,6 +1335,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /nas2/ywu/translocator/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /nas2/ywu/Translocator/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

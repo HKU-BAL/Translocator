@@ -1,4 +1,4 @@
-# Install script for directory: /nas2/ywu/translocator/src
+# Install script for directory: /nas2/ywu/Translocator/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

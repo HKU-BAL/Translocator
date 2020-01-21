@@ -48,10 +48,10 @@ RM = /nas2/ywu/anaconda2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /nas2/ywu/translocator
+CMAKE_SOURCE_DIR = /nas2/ywu/Translocator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /nas2/ywu/translocator/cmake-build-release
+CMAKE_BINARY_DIR = /nas2/ywu/Translocator/cmake-build-release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /nas2/ywu/translocator/cmake-build-release && $(CMAKE_COMMAND) -E cmake_progress_start /nas2/ywu/translocator/cmake-build-release/CMakeFiles /nas2/ywu/translocator/cmake-build-release/lib/bamtools-2.3.0/src/CMakeFiles/progress.marks
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 lib/bamtools-2.3.0/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /nas2/ywu/translocator/cmake-build-release/CMakeFiles 0
+	cd /nas2/ywu/Translocator/cmake-build-release && $(CMAKE_COMMAND) -E cmake_progress_start /nas2/ywu/Translocator/cmake-build-release/CMakeFiles /nas2/ywu/Translocator/cmake-build-release/lib/bamtools-2.3.0/src/CMakeFiles/progress.marks
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 lib/bamtools-2.3.0/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /nas2/ywu/Translocator/cmake-build-release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 lib/bamtools-2.3.0/src/clean
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 lib/bamtools-2.3.0/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,17 +143,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 lib/bamtools-2.3.0/src/preinstall
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 lib/bamtools-2.3.0/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /nas2/ywu/translocator/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 lib/bamtools-2.3.0/src/preinstall
+	cd /nas2/ywu/Translocator/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 lib/bamtools-2.3.0/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /nas2/ywu/translocator/cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /nas2/ywu/Translocator/cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -179,6 +179,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /nas2/ywu/translocator/cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /nas2/ywu/Translocator/cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
