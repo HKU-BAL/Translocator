@@ -34,12 +34,12 @@ public:
 		cerr << "         " << e.error() << endl;
 		cerr << endl;
 		cerr << "Short usage:" << endl;
-		cerr << "       sniffles [options] -m <sorted.bam> -v <output.vcf> " << endl;
+		cerr << "       translocator [options] -m <sorted.bam> -v <output.vcf> " << endl;
 		cerr << "Version: " << Parameter::Instance()->version << std::endl;
-		cerr << "Contact: fritz.sedlazeck@gmail.com" << std::endl;
+		cerr << "Contact: ywu@cs.hku.hk" << std::endl;
 		cerr << endl;
 		cerr << "For complete USAGE and HELP type:" << endl;
-		cerr << "    sniffles --help" << endl;
+		cerr << "    translocator --help" << endl;
 		cerr << endl;
 		exit(1);
 	}

@@ -12,11 +12,8 @@ find_package (ZLIB)
 include_directories (../lib/bamtools-2.3.0/src)
 include_directories(../lib/tclap-1.2.1/include)
 include_directories(../lib/seqan-library-2.2.0/include)
-#include_directories (${SEQAN_INCLUDE_DIRS})
 
 find_package (Threads)
-
-#add_definitions (${SEQAN_DEFINITIONS})
 
 IF(STATIC)
 	SET(CMAKE_FIND_LIBRARY_SUFFIXES ".a")
@@ -55,8 +52,6 @@ add_library(libminimap2
 target_link_libraries(libminimap2 zlibstatic)
 target_link_libraries (libminimap2 ${CMAKE_THREAD_LIBS_INIT})
 
-# Add executable and link against SeqAn dependencies.
-
 add_executable(translocator
                     tree/Breakpoint_Tree.cpp
                     Genotyper/Genotyper.cpp
@@ -81,11 +76,9 @@ add_executable(translocator
 					force_calling/Force_calling.cpp
 					force_calling/VCF_parser.cpp
         			sub/Realign.cpp)
-					
-#target_link_libraries(ngm-core pthread)	
+
 TARGET_LINK_LIBRARIES(translocator BamTools-static)
 TARGET_LINK_LIBRARIES(translocator zlibstatic)
-#TARGET_LINK_LIBRARIES (translocator ${SEQAN_LIBRARIES})
 TARGET_LINK_LIBRARIES(translocator libminimap2)
 
 add_executable(translocator-debug
@@ -119,7 +112,6 @@ SET_TARGET_PROPERTIES(translocator-debug PROPERTIES COMPILE_FLAGS "-g3 -O0")
 
 #target_link_libraries(translocator-debug pthread)
 TARGET_LINK_LIBRARIES(translocator-debug BamTools-static)
-#TARGET_LINK_LIBRARIES (translocator-debug ${SEQAN_LIBRARIES})
 TARGET_LINK_LIBRARIES(translocator-debug zlibstatic)
 TARGET_LINK_LIBRARIES(translocator-debug libminimap2)
 

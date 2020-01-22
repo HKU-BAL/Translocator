@@ -410,7 +410,7 @@ void detect_breakpoints(std::string read_filename, IPrinter *& printer) {
                         {
 //                            	clock_t begin_split = clock();
                             split_events = tmp_aln->getSA(ref);
-//                            if (Parameter::Instance()->global_map)
+//                            if (Parameter::Instance()->global_remap)
 //                                add_clipped_reads(tmp_aln, split_events, 1, ref, bst_rln, root_rln, num_reads);
 //                            	Parameter::Instance()->meassure_time(begin_split, " Split reads ");
                         }
@@ -438,7 +438,7 @@ void detect_breakpoints(std::string read_filename, IPrinter *& printer) {
                 }
 
                 //store the potential SVs:
-                if (Parameter::Instance()->global_map)
+                if (Parameter::Instance()->global_remap)
                     add_high_error_reads(tmp_aln, ref, bst_rln, root_rln, num_reads);
 
                 if (!aln_event.empty()) {
@@ -651,7 +651,7 @@ void detect_breakpoints(std::string read_filename, IPrinter *& printer) {
     fasta_out.close();
     fasta.close();
     delete mapped_file;
-    if (Parameter::Instance()->global_map) {
+    if (Parameter::Instance()->global_remap) {
 
         IntervallTree bst_rln_denovo;
         TNode *root_rln_denovo = NULL;
@@ -1020,7 +1020,7 @@ void add_splits(Alignment *& tmp, std::vector<aln_str> events, short type, RefVe
 			//	bst.print(root);
 		}
 
-        if (Parameter::Instance()->global_map){
+        if (Parameter::Instance()->global_remap){
             int distance = min(100, Parameter::Instance()->min_length);
             long read_length = tmp->getAlignment()->Length;
             if (events[i-1].RefID == events[i].RefID && events[i].read_pos_start - events[i - 1].read_pos_stop >= distance &&

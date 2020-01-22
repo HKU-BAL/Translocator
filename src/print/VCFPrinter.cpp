@@ -9,7 +9,7 @@
 
 void VCFPrinter::print_header() {
 	fprintf(file, "%s", "##fileformat=VCFv4.1\n");
-	fprintf(file, "%s", "##source=Sniffles\n");
+	fprintf(file, "%s", "##source=Translocator\n");
 	string time = currentDateTime();
 	fprintf(file, "%s", "##fileDate=");
 	fprintf(file, "%s", time.c_str());
