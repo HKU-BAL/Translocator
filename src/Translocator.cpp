@@ -1,11 +1,10 @@
 //============================================================================
-// Name        : Translocator.cpp
+// Name        : Translocator.cpp modified on Sniffles
 // Author      : Ye Wu
-// Version     :
-// Copyright   : MIT License
+// Version     : 1.0.0
+// Copyright   : AGPL 3.0 License
 // Description : Detection of translocations for long read data.
 //============================================================================
-//For mac: cmake -D CMAKE_C_COMPILER=/opt/local/bin/gcc-mp-4.7 -D CMAKE_CXX_COMPILER=/opt/local/bin/g++-mp-4.7 ..
 #include <iostream>
 #include "Paramer.h"
 #include <tclap/CmdLine.h>
@@ -24,9 +23,6 @@
 #include "print/BedpePrinter.h"
 #include "ArgParseOutput.h"
 #include "force_calling/Force_calling.h"
-
-//cmake -D CMAKE_C_COMPILER=/usr/local/bin/gcc-8 -D CMAKE_CXX_COMPILER=/usr/local/bin/g++-8 ..
-
 
 Parameter* Parameter::m_pInstance = NULL;
 
@@ -54,14 +50,14 @@ void printParameter(std::stringstream & usage, TCLAP::SwitchArg & arg) {
 void read_parameters(int argc, char *argv[]) {
 
 //	TCLAP::CmdLine cmd("", ' ', "", true);
-	TCLAP::CmdLine cmd("Sniffles version ", ' ', Parameter::Instance()->version);
+	TCLAP::CmdLine cmd("Translocator version ", ' ', Parameter::Instance()->version);
 
 	TCLAP::ValueArg<std::string> arg_bamfile("m", "mapped_reads", "Sorted bam File", true, "", "string", cmd);
     TCLAP::ValueArg<std::string> arg_fastafile("a", "reference", "indexed fasta file", true, "", "string", cmd);
 	TCLAP::ValueArg<std::string> arg_vcf("v", "vcf", "VCF output file name", false, "", "string", cmd);
 	TCLAP::ValueArg<std::string> arg_input_vcf("", "Ivcf", "Input VCF file name. Enable force calling", false, "", "string", cmd);
 	TCLAP::ValueArg<std::string> arg_bedpe("b", "bedpe", " bedpe output file name", false, "", "string", cmd);
-	TCLAP::ValueArg<std::string> arg_tmp_file("", "tmp_file", "path to temporary file otherwise Sniffles will use the current directory.", false, "", "string", cmd);
+	TCLAP::ValueArg<std::string> arg_tmp_file("", "tmp_file", "path to temporary file otherwise Translocator will use the current directory.", false, "", "string", cmd);
 
 
 	//TCLAP::ValueArg<std::string> arg_chrs("c", "chrs", " comma seperated list of chrs to scan", false, "", "string");
@@ -78,10 +74,10 @@ void read_parameters(int argc, char *argv[]) {
 	TCLAP::ValueArg<int> arg_parameter_maxdist("", "max_dist_aln_events", "Maximum distance between alignment (indel) events.", false, 4, "int", cmd);
 	TCLAP::ValueArg<int> arg_parameter_maxdiff("", "max_diff_per_window", "Maximum differences per 100bp.", false, 50, "int", cmd);
 
-    TCLAP::SwitchArg arg_clipped("", "realign_clipped_reads", "Realign clipped reads", cmd, false);
+    TCLAP::SwitchArg arg_clipped("", "realign_clipped_reads", "Realign clipped reads", cmd, true);
     TCLAP::SwitchArg arg_global_map("", "global_map", "Remap reads globally", cmd, false);
-    TCLAP::SwitchArg arg_genotype("", "genotype", "Enables Sniffles to compute the genotypes.", cmd, false);
-	TCLAP::SwitchArg arg_cluster("", "cluster", "Enables Sniffles to phase SVs that occur on the same reads", cmd, false);
+    TCLAP::SwitchArg arg_genotype("", "genotype", "Enables Translocator to compute the genotypes.", cmd, false);
+	TCLAP::SwitchArg arg_cluster("", "cluster", "Enables Translocator to phase SVs that occur on the same reads", cmd, false);
 	TCLAP::SwitchArg arg_std("", "ignore_sd", "Ignores the sd based filtering. ", cmd, false);
 	TCLAP::SwitchArg arg_bnd("", "report_BND", "Dont report BND instead use Tra in vcf output. ", cmd, false);
 	TCLAP::SwitchArg arg_seq("", "not_report_seq", "Dont report sequences for indels in vcf output. (Beta version!) ", cmd, false);
@@ -101,11 +97,12 @@ void read_parameters(int argc, char *argv[]) {
 
 	std::stringstream usage;
 	usage << "" << std::endl;
-	usage << "Usage: sniffles [options] -m <sorted.bam> -v <output.vcf> " << std::endl;
+	usage << "Usage: translocator [options] -m <sorted.bam> -a <reference.fa> -v <output.vcf> " << std::endl;
 	usage << "Version: "<<Parameter::Instance()->version << std::endl;
-	usage << "Contact: fritz.sedlazeck@gmail.com" << std::endl;
+	usage << "Contact: ywu@cs.hku.hk" << std::endl;
 	usage  << std::endl;
 	usage << "Input/Output:" << std::endl;
+
 
 	printParameter<std::string>(usage, arg_bamfile);
 	printParameter<std::string>(usage, arg_tmp_file);
@@ -485,7 +482,7 @@ int main(int argc, char *argv[]) {
 
 	} catch (TCLAP::ArgException &e)  // catch any exceptions
 	{
-		std::cerr << "Sniffles error: " << e.error() << " for arg " << e.argId() << std::endl;
+		std::cerr << "Translocator error: " << e.error() << " for arg " << e.argId() << std::endl;
 	}
 	return 0;
 }
