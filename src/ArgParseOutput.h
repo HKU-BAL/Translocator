@@ -34,7 +34,7 @@ public:
 		cerr << "         " << e.error() << endl;
 		cerr << endl;
 		cerr << "Short usage:" << endl;
-		cerr << "       translocator [options] -m <sorted.bam> -v <output.vcf> " << endl;
+		cerr << "       translocator [options] -m <sorted.bam> -a <ref.fa> -v <output.vcf> " << endl;
 		cerr << "Version: " << Parameter::Instance()->version << std::endl;
 		cerr << "Contact: ywu@cs.hku.hk" << std::endl;
 		cerr << endl;

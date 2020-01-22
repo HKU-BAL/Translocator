@@ -105,11 +105,13 @@ void read_parameters(int argc, char *argv[]) {
 
 
 	printParameter<std::string>(usage, arg_bamfile);
+    printParameter<std::string>(usage, arg_fastafile);
 	printParameter<std::string>(usage, arg_tmp_file);
 	printParameter<std::string>(usage, arg_vcf);
 	printParameter<std::string>(usage, arg_bedpe);
 	printParameter<std::string>(usage, arg_input_vcf);
 	printParameter<std::string>(usage, arg_tmp_file);
+    printParameter(usage, arg_global_remap);	
 
 	usage << "" << std::endl;
 	usage << "General:" << std::endl;
